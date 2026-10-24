@@ -1,0 +1,290 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 713,
+      "sha256": "3fc0ecb6a02949fee45415b2fe44a62093dc0398981d60d5149b0214896e5235"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 579,
+      "sha256": "53aba198f4180194084e9fda8304b4cd99cfb272e761b237f5ecece90ca364cb"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 787,
+      "sha256": "050ae9621628f0792b577836fdf2361510c6ce3ad5cfe52060ff8a773a56002b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3039,
+      "sha256": "eaf618b41fb0e164a342951455391118ceb395590d014abbfe800813b1c221fb"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "bytes": 5233,
+      "sha256": "206dde38e996773409928b8b6a2d7d9e9cf62b190bdf17ea1abce143c53496f1"
+    },
+    {
+      "path": "VERIFICATION.json",
+      "bytes": 1077,
+      "sha256": "16c1445e1a7fbf56b6763a0d4ede82838866d814eadf5c91b3e7c0d6259a7bbf"
+    },
+    {
+      "path": "analyses.json",
+      "bytes": 10825,
+      "sha256": "23494b060b5922fff5c5b30831a94858bbb3e97f7e4654885f627c8b2b7f7b3d"
+    },
+    {
+      "path": "data/public/bubr1-functional-v2/elife-16620-fig7-data1-v1.xlsx",
+      "bytes": 12751,
+      "sha256": "62e710b61a15a697f64f57fece56de4f7ea4698422fc0790ff8ce9b841e4742d"
+    },
+    {
+      "path": "data/public/bubr1-functional-v2/fidelity-config.json",
+      "bytes": 613,
+      "sha256": "a7adc4723c8bcdff477dbfab6bebef8b45495383d85fb454d47ec5ad702d5414"
+    },
+    {
+      "path": "data/public/bubr1-functional-v2/prediction-config.json",
+      "bytes": 815,
+      "sha256": "f8c36869326fec1efd39c49f13debf57adb8869a0d299598214bb62099f42efa"
+    },
+    {
+      "path": "data/public/bubr1-functional-v2/prediction-labels.tsv",
+      "bytes": 472,
+      "sha256": "5ecf6eba010e3faf0566f0570166e14dd1d00cb26ac334716ede20e7cef8010e"
+    },
+    {
+      "path": "data/public/functional_v2/nac_bubr1/Rodriguez2021_TILROSmgtissue.csv",
+      "bytes": 2160,
+      "sha256": "61694e401a6c5cc6a0ed759ddad54a3ddb967ca3bf2279db5c522b63c1dbe1ae"
+    },
+    {
+      "path": "data/public/functional_v2/nac_bubr1/Rodriguez2021_TILfluxtissue.csv",
+      "bytes": 13417,
+      "sha256": "1206c99bb661138f43a3ba2a2f01fcaac589da4b1747f23f1dc14e6f681bc171"
+    },
+    {
+      "path": "data/public/functional_v2/nac_bubr1/Wang2026_quantification_data_5A.xlsx",
+      "bytes": 10786,
+      "sha256": "ae58b0c476c814f29092542eb022ebc435c751dd66919c1147a66256b176ab11"
+    },
+    {
+      "path": "data/public/functional_v2/nac_bubr1/Wang2026_quantification_data_5C.xlsx",
+      "bytes": 10420,
+      "sha256": "17247c7e94416a128d013fe80086d041828e27038ab10897707b4f99c3accb4a"
+    },
+    {
+      "path": "data/public/functional_v2/nac_bubr1/analyze_nac_functional.py",
+      "bytes": 9186,
+      "sha256": "e7f78eb70cb724686ea0afd59e90aa4c8baa4f9a0b0c877a39b5451b068a4bf8"
+    },
+    {
+      "path": "data/public/functional_v2/nac_bubr1/nac_computation.json",
+      "bytes": 3243,
+      "sha256": "04374028eb6765a15d6aea42eea0e047d2380aa8ab687f8b00fed3749911110d"
+    },
+    {
+      "path": "data/public/functional_v2/niacin_cachexia/analyze_function.py",
+      "bytes": 9264,
+      "sha256": "f078323356faeadb3f543bf1f84a0dfdef0a308216a6edaf6d3c49b3f40de87f"
+    },
+    {
+      "path": "data/public/functional_v2/niacin_cachexia/computational-config.json",
+      "bytes": 23451,
+      "sha256": "2cacbc4e5cb96e1b37bcafc3ecc330bd453c7de33251716727f7e2b92e114c03"
+    },
+    {
+      "path": "data/public/functional_v2/pba_ursodiol/cheng2023/analyze_fidelity.py",
+      "bytes": 10795,
+      "sha256": "43d55c7b0f043967d9d595ff56589a0e3fc61fbad421a1d80728ead4ce8e7109"
+    },
+    {
+      "path": "data/public/functional_v2/pba_ursodiol/cheng2023/computational-config.json",
+      "bytes": 1914,
+      "sha256": "e103fef1bf1962cfb8f6811b7f1b387938ed8fd6bbf80dbcfe59feb19f35840b"
+    },
+    {
+      "path": "data/public/functional_v2/pba_ursodiol/cheng2023/extract_fidelity.py",
+      "bytes": 2251,
+      "sha256": "64d4a18648f31904cddd049a932ccabc8be4812db14bd2b7300c73661f825328"
+    },
+    {
+      "path": "data/public/pba_bridge/neuronal_computation.json",
+      "bytes": 2133,
+      "sha256": "e36fe97e9c4eeccf65c634a00231d2e9c2d2896f8fb7c5911e571f44eef9c921"
+    },
+    {
+      "path": "data/public/pba_bridge/neuronal_response.py",
+      "bytes": 5764,
+      "sha256": "96c50382df21de02cfdc31b9c3101ad718e5a26999418373f2f4eeaa53013e65"
+    },
+    {
+      "path": "data/public/pba_exposure/computation.json",
+      "bytes": 1132,
+      "sha256": "650019d6e509bc9cd77679ba2f4ad633ef7ab21bf3812db9ded9fc63d197bbc4"
+    },
+    {
+      "path": "data/public/pba_exposure/submission-sensitivity-design.json",
+      "bytes": 2585,
+      "sha256": "8d8cce2f4bf84d8a6f466aa4c0a0c2ecabeaa08780e777c0c6cd07f2849633ca"
+    },
+    {
+      "path": "data/public/protein_import/kinetics_config.json",
+      "bytes": 4294,
+      "sha256": "6eda1168d9c19573b870f97289ef3724fe415e520cae29ffb1e0efbb565c26a1"
+    },
+    {
+      "path": "expected/bubr1_fidelity_calibration/line_outcomes.tsv",
+      "bytes": 3807,
+      "sha256": "2564ef287c259fdc14805b6706dd6991fbb85b5ba918d6792dc31e63f81f9c7b"
+    },
+    {
+      "path": "expected/bubr1_fidelity_calibration/summary.json",
+      "bytes": 7867,
+      "sha256": "57cf593fa885b12ec6992d3baa9d41882dd732a69007ffb0fc82b860dbfdc1f1"
+    },
+    {
+      "path": "expected/bubr1_prediction_calibration/summary.json",
+      "bytes": 2803,
+      "sha256": "2f320394009d13f8c5ee32d5b6d3d612361bb4f5fbdfb471f4a1a9161ee13f16"
+    },
+    {
+      "path": "expected/import_kinetics/endpoint_contrasts.tsv",
+      "bytes": 8646,
+      "sha256": "89f6d2245e2667ec4759a8fa23f7068d57fadbe40c1b171010fbbd834827e16b"
+    },
+    {
+      "path": "expected/import_kinetics/paired_endpoints.tsv",
+      "bytes": 9154,
+      "sha256": "aab594c49e15d2c39b9f0e48204544d2874ef01d1dc200ca8b9c5e461ba5cb30"
+    },
+    {
+      "path": "expected/import_kinetics/paired_trajectories.tsv",
+      "bytes": 12991,
+      "sha256": "d311d10154314c6df4239bdcbe2a321e9e88cfb5b8786dbb6ba720b58169156b"
+    },
+    {
+      "path": "expected/import_kinetics/summary.json",
+      "bytes": 21788,
+      "sha256": "8d1b7969e8b335c9b977c4325de2da5acfc6319f20620344a34c859dc45fcb78"
+    },
+    {
+      "path": "expected/nac_functional/rodriguez.json",
+      "bytes": 18233,
+      "sha256": "98b8beb9c2fd6deb068e64fe48be6ecaa08183201a5f9db1e5de8fc8d67b3d1d"
+    },
+    {
+      "path": "expected/nac_functional/wang.json",
+      "bytes": 18089,
+      "sha256": "d5805f09ba1a681bc0e269812ffdf6771c3d1521aba4ba330e9c41ae0c9e8839"
+    },
+    {
+      "path": "expected/nac_g6pd_fidelity/fidelity_results.json",
+      "bytes": 21240,
+      "sha256": "6ee15dd603448d02f36cf9ba8cbc961a8fa2ccead829451a7d8cabf30b0fdb28"
+    },
+    {
+      "path": "expected/niacin_cachexia/observations.tsv",
+      "bytes": 100972,
+      "sha256": "0f6e3a0dbb1a1eb751cbd6834101bdcea5106bfbbfe5e968db4982668e185046"
+    },
+    {
+      "path": "expected/niacin_cachexia/results.json",
+      "bytes": 182772,
+      "sha256": "834c104f159fa5a5b9295dda9d51c3e60830b0ec17c27fba83fbd8c27b992c36"
+    },
+    {
+      "path": "expected/niacin_cachexia/source-inventory.json",
+      "bytes": 19437,
+      "sha256": "dc3b010603ccb23f4fd3769d3dc5186c7f8bd3a9c15a82a92e648feed8a61987"
+    },
+    {
+      "path": "expected/pba_exposure/exposure_scenarios.tsv",
+      "bytes": 119299,
+      "sha256": "b71be068771015fdb62b109014b1ad3cce5bf6372aa1761991484474e669474e"
+    },
+    {
+      "path": "expected/pba_exposure/summary.json",
+      "bytes": 2463,
+      "sha256": "587117577dccf026ae045d1a9f33763e8e911980984042e98e0b2147fda57a56"
+    },
+    {
+      "path": "expected/pba_neuronal/contrasts.tsv",
+      "bytes": 907,
+      "sha256": "8bc9fb69775e7cf839e4874b0ee3a911c2287353a6c3b718e21f84be9638b4f6"
+    },
+    {
+      "path": "expected/pba_neuronal/summary.json",
+      "bytes": 3180,
+      "sha256": "4c0e73dc86889f5ec1f86f72a7df44961a427ceb1f1c815c877b8fa768052633"
+    },
+    {
+      "path": "expected/submission_sensitivity/deletion_results.tsv",
+      "bytes": 4919,
+      "sha256": "124979645253d357c290ab04c4ac8eb0b241128cd87b722a0715a52e2e4fcbd4"
+    },
+    {
+      "path": "expected/submission_sensitivity/exposure_thresholds.tsv",
+      "bytes": 26130,
+      "sha256": "b861b6fd067d14f53126653a49d9b8c4013f54f7d240e54bbef65edeb2cfde94"
+    },
+    {
+      "path": "expected/submission_sensitivity/summary.json",
+      "bytes": 9510,
+      "sha256": "9207cbb7daec3645506ebd7b6ed4761179a68d2ff2f1230eeef28dde94a4bf32"
+    },
+    {
+      "path": "fetch_inputs.py",
+      "bytes": 3256,
+      "sha256": "0ca8bc093da5234d8f869e575cfa828912b8457e075dd4ab43102df7f52c5330"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 10066,
+      "sha256": "b2bc3b8fb16255271a04ba2fadc4c0b40e09cb8dec1a727f69f9095dcd2ae6e3"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 57,
+      "sha256": "15e4b0174c888881fa67749bba2c5464d2e312e6e077a287678d3497a17aee5d"
+    },
+    {
+      "path": "run.py",
+      "bytes": 3468,
+      "sha256": "426a5f259cb85ed9ecc6bdfde1513400d1e01af7c2e7ea65a571aa46039a99fe"
+    },
+    {
+      "path": "scripts/bubr1_fidelity_calibration.py",
+      "bytes": 7545,
+      "sha256": "a1dddb7da983d6cf3412fa52a1062388f08d06e58d46d7a1723cf564c605725e"
+    },
+    {
+      "path": "scripts/bubr1_prediction_calibration.py",
+      "bytes": 3587,
+      "sha256": "6307775f64d972610bc0c3fe6e2a73c65b8e42150f263026747bac7ae15ec995"
+    },
+    {
+      "path": "scripts/importkinetics.py",
+      "bytes": 10641,
+      "sha256": "2c94454ea8b591f52a6dc4be6bcbd6fe2186c09e253ae7f83d9c1a3500b359bf"
+    },
+    {
+      "path": "scripts/pba_exposure_bounds.py",
+      "bytes": 4104,
+      "sha256": "323d3f24b6c19307327ccaa30b263405fd0a06a3ea81a7c7be04973265d064d7"
+    },
+    {
+      "path": "scripts/submission_sensitivity.py",
+      "bytes": 8486,
+      "sha256": "2c34c49a983721139283c3287e779f7a4fd5379e195a1dca5c3b7bb8d942763e"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 3034,
+      "sha256": "a5c03f98f8a8d3b5bfcb3f39f7d12540a09e2395fbf746d78c4c215290e7c638"
+    }
+  ]
+}

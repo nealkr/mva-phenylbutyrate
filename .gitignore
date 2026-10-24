@@ -1,0 +1,15 @@
+results/
+.venv/
+__pycache__/
+*.pyc
+*.part
+data/public/pba_bridge/42003_2026_9902_MOESM3_ESM.xlsx
+data/public/functional_v2/pba_ursodiol/cheng2023/42255_2023_832_MOESM4_ESM.xlsx
+data/public/functional_v2/pba_ursodiol/cheng2023/42255_2023_832_MOESM6_ESM.xlsx
+data/public/bubr1-functional-v2/rasp-O60566-v2.csv
+data/public/protein_import/source_data.xlsx
+data/public/bubr1-functional-v2/prediction-controls.tsv
+data/public/functional_v2/pba_ursodiol/cheng2023/fidelity_observations.csv
+data/public/functional_v2/pba_ursodiol/cheng2023/fidelity_source_cells.csv
+data/public/functional_v2/pba_ursodiol/cheng2023/source_workbook_inventory.json
+data/public/functional_v2/niacin_cachexia/41467_2023_37595_MOESM6_ESM.xlsx

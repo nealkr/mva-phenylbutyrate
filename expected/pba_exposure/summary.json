@@ -1,0 +1,69 @@
+{
+  "config_sha256": "650019d6e509bc9cd77679ba2f4ad633ef7ab21bf3812db9ded9fc63d197bbc4",
+  "scenario_rows": 960,
+  "independent_experiments": 0,
+  "adult_total_peak_mM_range": [
+    0.400121802679659,
+    1.0356026717323366
+  ],
+  "adult_free_peak_mM_bounded_range": [
+    0.00800243605359318,
+    0.2009069183160733
+  ],
+  "culture_binding_dependence": [
+    {
+      "nominal_mM": 0.1,
+      "maximum_allowable_culture_fu_for_peak_overlap_range": [
+        0.0800243605359318,
+        1.0
+      ],
+      "assumptions_with_peak_overlap": 116,
+      "sensitivity_rows": 192,
+      "maximum_post_peak_tail_h_across_assumptions": 5.320306747620051
+    },
+    {
+      "nominal_mM": 0.5,
+      "maximum_allowable_culture_fu_for_peak_overlap_range": [
+        0.01600487210718636,
+        0.4018138366321466
+      ],
+      "assumptions_with_peak_overlap": 68,
+      "sensitivity_rows": 192,
+      "maximum_post_peak_tail_h_across_assumptions": 3.462764271710161
+    },
+    {
+      "nominal_mM": 1.0,
+      "maximum_allowable_culture_fu_for_peak_overlap_range": [
+        0.00800243605359318,
+        0.2009069183160733
+      ],
+      "assumptions_with_peak_overlap": 38,
+      "sensitivity_rows": 192,
+      "maximum_post_peak_tail_h_across_assumptions": 2.6627642717101607
+    },
+    {
+      "nominal_mM": 2.0,
+      "maximum_allowable_culture_fu_for_peak_overlap_range": [
+        0.00400121802679659,
+        0.10045345915803665
+      ],
+      "assumptions_with_peak_overlap": 32,
+      "sensitivity_rows": 192,
+      "maximum_post_peak_tail_h_across_assumptions": 1.8627642717101605
+    },
+    {
+      "nominal_mM": 10.0,
+      "maximum_allowable_culture_fu_for_peak_overlap_range": [
+        0.000800243605359318,
+        0.02009069183160733
+      ],
+      "assumptions_with_peak_overlap": 2,
+      "sensitivity_rows": 192,
+      "maximum_post_peak_tail_h_across_assumptions": 0.005221795800270695
+    }
+  ],
+  "scope": "post-peak one-exponential decay only; no absorption, repeated dosing, tissue partition, intracellular pharmacodynamics or patient predictions",
+  "interpretation": "deterministic exposure requirements and assumption sensitivity; no inferential P values",
+  "pk_range_scope": "ranges of reported means, not bounds on individual or population exposure",
+  "mass_conversion_scope": "phenylbutyrate-anion and free-acid-equivalent sensitivity; label does not specify plasma assay mass calibration; neither uses administered sodium-salt mass186.2"
+}

@@ -1,0 +1,909 @@
+endpoint	model	group	value	unit	source_sheet	source_cell	source_raw_value	author_rout_flag	animal_id	baseline_cell	cross_endpoint_pairing_allowed
+C26-F:GSN muscle NAD+	C26-F	control	470.1142	pmol/mg of muscle	Fig. 3	B6	470.1142	False			False
+C26-F:GSN muscle NAD+	C26-F	control	530.1769	pmol/mg of muscle	Fig. 3	B7	530.1769	False			False
+C26-F:GSN muscle NAD+	C26-F	control	456.8405	pmol/mg of muscle	Fig. 3	B8	456.8405	False			False
+C26-F:GSN muscle NAD+	C26-F	control	371.2209	pmol/mg of muscle	Fig. 3	B9	371.2209	False			False
+C26-F:GSN muscle NAD+	C26-F	control	498.4801	pmol/mg of muscle	Fig. 3	B10	498.4801	False			False
+C26-F:GSN muscle NAD+	C26-F	control	519.6069	pmol/mg of muscle	Fig. 3	B11	519.6069	False			False
+C26-F:GSN muscle NAD+	C26-F	control	506.2536	pmol/mg of muscle	Fig. 3	B12	506.2536	False			False
+C26-F:GSN muscle NAD+	C26-F	disease	308.7932	pmol/mg of muscle	Fig. 3	C6	308.7932	False			False
+C26-F:GSN muscle NAD+	C26-F	disease	355.0721	pmol/mg of muscle	Fig. 3	C7	355.0721	False			False
+C26-F:GSN muscle NAD+	C26-F	disease	340.158	pmol/mg of muscle	Fig. 3	C8	340.158	False			False
+C26-F:GSN muscle NAD+	C26-F	disease	322.2388	pmol/mg of muscle	Fig. 3	C9	322.2388	False			False
+C26-F:GSN muscle NAD+	C26-F	disease	215.4819	pmol/mg of muscle	Fig. 3	C10	215.4819	False			False
+C26-F:GSN muscle NAD+	C26-F	disease	388.3665	pmol/mg of muscle	Fig. 3	C11	388.3665	False			False
+C26-F:GSN muscle NAD+	C26-F	disease	388.8949	pmol/mg of muscle	Fig. 3	C12	388.8949	False			False
+C26-F:GSN muscle NAD+	C26-F	treated	385.8074	pmol/mg of muscle	Fig. 3	D6	385.8074	False			False
+C26-F:GSN muscle NAD+	C26-F	treated	375.6499	pmol/mg of muscle	Fig. 3	D8	375.6499	False			False
+C26-F:GSN muscle NAD+	C26-F	treated	392.8629	pmol/mg of muscle	Fig. 3	D9	392.8629	False			False
+C26-F:GSN muscle NAD+	C26-F	treated	481.4675	pmol/mg of muscle	Fig. 3	D10	481.4675	False			False
+C26-F:GSN muscle NAD+	C26-F	treated	398.1717	pmol/mg of muscle	Fig. 3	D11	398.1717	False			False
+C26-F:GSN muscle NAD+	C26-F	treated	466.1693	pmol/mg of muscle	Fig. 3	D12	466.1693	False			False
+C26-F:TA wet-muscle weight	C26-F	control	37.85	mg/IBW	Fig. 3	H6	37.85	False			False
+C26-F:TA wet-muscle weight	C26-F	control	41.55	mg/IBW	Fig. 3	H7	41.55	False			False
+C26-F:TA wet-muscle weight	C26-F	control	38.6	mg/IBW	Fig. 3	H8	38.6	False			False
+C26-F:TA wet-muscle weight	C26-F	control	40.34	mg/IBW	Fig. 3	H9	40.34	False			False
+C26-F:TA wet-muscle weight	C26-F	control	41.46	mg/IBW	Fig. 3	H10	41.46	False			False
+C26-F:TA wet-muscle weight	C26-F	control	36.39	mg/IBW	Fig. 3	H11	36.39	False			False
+C26-F:TA wet-muscle weight	C26-F	control	37.19	mg/IBW	Fig. 3	H12	37.19	False			False
+C26-F:TA wet-muscle weight	C26-F	disease	18.26	mg/IBW	Fig. 3	I6	18.26	False			False
+C26-F:TA wet-muscle weight	C26-F	disease	24.55	mg/IBW	Fig. 3	I7	24.55	False			False
+C26-F:TA wet-muscle weight	C26-F	disease	22.68	mg/IBW	Fig. 3	I8	22.68	False			False
+C26-F:TA wet-muscle weight	C26-F	disease	22.97	mg/IBW	Fig. 3	I9	22.97	False			False
+C26-F:TA wet-muscle weight	C26-F	disease	18.84	mg/IBW	Fig. 3	I10	18.84	False			False
+C26-F:TA wet-muscle weight	C26-F	disease	20.14	mg/IBW	Fig. 3	I11	20.14	False			False
+C26-F:TA wet-muscle weight	C26-F	disease	23.15	mg/IBW	Fig. 3	I12	23.15	False			False
+C26-F:TA wet-muscle weight	C26-F	treated	23.42	mg/IBW	Fig. 3	J6	23.42	False			False
+C26-F:TA wet-muscle weight	C26-F	treated	35.26	mg/IBW	Fig. 3	J7	35.26	False			False
+C26-F:TA wet-muscle weight	C26-F	treated	26.11	mg/IBW	Fig. 3	J8	26.11	False			False
+C26-F:TA wet-muscle weight	C26-F	treated	24.79	mg/IBW	Fig. 3	J9	24.79	False			False
+C26-F:TA wet-muscle weight	C26-F	treated	29.98	mg/IBW	Fig. 3	J10	29.98	False			False
+C26-F:TA wet-muscle weight	C26-F	treated	35.05	mg/IBW	Fig. 3	J11	35.05	False			False
+C26-F:TA wet-muscle weight	C26-F	treated	31.65	mg/IBW	Fig. 3	J12	31.65	False			False
+C26-F:GSN wet-muscle weight	C26-F	control	126.33	mg/IBW	Fig. 3	N6	126.33	False			False
+C26-F:GSN wet-muscle weight	C26-F	control	131.77	mg/IBW	Fig. 3	N7	131.77	False			False
+C26-F:GSN wet-muscle weight	C26-F	control	130.56	mg/IBW	Fig. 3	N8	130.56	False			False
+C26-F:GSN wet-muscle weight	C26-F	control	129.74	mg/IBW	Fig. 3	N9	129.74	False			False
+C26-F:GSN wet-muscle weight	C26-F	control	130.12	mg/IBW	Fig. 3	N10	130.12	False			False
+C26-F:GSN wet-muscle weight	C26-F	control	127.36	mg/IBW	Fig. 3	N11	127.36	False			False
+C26-F:GSN wet-muscle weight	C26-F	control	129.33	mg/IBW	Fig. 3	N12	129.33	False			False
+C26-F:GSN wet-muscle weight	C26-F	disease	60.67	mg/IBW	Fig. 3	O6	60.67	False			False
+C26-F:GSN wet-muscle weight	C26-F	disease	76.0	mg/IBW	Fig. 3	O7	76	False			False
+C26-F:GSN wet-muscle weight	C26-F	disease	72.78	mg/IBW	Fig. 3	O8	72.78	False			False
+C26-F:GSN wet-muscle weight	C26-F	disease	71.63	mg/IBW	Fig. 3	O9	71.63	False			False
+C26-F:GSN wet-muscle weight	C26-F	disease	62.33	mg/IBW	Fig. 3	O10	62.33	False			False
+C26-F:GSN wet-muscle weight	C26-F	disease	66.99	mg/IBW	Fig. 3	O11	66.99	False			False
+C26-F:GSN wet-muscle weight	C26-F	disease	78.7	mg/IBW	Fig. 3	O12	78.7	False			False
+C26-F:GSN wet-muscle weight	C26-F	treated	70.26	mg/IBW	Fig. 3	P6	70.26	False			False
+C26-F:GSN wet-muscle weight	C26-F	treated	107.83	mg/IBW	Fig. 3	P7	107.83	False			False
+C26-F:GSN wet-muscle weight	C26-F	treated	89.05	mg/IBW	Fig. 3	P8	89.05	False			False
+C26-F:GSN wet-muscle weight	C26-F	treated	78.41	mg/IBW	Fig. 3	P9	78.41	False			False
+C26-F:GSN wet-muscle weight	C26-F	treated	97.33	mg/IBW	Fig. 3	P10	97.33	False			False
+C26-F:GSN wet-muscle weight	C26-F	treated	109.68	mg/IBW	Fig. 3	P11	109.68	False			False
+C26-F:GSN wet-muscle weight	C26-F	treated	101.18	mg/IBW	Fig. 3	P12	101.18	False			False
+C26-F:SUnSET protein synthesis	C26-F	control	93.56207603429351	normalized source percent	Fig. 3	W31	93.56207603429351	False			False
+C26-F:SUnSET protein synthesis	C26-F	control	91.39383335527742	normalized source percent	Fig. 3	W32	91.39383335527742	False			False
+C26-F:SUnSET protein synthesis	C26-F	control	116.90772500990398	normalized source percent	Fig. 3	W33	116.90772500990398	False			False
+C26-F:SUnSET protein synthesis	C26-F	control	107.1364275571368	normalized source percent	Fig. 3	W34	107.1364275571368	False			False
+C26-F:SUnSET protein synthesis	C26-F	control	102.13735832099698	normalized source percent	Fig. 3	W35	102.13735832099698	False			False
+C26-F:SUnSET protein synthesis	C26-F	control	88.86257972239135	normalized source percent	Fig. 3	W36	88.86257972239135	False			False
+C26-F:SUnSET protein synthesis	C26-F	disease	27.92070126447054	normalized source percent	Fig. 3	W37	27.92070126447054	False			False
+C26-F:SUnSET protein synthesis	C26-F	disease	19.536442543397	normalized source percent	Fig. 3	W38	19.536442543397	False			False
+C26-F:SUnSET protein synthesis	C26-F	disease	38.777050270803684	normalized source percent	Fig. 3	W39	38.777050270803684	False			False
+C26-F:SUnSET protein synthesis	C26-F	disease	36.74098848709298	normalized source percent	Fig. 3	W40	36.74098848709298	False			False
+C26-F:SUnSET protein synthesis	C26-F	disease	58.29005803200971	normalized source percent	Fig. 3	W41	58.29005803200971	False			False
+C26-F:SUnSET protein synthesis	C26-F	disease	49.07718084401756	normalized source percent	Fig. 3	W42	49.07718084401756	False			False
+C26-F:SUnSET protein synthesis	C26-F	disease	22.3308787038906	normalized source percent	Fig. 3	W43	22.3308787038906	False			False
+C26-F:SUnSET protein synthesis	C26-F	treated	57.395869038963944	normalized source percent	Fig. 3	W44	57.395869038963944	False			False
+C26-F:SUnSET protein synthesis	C26-F	treated	97.80966533998955	normalized source percent	Fig. 3	W45	97.80966533998955	False			False
+C26-F:SUnSET protein synthesis	C26-F	treated	88.97285773598206	normalized source percent	Fig. 3	W46	88.97285773598206	False			False
+C26-F:SUnSET protein synthesis	C26-F	treated	72.12854603556343	normalized source percent	Fig. 3	W47	72.12854603556343	False			False
+C26-F:SUnSET protein synthesis	C26-F	treated	88.21467825263562	normalized source percent	Fig. 3	W48	88.21467825263562	False			False
+C26-F:SUnSET protein synthesis	C26-F	treated	70.51954279326272	normalized source percent	Fig. 3	W49	70.51954279326272	False			False
+C26-F:SUnSET protein synthesis	C26-F	treated	42.800006151123064	normalized source percent	Fig. 3	W50	42.800006151123064	False			False
+C26-F:LC3B-II/total LC3B	C26-F	control	5.186812653249496	normalized source percent	Fig. 3	AF30	5.186812653249496	False			False
+C26-F:LC3B-II/total LC3B	C26-F	control	5.309322285872861	normalized source percent	Fig. 3	AF31	5.309322285872861	False			False
+C26-F:LC3B-II/total LC3B	C26-F	control	3.858241667355884	normalized source percent	Fig. 3	AF32	3.858241667355884	False			False
+C26-F:LC3B-II/total LC3B	C26-F	control	4.934786291005589	normalized source percent	Fig. 3	AF33	4.934786291005589	False			False
+C26-F:LC3B-II/total LC3B	C26-F	control	2.8126712259269033	normalized source percent	Fig. 3	AF34	2.8126712259269033	False			False
+C26-F:LC3B-II/total LC3B	C26-F	control	3.6499385691333526	normalized source percent	Fig. 3	AF35	3.6499385691333526	False			False
+C26-F:LC3B-II/total LC3B	C26-F	control	6.91097773704284	normalized source percent	Fig. 3	AF36	6.91097773704284	False			False
+C26-F:LC3B-II/total LC3B	C26-F	disease	35.36025438108682	normalized source percent	Fig. 3	AF37	35.36025438108682	False			False
+C26-F:LC3B-II/total LC3B	C26-F	disease	39.97125689910866	normalized source percent	Fig. 3	AF38	39.97125689910866	False			False
+C26-F:LC3B-II/total LC3B	C26-F	disease	26.32438039642425	normalized source percent	Fig. 3	AF39	26.32438039642425	False			False
+C26-F:LC3B-II/total LC3B	C26-F	disease	12.131035888796038	normalized source percent	Fig. 3	AF40	12.131035888796038	False			False
+C26-F:LC3B-II/total LC3B	C26-F	disease	8.126538747117902	normalized source percent	Fig. 3	AF41	8.126538747117902	False			False
+C26-F:LC3B-II/total LC3B	C26-F	disease	12.160162096582548	normalized source percent	Fig. 3	AF42	12.160162096582548	False			False
+C26-F:LC3B-II/total LC3B	C26-F	disease	41.275959723096285	normalized source percent	Fig. 3	AF43	41.275959723096285	False			False
+C26-F:LC3B-II/total LC3B	C26-F	treated	19.730643066288003	normalized source percent	Fig. 3	AF44	19.730643066288003	False			False
+C26-F:LC3B-II/total LC3B	C26-F	treated	3.3277816923963877	normalized source percent	Fig. 3	AF45	3.3277816923963877	False			False
+C26-F:LC3B-II/total LC3B	C26-F	treated	2.100396381870263	normalized source percent	Fig. 3	AF46	2.100396381870263	False			False
+C26-F:LC3B-II/total LC3B	C26-F	treated	9.055736948790464	normalized source percent	Fig. 3	AF47	9.055736948790464	False			False
+C26-F:LC3B-II/total LC3B	C26-F	treated	4.1447365036245865	normalized source percent	Fig. 3	AF48	4.1447365036245865	False			False
+C26-F:LC3B-II/total LC3B	C26-F	treated	14.04345892686729	normalized source percent	Fig. 3	AF49	14.04345892686729	False			False
+C26-F:LC3B-II/total LC3B	C26-F	treated	10.694348221902858	normalized source percent	Fig. 3	AF50	10.694348221902858	False			False
+C26-F:p-AMPK/AMPK	C26-F	control	27.877329399388817	normalized source percent	Fig. 3	AO30	27.877329399388817	False			False
+C26-F:p-AMPK/AMPK	C26-F	control	214.9178693175365	normalized source percent	Fig. 3	AO31	214.9178693175365	False			False
+C26-F:p-AMPK/AMPK	C26-F	control	67.80458729626542	normalized source percent	Fig. 3	AO32	67.80458729626542	False			False
+C26-F:p-AMPK/AMPK	C26-F	control	71.30732509189495	normalized source percent	Fig. 3	AO33	71.30732509189495	False			False
+C26-F:p-AMPK/AMPK	C26-F	control	162.96978918524135	normalized source percent	Fig. 3	AO34	162.96978918524135	False			False
+C26-F:p-AMPK/AMPK	C26-F	control	119.79573034000428	normalized source percent	Fig. 3	AO35	119.79573034000428	False			False
+C26-F:p-AMPK/AMPK	C26-F	control	35.327369369668666	normalized source percent	Fig. 3	AO36	35.327369369668666	False			False
+C26-F:p-AMPK/AMPK	C26-F	disease	109.76532111189788	normalized source percent	Fig. 3	AO37	109.76532111189788	False			False
+C26-F:p-AMPK/AMPK	C26-F	disease	269.72182453703505	normalized source percent	Fig. 3	AO38	269.72182453703505	False			False
+C26-F:p-AMPK/AMPK	C26-F	disease	445.6876869755072	normalized source percent	Fig. 3	AO39	445.6876869755072	False			False
+C26-F:p-AMPK/AMPK	C26-F	disease	162.05204926250016	normalized source percent	Fig. 3	AO40	162.05204926250016	False			False
+C26-F:p-AMPK/AMPK	C26-F	disease	375.2967420339819	normalized source percent	Fig. 3	AO41	375.2967420339819	False			False
+C26-F:p-AMPK/AMPK	C26-F	disease	357.2321913921287	normalized source percent	Fig. 3	AO42	357.2321913921287	False			False
+C26-F:p-AMPK/AMPK	C26-F	disease	347.0687469748923	normalized source percent	Fig. 3	AO43	347.0687469748923	False			False
+C26-F:p-AMPK/AMPK	C26-F	treated	165.52209295993725	normalized source percent	Fig. 3	AO44	165.52209295993725	False			False
+C26-F:p-AMPK/AMPK	C26-F	treated	123.06664462797552	normalized source percent	Fig. 3	AO45	123.06664462797552	False			False
+C26-F:p-AMPK/AMPK	C26-F	treated	170.495533212107	normalized source percent	Fig. 3	AO46	170.495533212107	False			False
+C26-F:p-AMPK/AMPK	C26-F	treated	319.9141978225971	normalized source percent	Fig. 3	AO47	319.9141978225971	False			False
+C26-F:p-AMPK/AMPK	C26-F	treated	245.94210894057468	normalized source percent	Fig. 3	AO48	245.94210894057468	False			False
+C26-F:p-AMPK/AMPK	C26-F	treated	132.25768184001734	normalized source percent	Fig. 3	AO49	132.25768184001734	False			False
+C26-F:p-AMPK/AMPK	C26-F	treated	200.42762051948142	normalized source percent	Fig. 3	AO50	200.42762051948142	False			False
+VCM:GSN muscle NAD+	VCM	control	390.1368	pmol/mg of muscle	Fig. 3	B76	390.1368	False			False
+VCM:GSN muscle NAD+	VCM	control	580.6637	pmol/mg of muscle	Fig. 3	B77	580.6637	False			False
+VCM:GSN muscle NAD+	VCM	control	615.5556	pmol/mg of muscle	Fig. 3	B78	615.5556	False			False
+VCM:GSN muscle NAD+	VCM	control	732.5982	pmol/mg of muscle	Fig. 3	B79	732.5982	False			False
+VCM:GSN muscle NAD+	VCM	control	464.1225	pmol/mg of muscle	Fig. 3	B80	464.1225	False			False
+VCM:GSN muscle NAD+	VCM	control	592.3837	pmol/mg of muscle	Fig. 3	B81	592.3837	False			False
+VCM:GSN muscle NAD+	VCM	control	532.1358	pmol/mg of muscle	Fig. 3	B82	532.1358	False			False
+VCM:GSN muscle NAD+	VCM	control	531.4514	pmol/mg of muscle	Fig. 3	B83	531.4514	False			False
+VCM:GSN muscle NAD+	VCM	disease	603.0355	pmol/mg of muscle	Fig. 3	C76	603.0355	False			False
+VCM:GSN muscle NAD+	VCM	disease	315.6895	pmol/mg of muscle	Fig. 3	C77	315.6895	False			False
+VCM:GSN muscle NAD+	VCM	disease	388.5825	pmol/mg of muscle	Fig. 3	C78	388.5825	False			False
+VCM:GSN muscle NAD+	VCM	disease	487.2199	pmol/mg of muscle	Fig. 3	C79	487.2199	False			False
+VCM:GSN muscle NAD+	VCM	disease	448.4415	pmol/mg of muscle	Fig. 3	C80	448.4415	False			False
+VCM:GSN muscle NAD+	VCM	disease	616.5262	pmol/mg of muscle	Fig. 3	C81	616.5262	False			False
+VCM:GSN muscle NAD+	VCM	disease	573.7434	pmol/mg of muscle	Fig. 3	C82	573.7434	False			False
+VCM:GSN muscle NAD+	VCM	disease	424.1947	pmol/mg of muscle	Fig. 3	C83	424.1947	False			False
+VCM:GSN muscle NAD+	VCM	treated	555.5833	pmol/mg of muscle	Fig. 3	D76	555.5833	False			False
+VCM:GSN muscle NAD+	VCM	treated	614.3286	pmol/mg of muscle	Fig. 3	D77	614.3286	False			False
+VCM:GSN muscle NAD+	VCM	treated	592.1011	pmol/mg of muscle	Fig. 3	D78	592.1011	False			False
+VCM:GSN muscle NAD+	VCM	treated	576.5378	pmol/mg of muscle	Fig. 3	D79	576.5378	False			False
+VCM:GSN muscle NAD+	VCM	treated	751.157	pmol/mg of muscle	Fig. 3	D80	751.157	False			False
+VCM:GSN muscle NAD+	VCM	treated	406.1608	pmol/mg of muscle	Fig. 3	D81	406.1608	False			False
+VCM:TA wet-muscle weight	VCM	control	47.8	mg	Fig. 3	H76	47.8	False			False
+VCM:TA wet-muscle weight	VCM	control	50.65	mg	Fig. 3	H77	50.65	False			False
+VCM:TA wet-muscle weight	VCM	control	49.25	mg	Fig. 3	H78	49.25	False			False
+VCM:TA wet-muscle weight	VCM	control	52.1	mg	Fig. 3	H79	52.1	False			False
+VCM:TA wet-muscle weight	VCM	control	49.25	mg	Fig. 3	H80	49.25	False			False
+VCM:TA wet-muscle weight	VCM	control	52.95	mg	Fig. 3	H81	52.95	False			False
+VCM:TA wet-muscle weight	VCM	control	51.45	mg	Fig. 3	H82	51.45	False			False
+VCM:TA wet-muscle weight	VCM	control	55.3	mg	Fig. 3	H83	55.3	False			False
+VCM:TA wet-muscle weight	VCM	disease	48.7	mg	Fig. 3	I76	48.7	False			False
+VCM:TA wet-muscle weight	VCM	disease	42.9	mg	Fig. 3	I77	42.9	False			False
+VCM:TA wet-muscle weight	VCM	disease	34.7	mg	Fig. 3	I78	34.7	False			False
+VCM:TA wet-muscle weight	VCM	disease	32.6	mg	Fig. 3	I79	32.6	False			False
+VCM:TA wet-muscle weight	VCM	disease	47.2	mg	Fig. 3	I80	47.2	False			False
+VCM:TA wet-muscle weight	VCM	disease	36.0	mg	Fig. 3	I81	36	False			False
+VCM:TA wet-muscle weight	VCM	disease	51.9	mg	Fig. 3	I82	51.9	False			False
+VCM:TA wet-muscle weight	VCM	disease	39.1	mg	Fig. 3	I83	39.1	False			False
+VCM:TA wet-muscle weight	VCM	treated	51.0	mg	Fig. 3	J76	51	False			False
+VCM:TA wet-muscle weight	VCM	treated	49.8	mg	Fig. 3	J77	49.8	False			False
+VCM:TA wet-muscle weight	VCM	treated	50.7	mg	Fig. 3	J78	50.7	False			False
+VCM:TA wet-muscle weight	VCM	treated	46.6	mg	Fig. 3	J79	46.6	False			False
+VCM:TA wet-muscle weight	VCM	treated	45.0	mg	Fig. 3	J80	45	False			False
+VCM:TA wet-muscle weight	VCM	treated	41.1	mg	Fig. 3	J81	41.1	False			False
+VCM:GSN wet-muscle weight	VCM	control	147.25	mg	Fig. 3	N76	147.25	False			False
+VCM:GSN wet-muscle weight	VCM	control	151.35	mg	Fig. 3	N77	151.35	False			False
+VCM:GSN wet-muscle weight	VCM	control	151.55	mg	Fig. 3	N78	151.55	False			False
+VCM:GSN wet-muscle weight	VCM	control	154.2	mg	Fig. 3	N79	154.2	False			False
+VCM:GSN wet-muscle weight	VCM	control	154.6	mg	Fig. 3	N80	154.6	False			False
+VCM:GSN wet-muscle weight	VCM	control	154.7	mg	Fig. 3	N81	154.7	False			False
+VCM:GSN wet-muscle weight	VCM	control	157.7	mg	Fig. 3	N82	157.7	False			False
+VCM:GSN wet-muscle weight	VCM	control	167.0	mg	Fig. 3	N83	167	False			False
+VCM:GSN wet-muscle weight	VCM	disease	138.9	mg	Fig. 3	O76	138.9	False			False
+VCM:GSN wet-muscle weight	VCM	disease	136.8	mg	Fig. 3	O77	136.8	False			False
+VCM:GSN wet-muscle weight	VCM	disease	92.5	mg	Fig. 3	O78	92.5	False			False
+VCM:GSN wet-muscle weight	VCM	disease	94.8	mg	Fig. 3	O79	94.8	False			False
+VCM:GSN wet-muscle weight	VCM	disease	144.0	mg	Fig. 3	O80	144	False			False
+VCM:GSN wet-muscle weight	VCM	disease	116.8	mg	Fig. 3	O81	116.8	False			False
+VCM:GSN wet-muscle weight	VCM	disease	156.1	mg	Fig. 3	O82	156.1	False			False
+VCM:GSN wet-muscle weight	VCM	disease	126.5	mg	Fig. 3	O83	126.5	False			False
+VCM:GSN wet-muscle weight	VCM	treated	162.2	mg	Fig. 3	P76	162.2	False			False
+VCM:GSN wet-muscle weight	VCM	treated	152.5	mg	Fig. 3	P77	152.5	False			False
+VCM:GSN wet-muscle weight	VCM	treated	171.5	mg	Fig. 3	P78	171.5	False			False
+VCM:GSN wet-muscle weight	VCM	treated	160.1	mg	Fig. 3	P79	160.1	False			False
+VCM:GSN wet-muscle weight	VCM	treated	150.4	mg	Fig. 3	P80	150.4	False			False
+VCM:GSN wet-muscle weight	VCM	treated	124.6	mg	Fig. 3	P81	124.6	False			False
+VCM:LC3B-II/total LC3B	VCM	control	12.796730632551528	normalized source percent	Fig. 3	V90	12.796730632551528	False			False
+VCM:LC3B-II/total LC3B	VCM	control	18.917859633972167	normalized source percent	Fig. 3	V91	18.917859633972167	False			False
+VCM:LC3B-II/total LC3B	VCM	control	18.365718494616114	normalized source percent	Fig. 3	V92	18.365718494616114	False			False
+VCM:LC3B-II/total LC3B	VCM	control	21.4013613224275	normalized source percent	Fig. 3	V93	21.4013613224275	False			False
+VCM:LC3B-II/total LC3B	VCM	control	21.598905394839715	normalized source percent	Fig. 3	V94	21.598905394839715	False			False
+VCM:LC3B-II/total LC3B	VCM	control	19.42283003070053	normalized source percent	Fig. 3	V95	19.42283003070053	False			False
+VCM:LC3B-II/total LC3B	VCM	control	16.09467455621302	normalized source percent	Fig. 3	V96	16.09467455621302	False			False
+VCM:LC3B-II/total LC3B	VCM	control	24.192529304702894	normalized source percent	Fig. 3	V97	24.192529304702894	False			False
+VCM:LC3B-II/total LC3B	VCM	disease	26.309653796579838	normalized source percent	Fig. 3	V98	26.309653796579838	False			False
+VCM:LC3B-II/total LC3B	VCM	disease	20.51470311382206	normalized source percent	Fig. 3	V99	20.51470311382206	False			False
+VCM:LC3B-II/total LC3B	VCM	disease	32.95931075560583	normalized source percent	Fig. 3	V100	32.95931075560583	False			False
+VCM:LC3B-II/total LC3B	VCM	disease	31.105072880926617	normalized source percent	Fig. 3	V101	31.105072880926617	False			False
+VCM:LC3B-II/total LC3B	VCM	disease	36.83858064632899	normalized source percent	Fig. 3	V102	36.83858064632899	False			False
+VCM:LC3B-II/total LC3B	VCM	disease	29.079002202774305	normalized source percent	Fig. 3	V103	29.079002202774305	False			False
+VCM:LC3B-II/total LC3B	VCM	disease	19.39513074103651	normalized source percent	Fig. 3	V104	19.39513074103651	False			False
+VCM:LC3B-II/total LC3B	VCM	disease	26.69460704513179	normalized source percent	Fig. 3	V105	26.69460704513179	False			False
+VCM:LC3B-II/total LC3B	VCM	treated	18.749011128105057	normalized source percent	Fig. 3	V106	18.749011128105057	False			False
+VCM:LC3B-II/total LC3B	VCM	treated	13.602086217789308	normalized source percent	Fig. 3	V107	13.602086217789308	False			False
+VCM:LC3B-II/total LC3B	VCM	treated	20.330756520712853	normalized source percent	Fig. 3	V108	20.330756520712853	False			False
+VCM:LC3B-II/total LC3B	VCM	treated	23.16764232652083	normalized source percent	Fig. 3	V109	23.16764232652083	False			False
+VCM:LC3B-II/total LC3B	VCM	treated	15.739242246214555	normalized source percent	Fig. 3	V110	15.739242246214555	False			False
+VCM:LC3B-II/total LC3B	VCM	treated	19.264360985238405	normalized source percent	Fig. 3	V111	19.264360985238405	False			False
+C26-F:grasping_day22	C26-F	control	55.72	mN/g IBW	Fig. 3	C23	55.72	False	1		False
+C26-F:grasping_day22	C26-F	control	51.96	mN/g IBW	Fig. 3	D23	51.96	False	2		False
+C26-F:grasping_day22	C26-F	control	41.54	mN/g IBW	Fig. 3	E23	41.54	False	3		False
+C26-F:grasping_day22	C26-F	control	45.59	mN/g IBW	Fig. 3	F23	45.59	False	4		False
+C26-F:grasping_day22	C26-F	control	42.13	mN/g IBW	Fig. 3	G23	42.13	False	5		False
+C26-F:grasping_day22	C26-F	control	48.83	mN/g IBW	Fig. 3	H23	48.83	False	6		False
+C26-F:grasping_day22	C26-F	control	49.32	mN/g IBW	Fig. 3	I23	49.32	False	7		False
+C26-F:grasping_day22	C26-F	disease	28.06	mN/g IBW	Fig. 3	J23	28.06	False	8		False
+C26-F:grasping_day22	C26-F	disease	33.31	mN/g IBW	Fig. 3	K23	33.31	False	9		False
+C26-F:grasping_day22	C26-F	disease	33.08	mN/g IBW	Fig. 3	L23	33.08	False	10		False
+C26-F:grasping_day22	C26-F	disease	31.44	mN/g IBW	Fig. 3	M23	31.44	False	11		False
+C26-F:grasping_day22	C26-F	disease	20.83	mN/g IBW	Fig. 3	N23	20.83	False	12		False
+C26-F:grasping_day22	C26-F	disease	18.88	mN/g IBW	Fig. 3	O23	18.88	False	13		False
+C26-F:grasping_day22	C26-F	disease	35.62	mN/g IBW	Fig. 3	P23	35.62	False	14		False
+C26-F:grasping_day22	C26-F	treated	27.28	mN/g IBW	Fig. 3	Q23	27.28	False	15		False
+C26-F:grasping_day22	C26-F	treated	43.4	mN/g IBW	Fig. 3	R23	43.4	False	16		False
+C26-F:grasping_day22	C26-F	treated	38.38	mN/g IBW	Fig. 3	S23	38.38	False	17		False
+C26-F:grasping_day22	C26-F	treated	39.66	mN/g IBW	Fig. 3	T23	39.66	False	18		False
+C26-F:grasping_day22	C26-F	treated	37.89	mN/g IBW	Fig. 3	U23	37.89	False	19		False
+C26-F:grasping_day22	C26-F	treated	46.54	mN/g IBW	Fig. 3	V23	46.54	False	20		False
+C26-F:grasping_day22	C26-F	treated	40.0	mN/g IBW	Fig. 3	W23	40	False	22		False
+C26-F:grasping_day22_minus_day4	C26-F	control	2.780000000000001	mN/g IBW	Fig. 3	C23	55.72	False	1	C20	False
+C26-F:grasping_day22_minus_day4	C26-F	control	0.0	mN/g IBW	Fig. 3	D23	51.96	False	2	D20	False
+C26-F:grasping_day22_minus_day4	C26-F	control	-8.160000000000004	mN/g IBW	Fig. 3	E23	41.54	False	3	E20	False
+C26-F:grasping_day22_minus_day4	C26-F	control	-2.8499999999999943	mN/g IBW	Fig. 3	F23	45.59	False	4	F20	False
+C26-F:grasping_day22_minus_day4	C26-F	control	-6.769999999999996	mN/g IBW	Fig. 3	G23	42.13	False	5	G20	False
+C26-F:grasping_day22_minus_day4	C26-F	control	-2.5700000000000003	mN/g IBW	Fig. 3	H23	48.83	False	6	H20	False
+C26-F:grasping_day22_minus_day4	C26-F	control	5.079999999999998	mN/g IBW	Fig. 3	I23	49.32	False	7	I20	False
+C26-F:grasping_day22_minus_day4	C26-F	disease	-13.330000000000002	mN/g IBW	Fig. 3	J23	28.06	False	8	J20	False
+C26-F:grasping_day22_minus_day4	C26-F	disease	-5.549999999999997	mN/g IBW	Fig. 3	K23	33.31	False	9	K20	False
+C26-F:grasping_day22_minus_day4	C26-F	disease	-11.719999999999999	mN/g IBW	Fig. 3	L23	33.08	False	10	L20	False
+C26-F:grasping_day22_minus_day4	C26-F	disease	-13.569999999999997	mN/g IBW	Fig. 3	M23	31.44	False	11	M20	False
+C26-F:grasping_day22_minus_day4	C26-F	disease	-13.260000000000005	mN/g IBW	Fig. 3	N23	20.83	False	12	N20	False
+C26-F:grasping_day22_minus_day4	C26-F	disease	-17.16	mN/g IBW	Fig. 3	O23	18.88	False	13	O20	False
+C26-F:grasping_day22_minus_day4	C26-F	disease	-12.100000000000001	mN/g IBW	Fig. 3	P23	35.62	False	14	P20	False
+C26-F:grasping_day22_minus_day4	C26-F	treated	-15.969999999999999	mN/g IBW	Fig. 3	Q23	27.28	False	15	Q20	False
+C26-F:grasping_day22_minus_day4	C26-F	treated	3.3299999999999983	mN/g IBW	Fig. 3	R23	43.4	False	16	R20	False
+C26-F:grasping_day22_minus_day4	C26-F	treated	-1.8299999999999983	mN/g IBW	Fig. 3	S23	38.38	False	17	S20	False
+C26-F:grasping_day22_minus_day4	C26-F	treated	-11.240000000000002	mN/g IBW	Fig. 3	T23	39.66	False	18	T20	False
+C26-F:grasping_day22_minus_day4	C26-F	treated	-1.2899999999999991	mN/g IBW	Fig. 3	U23	37.89	False	19	U20	False
+C26-F:grasping_day22_minus_day4	C26-F	treated	-2.950000000000003	mN/g IBW	Fig. 3	V23	46.54	False	20	V20	False
+C26-F:grasping_day22_minus_day4	C26-F	treated	-2.710000000000001	mN/g IBW	Fig. 3	W23	40	False	22	W20	False
+C26-F:respiratory_capacity_CI	C26-F	control	30.921100000000003	pmol O2/s/mg tissue	Fig. 4	B7	30.921100000000003	False			False
+C26-F:respiratory_capacity_CI	C26-F	control	34.1404	pmol O2/s/mg tissue	Fig. 4	B8	34.1404	False			False
+C26-F:respiratory_capacity_CI	C26-F	control	45.344899999999996	pmol O2/s/mg tissue	Fig. 4	B9	45.344899999999996	False			False
+C26-F:respiratory_capacity_CI	C26-F	control	39.266	pmol O2/s/mg tissue	Fig. 4	B10	39.266	False			False
+C26-F:respiratory_capacity_CI	C26-F	control	24.383200000000002	pmol O2/s/mg tissue	Fig. 4	B11	24.383200000000002	False			False
+C26-F:respiratory_capacity_CI	C26-F	control	49.1813	pmol O2/s/mg tissue	Fig. 4	B12	49.1813	False			False
+C26-F:respiratory_capacity_CI	C26-F	control	16.4327	pmol O2/s/mg tissue	Fig. 4	B13	16.4327	False			False
+C26-F:respiratory_capacity_CI	C26-F	disease	80.67190000000001	pmol O2/s/mg tissue	Fig. 4	C7	80.67190000000001	False			False
+C26-F:respiratory_capacity_CI	C26-F	disease	80.17490000000001	pmol O2/s/mg tissue	Fig. 4	C8	80.17490000000001	False			False
+C26-F:respiratory_capacity_CI	C26-F	disease	95.2017	pmol O2/s/mg tissue	Fig. 4	C9	95.2017	False			False
+C26-F:respiratory_capacity_CI	C26-F	disease	39.3874	pmol O2/s/mg tissue	Fig. 4	C10	39.3874	False			False
+C26-F:respiratory_capacity_CI	C26-F	disease	49.2988	pmol O2/s/mg tissue	Fig. 4	C11	49.2988	False			False
+C26-F:respiratory_capacity_CI	C26-F	disease	48.488499999999995	pmol O2/s/mg tissue	Fig. 4	C12	48.488499999999995	False			False
+C26-F:respiratory_capacity_CI	C26-F	disease	87.24350000000001	pmol O2/s/mg tissue	Fig. 4	C13	87.24350000000001	False			False
+C26-F:respiratory_capacity_CI	C26-F	treated	25.921799999999998	pmol O2/s/mg tissue	Fig. 4	D7	25.921799999999998	False			False
+C26-F:respiratory_capacity_CI	C26-F	treated	28.726750000000003	pmol O2/s/mg tissue	Fig. 4	D8	28.726750000000003	False			False
+C26-F:respiratory_capacity_CI	C26-F	treated	25.5684	pmol O2/s/mg tissue	Fig. 4	D9	25.5684	False			False
+C26-F:respiratory_capacity_CI	C26-F	treated	61.077799999999996	pmol O2/s/mg tissue	Fig. 4	D10	61.077799999999996	False			False
+C26-F:respiratory_capacity_CI	C26-F	treated	25.932	pmol O2/s/mg tissue	Fig. 4	D11	25.932	False			False
+C26-F:respiratory_capacity_CI	C26-F	treated	47.9314	pmol O2/s/mg tissue	Fig. 4	D12	47.9314	False			False
+C26-F:respiratory_capacity_CI	C26-F	treated	69.6449	pmol O2/s/mg tissue	Fig. 4	D13	69.6449	False			False
+C26-F:respiratory_capacity_CI&CII	C26-F	control	40.4846	pmol O2/s/mg tissue	Fig. 4	E7	40.4846	False			False
+C26-F:respiratory_capacity_CI&CII	C26-F	control	44.1128	pmol O2/s/mg tissue	Fig. 4	E8	44.1128	False			False
+C26-F:respiratory_capacity_CI&CII	C26-F	control	56.4846	pmol O2/s/mg tissue	Fig. 4	E9	56.4846	False			False
+C26-F:respiratory_capacity_CI&CII	C26-F	control	47.0652	pmol O2/s/mg tissue	Fig. 4	E10	47.0652	False			False
+C26-F:respiratory_capacity_CI&CII	C26-F	control	32.9035	pmol O2/s/mg tissue	Fig. 4	E11	32.9035	False			False
+C26-F:respiratory_capacity_CI&CII	C26-F	control	70.3868	pmol O2/s/mg tissue	Fig. 4	E12	70.3868	False			False
+C26-F:respiratory_capacity_CI&CII	C26-F	control	24.203300000000002	pmol O2/s/mg tissue	Fig. 4	E13	24.203300000000002	False			False
+C26-F:respiratory_capacity_CI&CII	C26-F	disease	105.565	pmol O2/s/mg tissue	Fig. 4	F7	105.565	False			False
+C26-F:respiratory_capacity_CI&CII	C26-F	disease	104.48845	pmol O2/s/mg tissue	Fig. 4	F8	104.48845	False			False
+C26-F:respiratory_capacity_CI&CII	C26-F	disease	109.7897	pmol O2/s/mg tissue	Fig. 4	F9	109.7897	False			False
+C26-F:respiratory_capacity_CI&CII	C26-F	disease	52.2882	pmol O2/s/mg tissue	Fig. 4	F10	52.2882	False			False
+C26-F:respiratory_capacity_CI&CII	C26-F	disease	60.6154	pmol O2/s/mg tissue	Fig. 4	F11	60.6154	False			False
+C26-F:respiratory_capacity_CI&CII	C26-F	disease	57.8281	pmol O2/s/mg tissue	Fig. 4	F12	57.8281	False			False
+C26-F:respiratory_capacity_CI&CII	C26-F	disease	121.37299999999999	pmol O2/s/mg tissue	Fig. 4	F13	121.37299999999999	False			False
+C26-F:respiratory_capacity_CI&CII	C26-F	treated	33.75	pmol O2/s/mg tissue	Fig. 4	G7	33.75	False			False
+C26-F:respiratory_capacity_CI&CII	C26-F	treated	35.7967	pmol O2/s/mg tissue	Fig. 4	G8	35.7967	False			False
+C26-F:respiratory_capacity_CI&CII	C26-F	treated	40.850500000000004	pmol O2/s/mg tissue	Fig. 4	G9	40.850500000000004	False			False
+C26-F:respiratory_capacity_CI&CII	C26-F	treated	71.49485	pmol O2/s/mg tissue	Fig. 4	G10	71.49485	False			False
+C26-F:respiratory_capacity_CI&CII	C26-F	treated	34.4138	pmol O2/s/mg tissue	Fig. 4	G11	34.4138	False			False
+C26-F:respiratory_capacity_CI&CII	C26-F	treated	59.0495	pmol O2/s/mg tissue	Fig. 4	G12	59.0495	False			False
+C26-F:respiratory_capacity_CI&CII	C26-F	treated	79.3917	pmol O2/s/mg tissue	Fig. 4	G13	79.3917	False			False
+C26-F:respiratory_capacity_CII	C26-F	control	23.5257	pmol O2/s/mg tissue	Fig. 4	H7	23.5257	False			False
+C26-F:respiratory_capacity_CII	C26-F	control	20.247200000000003	pmol O2/s/mg tissue	Fig. 4	H8	20.247200000000003	False			False
+C26-F:respiratory_capacity_CII	C26-F	control	36.914199999999994	pmol O2/s/mg tissue	Fig. 4	H9	36.914199999999994	False			False
+C26-F:respiratory_capacity_CII	C26-F	control	39.489799999999995	pmol O2/s/mg tissue	Fig. 4	H10	39.489799999999995	False			False
+C26-F:respiratory_capacity_CII	C26-F	control	21.54	pmol O2/s/mg tissue	Fig. 4	H11	21.54	False			False
+C26-F:respiratory_capacity_CII	C26-F	control	36.822599999999994	pmol O2/s/mg tissue	Fig. 4	H12	36.822599999999994	False			False
+C26-F:respiratory_capacity_CII	C26-F	control	9.113	pmol O2/s/mg tissue	Fig. 4	H13	9.113	False			False
+C26-F:respiratory_capacity_CII	C26-F	disease	63.105000000000004	pmol O2/s/mg tissue	Fig. 4	I7	63.105000000000004	False			False
+C26-F:respiratory_capacity_CII	C26-F	disease	57.122299999999996	pmol O2/s/mg tissue	Fig. 4	I8	57.122299999999996	False			False
+C26-F:respiratory_capacity_CII	C26-F	disease	54.06529999999999	pmol O2/s/mg tissue	Fig. 4	I9	54.06529999999999	False			False
+C26-F:respiratory_capacity_CII	C26-F	disease	25.3719	pmol O2/s/mg tissue	Fig. 4	I10	25.3719	False			False
+C26-F:respiratory_capacity_CII	C26-F	disease	39.0114	pmol O2/s/mg tissue	Fig. 4	I11	39.0114	False			False
+C26-F:respiratory_capacity_CII	C26-F	disease	36.8945	pmol O2/s/mg tissue	Fig. 4	I12	36.8945	False			False
+C26-F:respiratory_capacity_CII	C26-F	disease	61.722199999999994	pmol O2/s/mg tissue	Fig. 4	I13	61.722199999999994	False			False
+C26-F:respiratory_capacity_CII	C26-F	treated	16.6351	pmol O2/s/mg tissue	Fig. 4	J7	16.6351	False			False
+C26-F:respiratory_capacity_CII	C26-F	treated	16.36375	pmol O2/s/mg tissue	Fig. 4	J8	16.36375	False			False
+C26-F:respiratory_capacity_CII	C26-F	treated	22.8808	pmol O2/s/mg tissue	Fig. 4	J9	22.8808	False			False
+C26-F:respiratory_capacity_CII	C26-F	treated	35.61115	pmol O2/s/mg tissue	Fig. 4	J10	35.61115	False			False
+C26-F:respiratory_capacity_CII	C26-F	treated	20.1498	pmol O2/s/mg tissue	Fig. 4	J11	20.1498	False			False
+C26-F:respiratory_capacity_CII	C26-F	treated	35.3779	pmol O2/s/mg tissue	Fig. 4	J12	35.3779	False			False
+C26-F:respiratory_capacity_CII	C26-F	treated	46.0878	pmol O2/s/mg tissue	Fig. 4	J13	46.0878	False			False
+C26-F:GSN tissue ATP	C26-F	control	32360.68138	ATP (microM/mg of protein)	Fig. 4	N6	32360.68138	False			False
+C26-F:GSN tissue ATP	C26-F	control	18672.65245	ATP (microM/mg of protein)	Fig. 4	N7	18672.65245	False			False
+C26-F:GSN tissue ATP	C26-F	control	17880.29995	ATP (microM/mg of protein)	Fig. 4	N8	17880.29995	False			False
+C26-F:GSN tissue ATP	C26-F	control	23063.57725	ATP (microM/mg of protein)	Fig. 4	N9	23063.57725	False			False
+C26-F:GSN tissue ATP	C26-F	control	38342.2641	ATP (microM/mg of protein)	Fig. 4	N10	38342.2641	False			False
+C26-F:GSN tissue ATP	C26-F	control	32219.63154	ATP (microM/mg of protein)	Fig. 4	N11	32219.63154	False			False
+C26-F:GSN tissue ATP	C26-F	control	48893.62654	ATP (microM/mg of protein)	Fig. 4	N12	48893.62654	False			False
+C26-F:GSN tissue ATP	C26-F	disease	551.0001062	ATP (microM/mg of protein)	Fig. 4	O6	551.0001062	False			False
+C26-F:GSN tissue ATP	C26-F	disease	1025.985692	ATP (microM/mg of protein)	Fig. 4	O7	1025.985692	False			False
+C26-F:GSN tissue ATP	C26-F	disease	1578.508044	ATP (microM/mg of protein)	Fig. 4	O8	1578.508044	False			False
+C26-F:GSN tissue ATP	C26-F	disease	954.987907	ATP (microM/mg of protein)	Fig. 4	O9	954.987907	False			False
+C26-F:GSN tissue ATP	C26-F	disease	3757.16	ATP (microM/mg of protein)	Fig. 4	O10	*3757,16	True			False
+C26-F:GSN tissue ATP	C26-F	disease	501.6965652	ATP (microM/mg of protein)	Fig. 4	O11	501.6965652	False			False
+C26-F:GSN tissue ATP	C26-F	disease	384.8101465	ATP (microM/mg of protein)	Fig. 4	O12	384.8101465	False			False
+C26-F:GSN tissue ATP	C26-F	treated	1209.173518	ATP (microM/mg of protein)	Fig. 4	P6	1209.173518	False			False
+C26-F:GSN tissue ATP	C26-F	treated	16245.06382	ATP (microM/mg of protein)	Fig. 4	P7	16245.06382	False			False
+C26-F:GSN tissue ATP	C26-F	treated	11430.53299	ATP (microM/mg of protein)	Fig. 4	P8	11430.53299	False			False
+C26-F:GSN tissue ATP	C26-F	treated	2912.283173	ATP (microM/mg of protein)	Fig. 4	P9	2912.283173	False			False
+C26-F:GSN tissue ATP	C26-F	treated	19997.34146	ATP (microM/mg of protein)	Fig. 4	P10	19997.34146	False			False
+C26-F:GSN tissue ATP	C26-F	treated	11117.52566	ATP (microM/mg of protein)	Fig. 4	P11	11117.52566	False			False
+C26-F:GSN tissue ATP	C26-F	treated	16473.21752	ATP (microM/mg of protein)	Fig. 4	P12	16473.21752	False			False
+C26-F:GSN mtDNA/nuclear DNA abundance	C26-F	control	1.743	mtDNA (A.U.)	Fig. 4	T6	1.743	False			False
+C26-F:GSN mtDNA/nuclear DNA abundance	C26-F	control	2.231	mtDNA (A.U.)	Fig. 4	T7	2.231	False			False
+C26-F:GSN mtDNA/nuclear DNA abundance	C26-F	control	1.766	mtDNA (A.U.)	Fig. 4	T8	1.766	False			False
+C26-F:GSN mtDNA/nuclear DNA abundance	C26-F	control	1.454	mtDNA (A.U.)	Fig. 4	T9	1.454	False			False
+C26-F:GSN mtDNA/nuclear DNA abundance	C26-F	control	1.737	mtDNA (A.U.)	Fig. 4	T10	1.737	False			False
+C26-F:GSN mtDNA/nuclear DNA abundance	C26-F	control	1.36	mtDNA (A.U.)	Fig. 4	T11	1.36	False			False
+C26-F:GSN mtDNA/nuclear DNA abundance	C26-F	control	1.353	mtDNA (A.U.)	Fig. 4	T12	1.353	False			False
+C26-F:GSN mtDNA/nuclear DNA abundance	C26-F	disease	0.6205	mtDNA (A.U.)	Fig. 4	U6	0.6205	False			False
+C26-F:GSN mtDNA/nuclear DNA abundance	C26-F	disease	0.4808	mtDNA (A.U.)	Fig. 4	U7	0.4808	False			False
+C26-F:GSN mtDNA/nuclear DNA abundance	C26-F	disease	0.568	mtDNA (A.U.)	Fig. 4	U8	0.568	False			False
+C26-F:GSN mtDNA/nuclear DNA abundance	C26-F	disease	0.6474	mtDNA (A.U.)	Fig. 4	U9	0.6474	False			False
+C26-F:GSN mtDNA/nuclear DNA abundance	C26-F	disease	0.5476	mtDNA (A.U.)	Fig. 4	U10	0.5476	False			False
+C26-F:GSN mtDNA/nuclear DNA abundance	C26-F	disease	0.6413	mtDNA (A.U.)	Fig. 4	U11	0.6413	False			False
+C26-F:GSN mtDNA/nuclear DNA abundance	C26-F	disease	0.4955	mtDNA (A.U.)	Fig. 4	U12	0.4955	False			False
+C26-F:GSN mtDNA/nuclear DNA abundance	C26-F	treated	0.7973	mtDNA (A.U.)	Fig. 4	V6	0.7973	False			False
+C26-F:GSN mtDNA/nuclear DNA abundance	C26-F	treated	0.8701	mtDNA (A.U.)	Fig. 4	V7	0.8701	False			False
+C26-F:GSN mtDNA/nuclear DNA abundance	C26-F	treated	1.076	mtDNA (A.U.)	Fig. 4	V8	1.076	False			False
+C26-F:GSN mtDNA/nuclear DNA abundance	C26-F	treated	1.11	mtDNA (A.U.)	Fig. 4	V9	1.11	False			False
+C26-F:GSN mtDNA/nuclear DNA abundance	C26-F	treated	1.175	mtDNA (A.U.)	Fig. 4	V10	1.175	False			False
+C26-F:GSN mtDNA/nuclear DNA abundance	C26-F	treated	1.481	mtDNA (A.U.)	Fig. 4	V11	1.481	False			False
+C26-F:GSN mtDNA/nuclear DNA abundance	C26-F	treated	1.248	mtDNA (A.U.)	Fig. 4	V12	1.248	False			False
+C26-F:GSN citrate-synthase activity	C26-F	control	213.05	CS activity (nmolt/mg*min)	Fig. 4	Z6	213.05	False			False
+C26-F:GSN citrate-synthase activity	C26-F	control	227.32	CS activity (nmolt/mg*min)	Fig. 4	Z7	227.32	False			False
+C26-F:GSN citrate-synthase activity	C26-F	control	206.51	CS activity (nmolt/mg*min)	Fig. 4	Z8	206.51	False			False
+C26-F:GSN citrate-synthase activity	C26-F	control	154.76	CS activity (nmolt/mg*min)	Fig. 4	Z9	154.76	False			False
+C26-F:GSN citrate-synthase activity	C26-F	control	238.69	CS activity (nmolt/mg*min)	Fig. 4	Z10	238.69	False			False
+C26-F:GSN citrate-synthase activity	C26-F	control	160.55	CS activity (nmolt/mg*min)	Fig. 4	Z11	160.55	False			False
+C26-F:GSN citrate-synthase activity	C26-F	control	246.42	CS activity (nmolt/mg*min)	Fig. 4	Z12	246.42	False			False
+C26-F:GSN citrate-synthase activity	C26-F	disease	153.71	CS activity (nmolt/mg*min)	Fig. 4	AA6	153.71	False			False
+C26-F:GSN citrate-synthase activity	C26-F	disease	131.37	CS activity (nmolt/mg*min)	Fig. 4	AA7	131.37	False			False
+C26-F:GSN citrate-synthase activity	C26-F	disease	113.05	CS activity (nmolt/mg*min)	Fig. 4	AA8	113.05	False			False
+C26-F:GSN citrate-synthase activity	C26-F	disease	74.67	CS activity (nmolt/mg*min)	Fig. 4	AA9	74.67	False			False
+C26-F:GSN citrate-synthase activity	C26-F	disease	119.27	CS activity (nmolt/mg*min)	Fig. 4	AA10	119.27	False			False
+C26-F:GSN citrate-synthase activity	C26-F	disease	170.59	CS activity (nmolt/mg*min)	Fig. 4	AA11	170.59	False			False
+C26-F:GSN citrate-synthase activity	C26-F	disease	114.69	CS activity (nmolt/mg*min)	Fig. 4	AA12	114.69	False			False
+C26-F:GSN citrate-synthase activity	C26-F	treated	213.11	CS activity (nmolt/mg*min)	Fig. 4	AB6	213.11	False			False
+C26-F:GSN citrate-synthase activity	C26-F	treated	156.18	CS activity (nmolt/mg*min)	Fig. 4	AB7	156.18	False			False
+C26-F:GSN citrate-synthase activity	C26-F	treated	128.55	CS activity (nmolt/mg*min)	Fig. 4	AB8	128.55	False			False
+C26-F:GSN citrate-synthase activity	C26-F	treated	186.75	CS activity (nmolt/mg*min)	Fig. 4	AB9	186.75	False			False
+C26-F:GSN citrate-synthase activity	C26-F	treated	161.27	CS activity (nmolt/mg*min)	Fig. 4	AB10	161.27	False			False
+C26-F:GSN citrate-synthase activity	C26-F	treated	151.52	CS activity (nmolt/mg*min)	Fig. 4	AB11	151.52	False			False
+C26-F:GSN citrate-synthase activity	C26-F	treated	358.31	CS activity (nmolt/mg*min)	Fig. 4	AB12	358.31	False			False
+VCM:respiratory_capacity_CI	VCM	control	121.1994	pmol O2/s/mg tissue	Fig. 4	B89	121.1994	False			False
+VCM:respiratory_capacity_CI	VCM	control	82.9978	pmol O2/s/mg tissue	Fig. 4	B90	82.9978	False			False
+VCM:respiratory_capacity_CI	VCM	control	99.283	pmol O2/s/mg tissue	Fig. 4	B91	99.283	False			False
+VCM:respiratory_capacity_CI	VCM	control	65.88499999999999	pmol O2/s/mg tissue	Fig. 4	B92	65.88499999999999	False			False
+VCM:respiratory_capacity_CI	VCM	control	112.8834	pmol O2/s/mg tissue	Fig. 4	B93	112.8834	False			False
+VCM:respiratory_capacity_CI	VCM	control	145.8941	pmol O2/s/mg tissue	Fig. 4	B94	145.8941	False			False
+VCM:respiratory_capacity_CI	VCM	control	101.1066	pmol O2/s/mg tissue	Fig. 4	B95	101.1066	False			False
+VCM:respiratory_capacity_CI	VCM	control	123.19829999999999	pmol O2/s/mg tissue	Fig. 4	B96	123.19829999999999	False			False
+VCM:respiratory_capacity_CI	VCM	disease	109.667	pmol O2/s/mg tissue	Fig. 4	C89	109.667	False			False
+VCM:respiratory_capacity_CI	VCM	disease	94.97919999999999	pmol O2/s/mg tissue	Fig. 4	C90	94.97919999999999	False			False
+VCM:respiratory_capacity_CI	VCM	disease	52.7	pmol O2/s/mg tissue	Fig. 4	C91	52.7	False			False
+VCM:respiratory_capacity_CI	VCM	disease	57.56705	pmol O2/s/mg tissue	Fig. 4	C92	57.56705	False			False
+VCM:respiratory_capacity_CI	VCM	disease	33.8236	pmol O2/s/mg tissue	Fig. 4	C93	33.8236	False			False
+VCM:respiratory_capacity_CI	VCM	disease	120.6949	pmol O2/s/mg tissue	Fig. 4	C94	120.6949	False			False
+VCM:respiratory_capacity_CI	VCM	disease	79.2745	pmol O2/s/mg tissue	Fig. 4	C95	79.2745	False			False
+VCM:respiratory_capacity_CI	VCM	disease	43.6552	pmol O2/s/mg tissue	Fig. 4	C96	43.6552	False			False
+VCM:respiratory_capacity_CI	VCM	treated	123.9157	pmol O2/s/mg tissue	Fig. 4	D89	123.9157	False			False
+VCM:respiratory_capacity_CI	VCM	treated	53.87325	pmol O2/s/mg tissue	Fig. 4	D90	53.87325	False			False
+VCM:respiratory_capacity_CI	VCM	treated	49.7113	pmol O2/s/mg tissue	Fig. 4	D91	49.7113	False			False
+VCM:respiratory_capacity_CI	VCM	treated	68.3981	pmol O2/s/mg tissue	Fig. 4	D92	68.3981	False			False
+VCM:respiratory_capacity_CI	VCM	treated	53.6763	pmol O2/s/mg tissue	Fig. 4	D93	53.6763	False			False
+VCM:respiratory_capacity_CI	VCM	treated	97.0722	pmol O2/s/mg tissue	Fig. 4	D94	97.0722	False			False
+VCM:respiratory_capacity_CI&CII	VCM	control	154.81040000000002	pmol O2/s/mg tissue	Fig. 4	E89	154.81040000000002	False			False
+VCM:respiratory_capacity_CI&CII	VCM	control	110.3627	pmol O2/s/mg tissue	Fig. 4	E90	110.3627	False			False
+VCM:respiratory_capacity_CI&CII	VCM	control	135.1091	pmol O2/s/mg tissue	Fig. 4	E91	135.1091	False			False
+VCM:respiratory_capacity_CI&CII	VCM	control	86.52699999999999	pmol O2/s/mg tissue	Fig. 4	E92	86.52699999999999	False			False
+VCM:respiratory_capacity_CI&CII	VCM	control	153.26270000000002	pmol O2/s/mg tissue	Fig. 4	E93	153.26270000000002	False			False
+VCM:respiratory_capacity_CI&CII	VCM	control	195.5064	pmol O2/s/mg tissue	Fig. 4	E94	195.5064	False			False
+VCM:respiratory_capacity_CI&CII	VCM	control	148.3014	pmol O2/s/mg tissue	Fig. 4	E95	148.3014	False			False
+VCM:respiratory_capacity_CI&CII	VCM	control	170.6635	pmol O2/s/mg tissue	Fig. 4	E96	170.6635	False			False
+VCM:respiratory_capacity_CI&CII	VCM	disease	150.2366	pmol O2/s/mg tissue	Fig. 4	F89	150.2366	False			False
+VCM:respiratory_capacity_CI&CII	VCM	disease	120.6048	pmol O2/s/mg tissue	Fig. 4	F90	120.6048	False			False
+VCM:respiratory_capacity_CI&CII	VCM	disease	74.33149999999999	pmol O2/s/mg tissue	Fig. 4	F91	74.33149999999999	False			False
+VCM:respiratory_capacity_CI&CII	VCM	disease	72.6518	pmol O2/s/mg tissue	Fig. 4	F92	72.6518	False			False
+VCM:respiratory_capacity_CI&CII	VCM	disease	43.8716	pmol O2/s/mg tissue	Fig. 4	F93	43.8716	False			False
+VCM:respiratory_capacity_CI&CII	VCM	disease	168.163	pmol O2/s/mg tissue	Fig. 4	F94	168.163	False			False
+VCM:respiratory_capacity_CI&CII	VCM	disease	110.3163	pmol O2/s/mg tissue	Fig. 4	F95	110.3163	False			False
+VCM:respiratory_capacity_CI&CII	VCM	disease	54.22505	pmol O2/s/mg tissue	Fig. 4	F96	54.22505	False			False
+VCM:respiratory_capacity_CI&CII	VCM	treated	183.9139	pmol O2/s/mg tissue	Fig. 4	G89	183.9139	False			False
+VCM:respiratory_capacity_CI&CII	VCM	treated	73.37780000000001	pmol O2/s/mg tissue	Fig. 4	G90	73.37780000000001	False			False
+VCM:respiratory_capacity_CI&CII	VCM	treated	78.72575	pmol O2/s/mg tissue	Fig. 4	G91	78.72575	False			False
+VCM:respiratory_capacity_CI&CII	VCM	treated	95.3656	pmol O2/s/mg tissue	Fig. 4	G92	95.3656	False			False
+VCM:respiratory_capacity_CI&CII	VCM	treated	77.7091	pmol O2/s/mg tissue	Fig. 4	G93	77.7091	False			False
+VCM:respiratory_capacity_CI&CII	VCM	treated	137.6424	pmol O2/s/mg tissue	Fig. 4	G94	137.6424	False			False
+VCM:respiratory_capacity_CII	VCM	control	68.44709999999999	pmol O2/s/mg tissue	Fig. 4	H89	68.44709999999999	False			False
+VCM:respiratory_capacity_CII	VCM	control	60.990500000000004	pmol O2/s/mg tissue	Fig. 4	H90	60.990500000000004	False			False
+VCM:respiratory_capacity_CII	VCM	control	61.0433	pmol O2/s/mg tissue	Fig. 4	H91	61.0433	False			False
+VCM:respiratory_capacity_CII	VCM	control	36.2857	pmol O2/s/mg tissue	Fig. 4	H92	36.2857	False			False
+VCM:respiratory_capacity_CII	VCM	control	71.0142	pmol O2/s/mg tissue	Fig. 4	H93	71.0142	False			False
+VCM:respiratory_capacity_CII	VCM	control	75.0736	pmol O2/s/mg tissue	Fig. 4	H94	75.0736	False			False
+VCM:respiratory_capacity_CII	VCM	control	72.6899	pmol O2/s/mg tissue	Fig. 4	H95	72.6899	False			False
+VCM:respiratory_capacity_CII	VCM	control	79.4678	pmol O2/s/mg tissue	Fig. 4	H96	79.4678	False			False
+VCM:respiratory_capacity_CII	VCM	disease	62.77669999999999	pmol O2/s/mg tissue	Fig. 4	I89	62.77669999999999	False			False
+VCM:respiratory_capacity_CII	VCM	disease	54.231899999999996	pmol O2/s/mg tissue	Fig. 4	I90	54.231899999999996	False			False
+VCM:respiratory_capacity_CII	VCM	disease	28.110899999999997	pmol O2/s/mg tissue	Fig. 4	I91	28.110899999999997	False			False
+VCM:respiratory_capacity_CII	VCM	disease	28.176249999999996	pmol O2/s/mg tissue	Fig. 4	I92	28.176249999999996	False			False
+VCM:respiratory_capacity_CII	VCM	disease	16.0204	pmol O2/s/mg tissue	Fig. 4	I93	16.0204	False			False
+VCM:respiratory_capacity_CII	VCM	disease	75.98790000000001	pmol O2/s/mg tissue	Fig. 4	I94	75.98790000000001	False			False
+VCM:respiratory_capacity_CII	VCM	disease	43.1733	pmol O2/s/mg tissue	Fig. 4	I95	43.1733	False			False
+VCM:respiratory_capacity_CII	VCM	disease	23.777299999999997	pmol O2/s/mg tissue	Fig. 4	I96	23.777299999999997	False			False
+VCM:respiratory_capacity_CII	VCM	treated	82.0288	pmol O2/s/mg tissue	Fig. 4	J89	82.0288	False			False
+VCM:respiratory_capacity_CII	VCM	treated	43.45055	pmol O2/s/mg tissue	Fig. 4	J90	43.45055	False			False
+VCM:respiratory_capacity_CII	VCM	treated	42.30575	pmol O2/s/mg tissue	Fig. 4	J91	42.30575	False			False
+VCM:respiratory_capacity_CII	VCM	treated	42.6731	pmol O2/s/mg tissue	Fig. 4	J92	42.6731	False			False
+VCM:respiratory_capacity_CII	VCM	treated	37.248599999999996	pmol O2/s/mg tissue	Fig. 4	J93	37.248599999999996	False			False
+VCM:respiratory_capacity_CII	VCM	treated	60.5049	pmol O2/s/mg tissue	Fig. 4	J94	60.5049	False			False
+VCM:GSN tissue ATP	VCM	control	16811.11652	ATP (microM/mg of protein)	Fig. 4	N88	16811.11652	False			False
+VCM:GSN tissue ATP	VCM	control	13797.11452	ATP (microM/mg of protein)	Fig. 4	N89	13797.11452	False			False
+VCM:GSN tissue ATP	VCM	control	27842.68492	ATP (microM/mg of protein)	Fig. 4	N90	27842.68492	False			False
+VCM:GSN tissue ATP	VCM	control	43029.80624	ATP (microM/mg of protein)	Fig. 4	N91	43029.80624	False			False
+VCM:GSN tissue ATP	VCM	control	16108.25682	ATP (microM/mg of protein)	Fig. 4	N92	16108.25682	False			False
+VCM:GSN tissue ATP	VCM	control	35479.35571	ATP (microM/mg of protein)	Fig. 4	N93	35479.35571	False			False
+VCM:GSN tissue ATP	VCM	control	63767.76704	ATP (microM/mg of protein)	Fig. 4	N94	63767.76704	False			False
+VCM:GSN tissue ATP	VCM	control	51029.30525	ATP (microM/mg of protein)	Fig. 4	N95	51029.30525	False			False
+VCM:GSN tissue ATP	VCM	disease	22118.67101	ATP (microM/mg of protein)	Fig. 4	O88	22118.67101	False			False
+VCM:GSN tissue ATP	VCM	disease	32287.82417	ATP (microM/mg of protein)	Fig. 4	O89	32287.82417	False			False
+VCM:GSN tissue ATP	VCM	disease	17332.92887	ATP (microM/mg of protein)	Fig. 4	O90	17332.92887	False			False
+VCM:GSN tissue ATP	VCM	disease	31212.95613	ATP (microM/mg of protein)	Fig. 4	O91	31212.95613	False			False
+VCM:GSN tissue ATP	VCM	disease	1707.747246	ATP (microM/mg of protein)	Fig. 4	O92	1707.747246	False			False
+VCM:GSN tissue ATP	VCM	disease	42528.53656	ATP (microM/mg of protein)	Fig. 4	O93	42528.53656	False			False
+VCM:GSN tissue ATP	VCM	disease	39073.67637	ATP (microM/mg of protein)	Fig. 4	O94	39073.67637	False			False
+VCM:GSN tissue ATP	VCM	disease	51409.73019	ATP (microM/mg of protein)	Fig. 4	O95	51409.73019	False			False
+VCM:GSN tissue ATP	VCM	treated	39711.71248	ATP (microM/mg of protein)	Fig. 4	P88	39711.71248	False			False
+VCM:GSN tissue ATP	VCM	treated	57390.2145	ATP (microM/mg of protein)	Fig. 4	P89	57390.2145	False			False
+VCM:GSN tissue ATP	VCM	treated	56240.42737	ATP (microM/mg of protein)	Fig. 4	P90	56240.42737	False			False
+VCM:GSN tissue ATP	VCM	treated	20544.42861	ATP (microM/mg of protein)	Fig. 4	P91	20544.42861	False			False
+VCM:GSN tissue ATP	VCM	treated	36821.81538	ATP (microM/mg of protein)	Fig. 4	P92	36821.81538	False			False
+VCM:GSN tissue ATP	VCM	treated	32475.94664	ATP (microM/mg of protein)	Fig. 4	P93	32475.94664	False			False
+VCM:GSN mtDNA/nuclear DNA abundance	VCM	control	1.132	mtDNA (A.U.)	Fig. 4	T88	1.132	False			False
+VCM:GSN mtDNA/nuclear DNA abundance	VCM	control	0.9501	mtDNA (A.U.)	Fig. 4	T89	0.9501	False			False
+VCM:GSN mtDNA/nuclear DNA abundance	VCM	control	1.063	mtDNA (A.U.)	Fig. 4	T90	1.063	False			False
+VCM:GSN mtDNA/nuclear DNA abundance	VCM	control	0.9283	mtDNA (A.U.)	Fig. 4	T91	0.9283	False			False
+VCM:GSN mtDNA/nuclear DNA abundance	VCM	control	1.148	mtDNA (A.U.)	Fig. 4	T92	1.148	False			False
+VCM:GSN mtDNA/nuclear DNA abundance	VCM	control	1.73	mtDNA (A.U.)	Fig. 4	T93	1.73	False			False
+VCM:GSN mtDNA/nuclear DNA abundance	VCM	control	0.7733	mtDNA (A.U.)	Fig. 4	T94	0.7733	False			False
+VCM:GSN mtDNA/nuclear DNA abundance	VCM	control	1.29	mtDNA (A.U.)	Fig. 4	T95	1.29	False			False
+VCM:GSN mtDNA/nuclear DNA abundance	VCM	disease	1.16026444	mtDNA (A.U.)	Fig. 4	U88	1.16026444	False			False
+VCM:GSN mtDNA/nuclear DNA abundance	VCM	disease	1.24508574	mtDNA (A.U.)	Fig. 4	U89	1.24508574	False			False
+VCM:GSN mtDNA/nuclear DNA abundance	VCM	disease	0.48055605	mtDNA (A.U.)	Fig. 4	U90	0.48055605	False			False
+VCM:GSN mtDNA/nuclear DNA abundance	VCM	disease	0.63474662	mtDNA (A.U.)	Fig. 4	U91	0.63474662	False			False
+VCM:GSN mtDNA/nuclear DNA abundance	VCM	disease	0.33596883	mtDNA (A.U.)	Fig. 4	U92	0.33596883	False			False
+VCM:GSN mtDNA/nuclear DNA abundance	VCM	disease	0.99039493	mtDNA (A.U.)	Fig. 4	U93	0.99039493	False			False
+VCM:GSN mtDNA/nuclear DNA abundance	VCM	disease	0.57785477	mtDNA (A.U.)	Fig. 4	U94	0.57785477	False			False
+VCM:GSN mtDNA/nuclear DNA abundance	VCM	disease	1.48104734	mtDNA (A.U.)	Fig. 4	U95	1.48104734	False			False
+VCM:GSN mtDNA/nuclear DNA abundance	VCM	treated	1.19209584	mtDNA (A.U.)	Fig. 4	V88	1.19209584	False			False
+VCM:GSN mtDNA/nuclear DNA abundance	VCM	treated	1.3383977	mtDNA (A.U.)	Fig. 4	V89	1.3383977	False			False
+VCM:GSN mtDNA/nuclear DNA abundance	VCM	treated	1.39673618	mtDNA (A.U.)	Fig. 4	V90	1.39673618	False			False
+VCM:GSN mtDNA/nuclear DNA abundance	VCM	treated	1.07969514	mtDNA (A.U.)	Fig. 4	V91	1.07969514	False			False
+VCM:GSN mtDNA/nuclear DNA abundance	VCM	treated	1.48785211	mtDNA (A.U.)	Fig. 4	V92	1.48785211	False			False
+VCM:GSN mtDNA/nuclear DNA abundance	VCM	treated	1.09887305	mtDNA (A.U.)	Fig. 4	V93	1.09887305	False			False
+C26-F:OXPHOS_ATP5A	C26-F	control	159.25549726589384	source normalized percent	Fig. 4	Y20	159.25549726589384	False			False
+C26-F:OXPHOS_ATP5A	C26-F	control	233.76350110012336	source normalized percent	Fig. 4	Y21	233.76350110012336	False			False
+C26-F:OXPHOS_ATP5A	C26-F	control	68.34741109336454	source normalized percent	Fig. 4	Y22	68.34741109336454	False			False
+C26-F:OXPHOS_ATP5A	C26-F	control	65.48005793260556	source normalized percent	Fig. 4	Y23	65.48005793260556	False			False
+C26-F:OXPHOS_ATP5A	C26-F	control	60.95414857569786	source normalized percent	Fig. 4	Y24	60.95414857569786	False			False
+C26-F:OXPHOS_ATP5A	C26-F	control	60.39807864710803	source normalized percent	Fig. 4	Y25	60.39807864710803	False			False
+C26-F:OXPHOS_ATP5A	C26-F	control	51.80130538520669	source normalized percent	Fig. 4	Y26	51.80130538520669	False			False
+C26-F:OXPHOS_ATP5A	C26-F	disease	30.67361384932941	source normalized percent	Fig. 4	Y27	30.67361384932941	False			False
+C26-F:OXPHOS_ATP5A	C26-F	disease	68.70790544481986	source normalized percent	Fig. 4	Y28	68.70790544481986	False			False
+C26-F:OXPHOS_ATP5A	C26-F	disease	44.8107155632676	source normalized percent	Fig. 4	Y29	44.8107155632676	False			False
+C26-F:OXPHOS_ATP5A	C26-F	disease	86.1653732727472	source normalized percent	Fig. 4	Y30	86.1653732727472	False			False
+C26-F:OXPHOS_ATP5A	C26-F	disease	72.66466945288836	source normalized percent	Fig. 4	Y31	72.66466945288836	False			False
+C26-F:OXPHOS_ATP5A	C26-F	disease	75.77831639558096	source normalized percent	Fig. 4	Y32	75.77831639558096	False			False
+C26-F:OXPHOS_ATP5A	C26-F	disease	53.92449839048117	source normalized percent	Fig. 4	Y33	53.92449839048117	False			False
+C26-F:OXPHOS_ATP5A	C26-F	treated	125.37020649880084	source normalized percent	Fig. 4	Y34	125.37020649880084	False			False
+C26-F:OXPHOS_ATP5A	C26-F	treated	187.36394538474934	source normalized percent	Fig. 4	Y35	187.36394538474934	False			False
+C26-F:OXPHOS_ATP5A	C26-F	treated	99.17047822108495	source normalized percent	Fig. 4	Y36	99.17047822108495	False			False
+C26-F:OXPHOS_ATP5A	C26-F	treated	64.33922475305565	source normalized percent	Fig. 4	Y37	64.33922475305565	False			False
+C26-F:OXPHOS_ATP5A	C26-F	treated	117.39618865185243	source normalized percent	Fig. 4	Y38	117.39618865185243	False			False
+C26-F:OXPHOS_ATP5A	C26-F	treated	200.37588118038283	source normalized percent	Fig. 4	Y39	200.37588118038283	False			False
+C26-F:OXPHOS_ATP5A	C26-F	treated	86.2962690752788	source normalized percent	Fig. 4	Y40	86.2962690752788	False			False
+C26-F:OXPHOS_UBCRC2_as_source	C26-F	control	130.56364559300042	source normalized percent	Fig. 4	Z20	130.56364559300042	False			False
+C26-F:OXPHOS_UBCRC2_as_source	C26-F	control	194.97580165068155	source normalized percent	Fig. 4	Z21	194.97580165068155	False			False
+C26-F:OXPHOS_UBCRC2_as_source	C26-F	control	80.1705640721844	source normalized percent	Fig. 4	Z22	80.1705640721844	False			False
+C26-F:OXPHOS_UBCRC2_as_source	C26-F	control	81.02693300608873	source normalized percent	Fig. 4	Z23	81.02693300608873	False			False
+C26-F:OXPHOS_UBCRC2_as_source	C26-F	control	80.6695950937011	source normalized percent	Fig. 4	Z24	80.6695950937011	False			False
+C26-F:OXPHOS_UBCRC2_as_source	C26-F	control	71.89212842659678	source normalized percent	Fig. 4	Z25	71.89212842659678	False			False
+C26-F:OXPHOS_UBCRC2_as_source	C26-F	control	60.70133215774709	source normalized percent	Fig. 4	Z26	60.70133215774709	False			False
+C26-F:OXPHOS_UBCRC2_as_source	C26-F	disease	33.26318273630437	source normalized percent	Fig. 4	Z27	33.26318273630437	False			False
+C26-F:OXPHOS_UBCRC2_as_source	C26-F	disease	60.715205348834544	source normalized percent	Fig. 4	Z28	60.715205348834544	False			False
+C26-F:OXPHOS_UBCRC2_as_source	C26-F	disease	45.11793605252369	source normalized percent	Fig. 4	Z29	45.11793605252369	False			False
+C26-F:OXPHOS_UBCRC2_as_source	C26-F	disease	65.63590046711194	source normalized percent	Fig. 4	Z30	65.63590046711194	False			False
+C26-F:OXPHOS_UBCRC2_as_source	C26-F	disease	43.181313729488686	source normalized percent	Fig. 4	Z31	43.181313729488686	False			False
+C26-F:OXPHOS_UBCRC2_as_source	C26-F	disease	57.12115749579998	source normalized percent	Fig. 4	Z32	57.12115749579998	False			False
+C26-F:OXPHOS_UBCRC2_as_source	C26-F	disease	52.00555544576985	source normalized percent	Fig. 4	Z33	52.00555544576985	False			False
+C26-F:OXPHOS_UBCRC2_as_source	C26-F	treated	69.13612528671374	source normalized percent	Fig. 4	Z34	69.13612528671374	False			False
+C26-F:OXPHOS_UBCRC2_as_source	C26-F	treated	125.03924452103286	source normalized percent	Fig. 4	Z35	125.03924452103286	False			False
+C26-F:OXPHOS_UBCRC2_as_source	C26-F	treated	75.02648696215716	source normalized percent	Fig. 4	Z36	75.02648696215716	False			False
+C26-F:OXPHOS_UBCRC2_as_source	C26-F	treated	50.083780330890846	source normalized percent	Fig. 4	Z37	50.083780330890846	False			False
+C26-F:OXPHOS_UBCRC2_as_source	C26-F	treated	99.21138356967255	source normalized percent	Fig. 4	Z38	99.21138356967255	False			False
+C26-F:OXPHOS_UBCRC2_as_source	C26-F	treated	157.53165126507213	source normalized percent	Fig. 4	Z39	157.53165126507213	False			False
+C26-F:OXPHOS_UBCRC2_as_source	C26-F	treated	69.65197061557645	source normalized percent	Fig. 4	Z40	69.65197061557645	False			False
+C26-F:OXPHOS_MTCO1	C26-F	control	132.43988290087677	source normalized percent	Fig. 4	AA20	132.43988290087677	False			False
+C26-F:OXPHOS_MTCO1	C26-F	control	261.0377912591434	source normalized percent	Fig. 4	AA21	261.0377912591434	False			False
+C26-F:OXPHOS_MTCO1	C26-F	control	88.86782256628652	source normalized percent	Fig. 4	AA22	88.86782256628652	False			False
+C26-F:OXPHOS_MTCO1	C26-F	control	57.02888432034845	source normalized percent	Fig. 4	AA23	57.02888432034845	False			False
+C26-F:OXPHOS_MTCO1	C26-F	control	57.88685476280514	source normalized percent	Fig. 4	AA24	57.88685476280514	False			False
+C26-F:OXPHOS_MTCO1	C26-F	control	52.211672390236984	source normalized percent	Fig. 4	AA25	52.211672390236984	False			False
+C26-F:OXPHOS_MTCO1	C26-F	control	50.527091800302834	source normalized percent	Fig. 4	AA26	50.527091800302834	False			False
+C26-F:OXPHOS_MTCO1	C26-F	disease	20.259412407192723	source normalized percent	Fig. 4	AA27	20.259412407192723	False			False
+C26-F:OXPHOS_MTCO1	C26-F	disease	32.17545937030256	source normalized percent	Fig. 4	AA28	32.17545937030256	False			False
+C26-F:OXPHOS_MTCO1	C26-F	disease	24.20426108199988	source normalized percent	Fig. 4	AA29	24.20426108199988	False			False
+C26-F:OXPHOS_MTCO1	C26-F	disease	32.04434804590382	source normalized percent	Fig. 4	AA30	32.04434804590382	False			False
+C26-F:OXPHOS_MTCO1	C26-F	disease	15.559874507585782	source normalized percent	Fig. 4	AA31	15.559874507585782	False			False
+C26-F:OXPHOS_MTCO1	C26-F	disease	18.603737623073123	source normalized percent	Fig. 4	AA32	18.603737623073123	False			False
+C26-F:OXPHOS_MTCO1	C26-F	disease	15.927442262273201	source normalized percent	Fig. 4	AA33	15.927442262273201	False			False
+C26-F:OXPHOS_MTCO1	C26-F	treated	17.19653946490647	source normalized percent	Fig. 4	AA34	17.19653946490647	False			False
+C26-F:OXPHOS_MTCO1	C26-F	treated	33.69465254175921	source normalized percent	Fig. 4	AA35	33.69465254175921	False			False
+C26-F:OXPHOS_MTCO1	C26-F	treated	12.616699913076319	source normalized percent	Fig. 4	AA36	12.616699913076319	False			False
+C26-F:OXPHOS_MTCO1	C26-F	treated	19.382439267516734	source normalized percent	Fig. 4	AA37	19.382439267516734	False			False
+C26-F:OXPHOS_MTCO1	C26-F	treated	29.011778589373183	source normalized percent	Fig. 4	AA38	29.011778589373183	False			False
+C26-F:OXPHOS_MTCO1	C26-F	treated	47.888703925859154	source normalized percent	Fig. 4	AA39	47.888703925859154	False			False
+C26-F:OXPHOS_MTCO1	C26-F	treated	56.776489101546325	source normalized percent	Fig. 4	AA40	56.776489101546325	False			False
+C26-F:OXPHOS_SDHB	C26-F	control	135.0371867832855	source normalized percent	Fig. 4	AB20	135.0371867832855	False			False
+C26-F:OXPHOS_SDHB	C26-F	control	165.0584871590159	source normalized percent	Fig. 4	AB21	165.0584871590159	False			False
+C26-F:OXPHOS_SDHB	C26-F	control	89.81388461643373	source normalized percent	Fig. 4	AB22	89.81388461643373	False			False
+C26-F:OXPHOS_SDHB	C26-F	control	94.00764287439547	source normalized percent	Fig. 4	AB23	94.00764287439547	False			False
+C26-F:OXPHOS_SDHB	C26-F	control	75.9027259272904	source normalized percent	Fig. 4	AB24	75.9027259272904	False			False
+C26-F:OXPHOS_SDHB	C26-F	control	68.63934555541942	source normalized percent	Fig. 4	AB25	68.63934555541942	False			False
+C26-F:OXPHOS_SDHB	C26-F	control	71.54072708415944	source normalized percent	Fig. 4	AB26	71.54072708415944	False			False
+C26-F:OXPHOS_SDHB	C26-F	disease	39.35760737841567	source normalized percent	Fig. 4	AB27	39.35760737841567	False			False
+C26-F:OXPHOS_SDHB	C26-F	disease	61.794739755022995	source normalized percent	Fig. 4	AB28	61.794739755022995	False			False
+C26-F:OXPHOS_SDHB	C26-F	disease	59.67147884608055	source normalized percent	Fig. 4	AB29	59.67147884608055	False			False
+C26-F:OXPHOS_SDHB	C26-F	disease	69.48733047300452	source normalized percent	Fig. 4	AB30	69.48733047300452	False			False
+C26-F:OXPHOS_SDHB	C26-F	disease	56.79094871674729	source normalized percent	Fig. 4	AB31	56.79094871674729	False			False
+C26-F:OXPHOS_SDHB	C26-F	disease	64.48222027551051	source normalized percent	Fig. 4	AB32	64.48222027551051	False			False
+C26-F:OXPHOS_SDHB	C26-F	disease	52.399240894109546	source normalized percent	Fig. 4	AB33	52.399240894109546	False			False
+C26-F:OXPHOS_SDHB	C26-F	treated	83.15346074607983	source normalized percent	Fig. 4	AB34	83.15346074607983	False			False
+C26-F:OXPHOS_SDHB	C26-F	treated	107.93348678808596	source normalized percent	Fig. 4	AB35	107.93348678808596	False			False
+C26-F:OXPHOS_SDHB	C26-F	treated	69.41654927471028	source normalized percent	Fig. 4	AB36	69.41654927471028	False			False
+C26-F:OXPHOS_SDHB	C26-F	treated	64.03907408133738	source normalized percent	Fig. 4	AB37	64.03907408133738	False			False
+C26-F:OXPHOS_SDHB	C26-F	treated	117.36945552374914	source normalized percent	Fig. 4	AB38	117.36945552374914	False			False
+C26-F:OXPHOS_SDHB	C26-F	treated	194.97908387325882	source normalized percent	Fig. 4	AB39	194.97908387325882	False			False
+C26-F:OXPHOS_SDHB	C26-F	treated	105.30767056246887	source normalized percent	Fig. 4	AB40	105.30767056246887	False			False
+C26-F:OXPHOS_NDUF88_as_source	C26-F	control	154.526761129577	source normalized percent	Fig. 4	AC20	154.526761129577	False			False
+C26-F:OXPHOS_NDUF88_as_source	C26-F	control	266.9122992010357	source normalized percent	Fig. 4	AC21	266.9122992010357	False			False
+C26-F:OXPHOS_NDUF88_as_source	C26-F	control	57.984733523101944	source normalized percent	Fig. 4	AC22	57.984733523101944	False			False
+C26-F:OXPHOS_NDUF88_as_source	C26-F	control	62.15236266236551	source normalized percent	Fig. 4	AC23	62.15236266236551	False			False
+C26-F:OXPHOS_NDUF88_as_source	C26-F	control	59.971867018154725	source normalized percent	Fig. 4	AC24	59.971867018154725	False			False
+C26-F:OXPHOS_NDUF88_as_source	C26-F	control	57.15638281297913	source normalized percent	Fig. 4	AC25	57.15638281297913	False			False
+C26-F:OXPHOS_NDUF88_as_source	C26-F	control	41.295593652785996	source normalized percent	Fig. 4	AC26	41.295593652785996	False			False
+C26-F:OXPHOS_NDUF88_as_source	C26-F	disease	7.657654612635883	source normalized percent	Fig. 4	AC27	7.657654612635883	False			False
+C26-F:OXPHOS_NDUF88_as_source	C26-F	disease	34.09554543064171	source normalized percent	Fig. 4	AC28	34.09554543064171	False			False
+C26-F:OXPHOS_NDUF88_as_source	C26-F	disease	16.658532026123112	source normalized percent	Fig. 4	AC29	16.658532026123112	False			False
+C26-F:OXPHOS_NDUF88_as_source	C26-F	disease	24.254620597996148	source normalized percent	Fig. 4	AC30	24.254620597996148	False			False
+C26-F:OXPHOS_NDUF88_as_source	C26-F	disease	16.46604541249476	source normalized percent	Fig. 4	AC31	16.46604541249476	False			False
+C26-F:OXPHOS_NDUF88_as_source	C26-F	disease	16.087803955127036	source normalized percent	Fig. 4	AC32	16.087803955127036	False			False
+C26-F:OXPHOS_NDUF88_as_source	C26-F	disease	18.229353155123267	source normalized percent	Fig. 4	AC33	18.229353155123267	False			False
+C26-F:OXPHOS_NDUF88_as_source	C26-F	treated	25.08021417156109	source normalized percent	Fig. 4	AC34	25.08021417156109	False			False
+C26-F:OXPHOS_NDUF88_as_source	C26-F	treated	38.398212561358044	source normalized percent	Fig. 4	AC35	38.398212561358044	False			False
+C26-F:OXPHOS_NDUF88_as_source	C26-F	treated	11.223863146358518	source normalized percent	Fig. 4	AC36	11.223863146358518	False			False
+C26-F:OXPHOS_NDUF88_as_source	C26-F	treated	21.143118159480103	source normalized percent	Fig. 4	AC37	21.143118159480103	False			False
+C26-F:OXPHOS_NDUF88_as_source	C26-F	treated	56.07548898083211	source normalized percent	Fig. 4	AC38	56.07548898083211	False			False
+C26-F:OXPHOS_NDUF88_as_source	C26-F	treated	70.51337942157708	source normalized percent	Fig. 4	AC39	70.51337942157708	False			False
+C26-F:OXPHOS_NDUF88_as_source	C26-F	treated	51.96828973670446	source normalized percent	Fig. 4	AC40	51.96828973670446	False			False
+C26-F:TOMM20_4g	C26-F	control	83.84934777190588	source normalized percent	Fig. 4	F61	83.84934777190588	False			False
+C26-F:TOMM20_4g	C26-F	control	128.05078355666438	source normalized percent	Fig. 4	F62	128.05078355666438	False			False
+C26-F:TOMM20_4g	C26-F	control	117.79577756155997	source normalized percent	Fig. 4	F63	117.79577756155997	False			False
+C26-F:TOMM20_4g	C26-F	control	107.49902441900322	source normalized percent	Fig. 4	F64	107.49902441900322	False			False
+C26-F:TOMM20_4g	C26-F	control	138.1241813241733	source normalized percent	Fig. 4	F65	138.1241813241733	False			False
+C26-F:TOMM20_4g	C26-F	control	60.37826222556492	source normalized percent	Fig. 4	F66	60.37826222556492	False			False
+C26-F:TOMM20_4g	C26-F	control	64.30262314112827	source normalized percent	Fig. 4	F67	64.30262314112827	False			False
+C26-F:TOMM20_4g	C26-F	disease	81.75674385065454	source normalized percent	Fig. 4	F68	81.75674385065454	False			False
+C26-F:TOMM20_4g	C26-F	disease	36.08636329158303	source normalized percent	Fig. 4	F69	36.08636329158303	False			False
+C26-F:TOMM20_4g	C26-F	disease	59.34717793581879	source normalized percent	Fig. 4	F70	59.34717793581879	False			False
+C26-F:TOMM20_4g	C26-F	disease	44.37959878458329	source normalized percent	Fig. 4	F71	44.37959878458329	False			False
+C26-F:TOMM20_4g	C26-F	disease	38.48645872154157	source normalized percent	Fig. 4	F72	38.48645872154157	False			False
+C26-F:TOMM20_4g	C26-F	disease	57.77825443400614	source normalized percent	Fig. 4	F73	57.77825443400614	False			False
+C26-F:TOMM20_4g	C26-F	disease	49.8434739980411	source normalized percent	Fig. 4	F74	49.8434739980411	False			False
+C26-F:TOMM20_4g	C26-F	treated	72.86661242852051	source normalized percent	Fig. 4	F75	72.86661242852051	False			False
+C26-F:TOMM20_4g	C26-F	treated	72.82630767830727	source normalized percent	Fig. 4	F76	72.82630767830727	False			False
+C26-F:TOMM20_4g	C26-F	treated	118.99104543062651	source normalized percent	Fig. 4	F77	118.99104543062651	False			False
+C26-F:TOMM20_4g	C26-F	treated	165.0250824231203	source normalized percent	Fig. 4	F78	165.0250824231203	False			False
+C26-F:TOMM20_4g	C26-F	treated	117.01184366973717	source normalized percent	Fig. 4	F79	117.01184366973717	False			False
+C26-F:TOMM20_4g	C26-F	treated	87.07848885154756	source normalized percent	Fig. 4	F80	87.07848885154756	False			False
+C26-F:TOMM20_4g	C26-F	treated	94.38662637084973	source normalized percent	Fig. 4	F81	94.38662637084973	False			False
+C26-F:PGC1a_4h	C26-F	control	105.83864104755196	source normalized percent	Fig. 4	N61	105.83864104755196	False			False
+C26-F:PGC1a_4h	C26-F	control	100.9826386116844	source normalized percent	Fig. 4	N62	100.9826386116844	False			False
+C26-F:PGC1a_4h	C26-F	control	141.5023345190894	source normalized percent	Fig. 4	N63	141.5023345190894	False			False
+C26-F:PGC1a_4h	C26-F	control	93.13143605018273	source normalized percent	Fig. 4	N64	93.13143605018273	False			False
+C26-F:PGC1a_4h	C26-F	control	86.73294659354598	source normalized percent	Fig. 4	N65	86.73294659354598	False			False
+C26-F:PGC1a_4h	C26-F	control	85.08761516547824	source normalized percent	Fig. 4	N66	85.08761516547824	False			False
+C26-F:PGC1a_4h	C26-F	control	86.72438801246732	source normalized percent	Fig. 4	N67	86.72438801246732	False			False
+C26-F:PGC1a_4h	C26-F	disease	96.01800871915883	source normalized percent	Fig. 4	N68	96.01800871915883	False			False
+C26-F:PGC1a_4h	C26-F	disease	107.24956721534602	source normalized percent	Fig. 4	N69	107.24956721534602	False			False
+C26-F:PGC1a_4h	C26-F	disease	71.39303190647725	source normalized percent	Fig. 4	N70	71.39303190647725	False			False
+C26-F:PGC1a_4h	C26-F	disease	71.88585203505066	source normalized percent	Fig. 4	N71	71.88585203505066	False			False
+C26-F:PGC1a_4h	C26-F	disease	50.35511746213192	source normalized percent	Fig. 4	N72	50.35511746213192	False			False
+C26-F:PGC1a_4h	C26-F	disease	58.79622401796087	source normalized percent	Fig. 4	N73	58.79622401796087	False			False
+C26-F:PGC1a_4h	C26-F	disease	125.91976177577423	source normalized percent	Fig. 4	N74	125.91976177577423	False			False
+C26-F:PGC1a_4h	C26-F	treated	63.12043831161373	source normalized percent	Fig. 4	N75	63.12043831161373	False			False
+C26-F:PGC1a_4h	C26-F	treated	62.70099184927771	source normalized percent	Fig. 4	N76	62.70099184927771	False			False
+C26-F:PGC1a_4h	C26-F	treated	48.09525000321631	source normalized percent	Fig. 4	N77	48.09525000321631	False			False
+C26-F:PGC1a_4h	C26-F	treated	98.75708361775179	source normalized percent	Fig. 4	N78	98.75708361775179	False			False
+C26-F:PGC1a_4h	C26-F	treated	106.39700883416344	source normalized percent	Fig. 4	N79	106.39700883416344	False			False
+C26-F:PGC1a_4h	C26-F	treated	150.1942677528223	source normalized percent	Fig. 4	N80	150.1942677528223	False			False
+C26-F:PGC1a_4h	C26-F	treated	182.70578458785408	source normalized percent	Fig. 4	N81	182.70578458785408	False			False
+C26-F:PINK1_4i	C26-F	control	226.8529211080094	source normalized percent	Fig. 4	V61	226.8529211080094	False			False
+C26-F:PINK1_4i	C26-F	control	93.45054144129	source normalized percent	Fig. 4	V62	93.45054144129	False			False
+C26-F:PINK1_4i	C26-F	control	66.10371225299653	source normalized percent	Fig. 4	V63	66.10371225299653	False			False
+C26-F:PINK1_4i	C26-F	control	49.53025542519527	source normalized percent	Fig. 4	V64	49.53025542519527	False			False
+C26-F:PINK1_4i	C26-F	control	125.91990558355694	source normalized percent	Fig. 4	V65	125.91990558355694	False			False
+C26-F:PINK1_4i	C26-F	control	61.86052498773275	source normalized percent	Fig. 4	V66	61.86052498773275	False			False
+C26-F:PINK1_4i	C26-F	control	76.28213920121917	source normalized percent	Fig. 4	V67	76.28213920121917	False			False
+C26-F:PINK1_4i	C26-F	disease	4253.729527913595	source normalized percent	Fig. 4	V68	4253.729527913595	False			False
+C26-F:PINK1_4i	C26-F	disease	1247.2856497882415	source normalized percent	Fig. 4	V69	1247.2856497882415	False			False
+C26-F:PINK1_4i	C26-F	disease	1494.6608005785195	source normalized percent	Fig. 4	V70	1494.6608005785195	False			False
+C26-F:PINK1_4i	C26-F	disease	3881.251123334769	source normalized percent	Fig. 4	V71	3881.251123334769	False			False
+C26-F:PINK1_4i	C26-F	disease	2219.8065458385895	source normalized percent	Fig. 4	V72	2219.8065458385895	False			False
+C26-F:PINK1_4i	C26-F	disease	5980.279548015677	source normalized percent	Fig. 4	V73	5980.279548015677	False			False
+C26-F:PINK1_4i	C26-F	disease	1459.788887000695	source normalized percent	Fig. 4	V74	1459.788887000695	False			False
+C26-F:PINK1_4i	C26-F	treated	4042.8873303397704	source normalized percent	Fig. 4	V75	4042.8873303397704	False			False
+C26-F:PINK1_4i	C26-F	treated	389.1951754765083	source normalized percent	Fig. 4	V76	389.1951754765083	False			False
+C26-F:PINK1_4i	C26-F	treated	1567.120277145554	source normalized percent	Fig. 4	V77	1567.120277145554	False			False
+C26-F:PINK1_4i	C26-F	treated	2017.3591875454667	source normalized percent	Fig. 4	V78	2017.3591875454667	False			False
+C26-F:PINK1_4i	C26-F	treated	240.77941317744856	source normalized percent	Fig. 4	V79	240.77941317744856	False			False
+C26-F:PINK1_4i	C26-F	treated	388.33246672086665	source normalized percent	Fig. 4	V80	388.33246672086665	False			False
+C26-F:PINK1_4i	C26-F	treated	609.1077901875275	source normalized percent	Fig. 4	V81	609.1077901875275	False			False
+VCM:OXPHOS_ATP5A	VCM	control	97.44077760466274	source normalized percent	Fig. 4	Y103	97.44077760466274	False			False
+VCM:OXPHOS_ATP5A	VCM	control	132.9615037251939	source normalized percent	Fig. 4	Y104	132.9615037251939	False			False
+VCM:OXPHOS_ATP5A	VCM	control	175.04136549556728	source normalized percent	Fig. 4	Y105	175.04136549556728	False			False
+VCM:OXPHOS_ATP5A	VCM	control	101.521523283628	source normalized percent	Fig. 4	Y106	101.521523283628	False			False
+VCM:OXPHOS_ATP5A	VCM	control	58.76445783429222	source normalized percent	Fig. 4	Y107	58.76445783429222	False			False
+VCM:OXPHOS_ATP5A	VCM	control	113.06566138233661	source normalized percent	Fig. 4	Y108	113.06566138233661	False			False
+VCM:OXPHOS_ATP5A	VCM	control	54.92546835173638	source normalized percent	Fig. 4	Y109	54.92546835173638	False			False
+VCM:OXPHOS_ATP5A	VCM	control	66.27924232258286	source normalized percent	Fig. 4	Y110	66.27924232258286	False			False
+VCM:OXPHOS_ATP5A	VCM	disease	140.70290090654643	source normalized percent	Fig. 4	Y111	140.70290090654643	False			False
+VCM:OXPHOS_ATP5A	VCM	disease	84.51381675785333	source normalized percent	Fig. 4	Y112	84.51381675785333	False			False
+VCM:OXPHOS_ATP5A	VCM	disease	50.39304067878293	source normalized percent	Fig. 4	Y113	50.39304067878293	False			False
+VCM:OXPHOS_ATP5A	VCM	disease	65.4375809967198	source normalized percent	Fig. 4	Y114	65.4375809967198	False			False
+VCM:OXPHOS_ATP5A	VCM	disease	37.78345830498688	source normalized percent	Fig. 4	Y115	37.78345830498688	False			False
+VCM:OXPHOS_ATP5A	VCM	disease	151.72537026859914	source normalized percent	Fig. 4	Y116	151.72537026859914	False			False
+VCM:OXPHOS_ATP5A	VCM	disease	58.76705226006479	source normalized percent	Fig. 4	Y117	58.76705226006479	False			False
+VCM:OXPHOS_ATP5A	VCM	disease	63.27827122228963	source normalized percent	Fig. 4	Y118	63.27827122228963	False			False
+VCM:OXPHOS_ATP5A	VCM	treated	77.33354933915278	source normalized percent	Fig. 4	Y119	77.33354933915278	False			False
+VCM:OXPHOS_ATP5A	VCM	treated	80.63059778000796	source normalized percent	Fig. 4	Y120	80.63059778000796	False			False
+VCM:OXPHOS_ATP5A	VCM	treated	224.14755855715958	source normalized percent	Fig. 4	Y121	224.14755855715958	False			False
+VCM:OXPHOS_ATP5A	VCM	treated	63.242432330723894	source normalized percent	Fig. 4	Y122	63.242432330723894	False			False
+VCM:OXPHOS_ATP5A	VCM	treated	65.34788498099205	source normalized percent	Fig. 4	Y123	65.34788498099205	False			False
+VCM:OXPHOS_ATP5A	VCM	treated	69.70630117736728	source normalized percent	Fig. 4	Y124	69.70630117736728	False			False
+VCM:OXPHOS_UBCRC2_as_source	VCM	control	78.07703022283529	source normalized percent	Fig. 4	Z103	78.07703022283529	False			False
+VCM:OXPHOS_UBCRC2_as_source	VCM	control	128.07441300707103	source normalized percent	Fig. 4	Z104	128.07441300707103	False			False
+VCM:OXPHOS_UBCRC2_as_source	VCM	control	163.00759368369876	source normalized percent	Fig. 4	Z105	163.00759368369876	False			False
+VCM:OXPHOS_UBCRC2_as_source	VCM	control	97.97374473867919	source normalized percent	Fig. 4	Z106	97.97374473867919	False			False
+VCM:OXPHOS_UBCRC2_as_source	VCM	control	63.06634679619104	source normalized percent	Fig. 4	Z107	63.06634679619104	False			False
+VCM:OXPHOS_UBCRC2_as_source	VCM	control	121.97413959878008	source normalized percent	Fig. 4	Z108	121.97413959878008	False			False
+VCM:OXPHOS_UBCRC2_as_source	VCM	control	63.84000108808845	source normalized percent	Fig. 4	Z109	63.84000108808845	False			False
+VCM:OXPHOS_UBCRC2_as_source	VCM	control	83.98673086465625	source normalized percent	Fig. 4	Z110	83.98673086465625	False			False
+VCM:OXPHOS_UBCRC2_as_source	VCM	disease	137.45900449952308	source normalized percent	Fig. 4	Z111	137.45900449952308	False			False
+VCM:OXPHOS_UBCRC2_as_source	VCM	disease	67.67486166824247	source normalized percent	Fig. 4	Z112	67.67486166824247	False			False
+VCM:OXPHOS_UBCRC2_as_source	VCM	disease	39.60015464735674	source normalized percent	Fig. 4	Z113	39.60015464735674	False			False
+VCM:OXPHOS_UBCRC2_as_source	VCM	disease	51.94062324212722	source normalized percent	Fig. 4	Z114	51.94062324212722	False			False
+VCM:OXPHOS_UBCRC2_as_source	VCM	disease	33.755819455032906	source normalized percent	Fig. 4	Z115	33.755819455032906	False			False
+VCM:OXPHOS_UBCRC2_as_source	VCM	disease	111.08486616913001	source normalized percent	Fig. 4	Z116	111.08486616913001	False			False
+VCM:OXPHOS_UBCRC2_as_source	VCM	disease	61.13539741784566	source normalized percent	Fig. 4	Z117	61.13539741784566	False			False
+VCM:OXPHOS_UBCRC2_as_source	VCM	disease	72.80555805848236	source normalized percent	Fig. 4	Z118	72.80555805848236	False			False
+VCM:OXPHOS_UBCRC2_as_source	VCM	treated	69.70531997362225	source normalized percent	Fig. 4	Z119	69.70531997362225	False			False
+VCM:OXPHOS_UBCRC2_as_source	VCM	treated	80.05532391251776	source normalized percent	Fig. 4	Z120	80.05532391251776	False			False
+VCM:OXPHOS_UBCRC2_as_source	VCM	treated	159.0047443767774	source normalized percent	Fig. 4	Z121	159.0047443767774	False			False
+VCM:OXPHOS_UBCRC2_as_source	VCM	treated	52.93638427604029	source normalized percent	Fig. 4	Z122	52.93638427604029	False			False
+VCM:OXPHOS_UBCRC2_as_source	VCM	treated	68.93823718815479	source normalized percent	Fig. 4	Z123	68.93823718815479	False			False
+VCM:OXPHOS_UBCRC2_as_source	VCM	treated	66.17976424300929	source normalized percent	Fig. 4	Z124	66.17976424300929	False			False
+VCM:OXPHOS_MTCO1	VCM	control	78.9877270766565	source normalized percent	Fig. 4	AA103	78.9877270766565	False			False
+VCM:OXPHOS_MTCO1	VCM	control	117.38222505309461	source normalized percent	Fig. 4	AA104	117.38222505309461	False			False
+VCM:OXPHOS_MTCO1	VCM	control	156.1125079837229	source normalized percent	Fig. 4	AA105	156.1125079837229	False			False
+VCM:OXPHOS_MTCO1	VCM	control	120.78915445215569	source normalized percent	Fig. 4	AA106	120.78915445215569	False			False
+VCM:OXPHOS_MTCO1	VCM	control	87.46148814326403	source normalized percent	Fig. 4	AA107	87.46148814326403	False			False
+VCM:OXPHOS_MTCO1	VCM	control	91.53402249126687	source normalized percent	Fig. 4	AA108	91.53402249126687	False			False
+VCM:OXPHOS_MTCO1	VCM	control	53.86864602730886	source normalized percent	Fig. 4	AA109	53.86864602730886	False			False
+VCM:OXPHOS_MTCO1	VCM	control	93.86422877253047	source normalized percent	Fig. 4	AA110	93.86422877253047	False			False
+VCM:OXPHOS_MTCO1	VCM	disease	104.99396677175194	source normalized percent	Fig. 4	AA111	104.99396677175194	False			False
+VCM:OXPHOS_MTCO1	VCM	disease	53.99717733575897	source normalized percent	Fig. 4	AA112	53.99717733575897	False			False
+VCM:OXPHOS_MTCO1	VCM	disease	17.68725469971182	source normalized percent	Fig. 4	AA113	17.68725469971182	False			False
+VCM:OXPHOS_MTCO1	VCM	disease	25.071511115356042	source normalized percent	Fig. 4	AA114	25.071511115356042	False			False
+VCM:OXPHOS_MTCO1	VCM	disease	25.134630105971663	source normalized percent	Fig. 4	AA115	25.134630105971663	False			False
+VCM:OXPHOS_MTCO1	VCM	disease	87.75868324753623	source normalized percent	Fig. 4	AA116	87.75868324753623	False			False
+VCM:OXPHOS_MTCO1	VCM	disease	53.45884459712288	source normalized percent	Fig. 4	AA117	53.45884459712288	False			False
+VCM:OXPHOS_MTCO1	VCM	disease	52.3095598896817	source normalized percent	Fig. 4	AA118	52.3095598896817	False			False
+VCM:OXPHOS_MTCO1	VCM	treated	74.88056890580249	source normalized percent	Fig. 4	AA119	74.88056890580249	False			False
+VCM:OXPHOS_MTCO1	VCM	treated	65.8579669986231	source normalized percent	Fig. 4	AA120	65.8579669986231	False			False
+VCM:OXPHOS_MTCO1	VCM	treated	140.29061139096098	source normalized percent	Fig. 4	AA121	140.29061139096098	False			False
+VCM:OXPHOS_MTCO1	VCM	treated	41.52776593033892	source normalized percent	Fig. 4	AA122	41.52776593033892	False			False
+VCM:OXPHOS_MTCO1	VCM	treated	57.03330487965048	source normalized percent	Fig. 4	AA123	57.03330487965048	False			False
+VCM:OXPHOS_MTCO1	VCM	treated	44.20375968748121	source normalized percent	Fig. 4	AA124	44.20375968748121	False			False
+VCM:OXPHOS_SDHB	VCM	control	100.8461341615586	source normalized percent	Fig. 4	AB103	100.8461341615586	False			False
+VCM:OXPHOS_SDHB	VCM	control	118.65639025188652	source normalized percent	Fig. 4	AB104	118.65639025188652	False			False
+VCM:OXPHOS_SDHB	VCM	control	150.53090844166363	source normalized percent	Fig. 4	AB105	150.53090844166363	False			False
+VCM:OXPHOS_SDHB	VCM	control	104.29157329354878	source normalized percent	Fig. 4	AB106	104.29157329354878	False			False
+VCM:OXPHOS_SDHB	VCM	control	68.56782517532152	source normalized percent	Fig. 4	AB107	68.56782517532152	False			False
+VCM:OXPHOS_SDHB	VCM	control	88.39780096933765	source normalized percent	Fig. 4	AB108	88.39780096933765	False			False
+VCM:OXPHOS_SDHB	VCM	control	66.77967015271263	source normalized percent	Fig. 4	AB109	66.77967015271263	False			False
+VCM:OXPHOS_SDHB	VCM	control	101.92969755397071	source normalized percent	Fig. 4	AB110	101.92969755397071	False			False
+VCM:OXPHOS_SDHB	VCM	disease	158.91140442141182	source normalized percent	Fig. 4	AB111	158.91140442141182	False			False
+VCM:OXPHOS_SDHB	VCM	disease	90.88870305083873	source normalized percent	Fig. 4	AB112	90.88870305083873	False			False
+VCM:OXPHOS_SDHB	VCM	disease	46.06469118639346	source normalized percent	Fig. 4	AB113	46.06469118639346	False			False
+VCM:OXPHOS_SDHB	VCM	disease	49.6665225837805	source normalized percent	Fig. 4	AB114	49.6665225837805	False			False
+VCM:OXPHOS_SDHB	VCM	disease	35.08937610909014	source normalized percent	Fig. 4	AB115	35.08937610909014	False			False
+VCM:OXPHOS_SDHB	VCM	disease	98.35323112801673	source normalized percent	Fig. 4	AB116	98.35323112801673	False			False
+VCM:OXPHOS_SDHB	VCM	disease	47.71997895510164	source normalized percent	Fig. 4	AB117	47.71997895510164	False			False
+VCM:OXPHOS_SDHB	VCM	disease	47.81426200690508	source normalized percent	Fig. 4	AB118	47.81426200690508	False			False
+VCM:OXPHOS_SDHB	VCM	treated	71.45420343802041	source normalized percent	Fig. 4	AB119	71.45420343802041	False			False
+VCM:OXPHOS_SDHB	VCM	treated	68.3526983082821	source normalized percent	Fig. 4	AB120	68.3526983082821	False			False
+VCM:OXPHOS_SDHB	VCM	treated	156.76502711652714	source normalized percent	Fig. 4	AB121	156.76502711652714	False			False
+VCM:OXPHOS_SDHB	VCM	treated	49.799227278900574	source normalized percent	Fig. 4	AB122	49.799227278900574	False			False
+VCM:OXPHOS_SDHB	VCM	treated	53.39580562811139	source normalized percent	Fig. 4	AB123	53.39580562811139	False			False
+VCM:OXPHOS_SDHB	VCM	treated	54.00931482099707	source normalized percent	Fig. 4	AB124	54.00931482099707	False			False
+VCM:OXPHOS_NDUF88_as_source	VCM	control	94.95436345112384	source normalized percent	Fig. 4	AC103	94.95436345112384	False			False
+VCM:OXPHOS_NDUF88_as_source	VCM	control	156.96980342791002	source normalized percent	Fig. 4	AC104	156.96980342791002	False			False
+VCM:OXPHOS_NDUF88_as_source	VCM	control	174.6082388363749	source normalized percent	Fig. 4	AC105	174.6082388363749	False			False
+VCM:OXPHOS_NDUF88_as_source	VCM	control	95.55876769669268	source normalized percent	Fig. 4	AC106	95.55876769669268	False			False
+VCM:OXPHOS_NDUF88_as_source	VCM	control	66.53974233387272	source normalized percent	Fig. 4	AC107	66.53974233387272	False			False
+VCM:OXPHOS_NDUF88_as_source	VCM	control	68.07497625400569	source normalized percent	Fig. 4	AC108	68.07497625400569	False			False
+VCM:OXPHOS_NDUF88_as_source	VCM	control	68.81245203167106	source normalized percent	Fig. 4	AC109	68.81245203167106	False			False
+VCM:OXPHOS_NDUF88_as_source	VCM	control	74.481655968349	source normalized percent	Fig. 4	AC110	74.481655968349	False			False
+VCM:OXPHOS_NDUF88_as_source	VCM	disease	116.57107758592778	source normalized percent	Fig. 4	AC111	116.57107758592778	False			False
+VCM:OXPHOS_NDUF88_as_source	VCM	disease	88.92593075155024	source normalized percent	Fig. 4	AC112	88.92593075155024	False			False
+VCM:OXPHOS_NDUF88_as_source	VCM	disease	49.40231366638889	source normalized percent	Fig. 4	AC113	49.40231366638889	False			False
+VCM:OXPHOS_NDUF88_as_source	VCM	disease	53.04142569478287	source normalized percent	Fig. 4	AC114	53.04142569478287	False			False
+VCM:OXPHOS_NDUF88_as_source	VCM	disease	43.71633363084153	source normalized percent	Fig. 4	AC115	43.71633363084153	False			False
+VCM:OXPHOS_NDUF88_as_source	VCM	disease	114.20323558527997	source normalized percent	Fig. 4	AC116	114.20323558527997	False			False
+VCM:OXPHOS_NDUF88_as_source	VCM	disease	65.6010688217846	source normalized percent	Fig. 4	AC117	65.6010688217846	False			False
+VCM:OXPHOS_NDUF88_as_source	VCM	disease	52.47087193764971	source normalized percent	Fig. 4	AC118	52.47087193764971	False			False
+VCM:OXPHOS_NDUF88_as_source	VCM	treated	94.03417192210341	source normalized percent	Fig. 4	AC119	94.03417192210341	False			False
+VCM:OXPHOS_NDUF88_as_source	VCM	treated	106.6701779057002	source normalized percent	Fig. 4	AC120	106.6701779057002	False			False
+VCM:OXPHOS_NDUF88_as_source	VCM	treated	203.89479754801215	source normalized percent	Fig. 4	AC121	203.89479754801215	False			False
+VCM:OXPHOS_NDUF88_as_source	VCM	treated	62.02374075304671	source normalized percent	Fig. 4	AC122	62.02374075304671	False			False
+VCM:OXPHOS_NDUF88_as_source	VCM	treated	70.6739014661373	source normalized percent	Fig. 4	AC123	70.6739014661373	False			False
+VCM:OXPHOS_NDUF88_as_source	VCM	treated	52.84338975805877	source normalized percent	Fig. 4	AC124	52.84338975805877	False			False
+VCM:TOMM20_4o	VCM	control	146.19938514393036	source normalized percent	Fig. 4	F140	146.19938514393036	False			False
+VCM:TOMM20_4o	VCM	control	161.17663053229757	source normalized percent	Fig. 4	F141	161.17663053229757	False			False
+VCM:TOMM20_4o	VCM	control	101.2662319929416	source normalized percent	Fig. 4	F142	101.2662319929416	False			False
+VCM:TOMM20_4o	VCM	control	106.06158645299267	source normalized percent	Fig. 4	F143	106.06158645299267	False			False
+VCM:TOMM20_4o	VCM	control	68.03540436358736	source normalized percent	Fig. 4	F144	68.03540436358736	False			False
+VCM:TOMM20_4o	VCM	control	87.2127229282435	source normalized percent	Fig. 4	F145	87.2127229282435	False			False
+VCM:TOMM20_4o	VCM	control	65.88305574600241	source normalized percent	Fig. 4	F146	65.88305574600241	False			False
+VCM:TOMM20_4o	VCM	control	64.16498284000453	source normalized percent	Fig. 4	F147	64.16498284000453	False			False
+VCM:TOMM20_4o	VCM	disease	72.49221730369106	source normalized percent	Fig. 4	F148	72.49221730369106	False			False
+VCM:TOMM20_4o	VCM	disease	66.93739277515759	source normalized percent	Fig. 4	F149	66.93739277515759	False			False
+VCM:TOMM20_4o	VCM	disease	74.80411594883323	source normalized percent	Fig. 4	F150	74.80411594883323	False			False
+VCM:TOMM20_4o	VCM	disease	80.35224785195075	source normalized percent	Fig. 4	F151	80.35224785195075	False			False
+VCM:TOMM20_4o	VCM	disease	42.42982663878566	source normalized percent	Fig. 4	F152	42.42982663878566	False			False
+VCM:TOMM20_4o	VCM	disease	57.659976977032095	source normalized percent	Fig. 4	F153	57.659976977032095	False			False
+VCM:TOMM20_4o	VCM	disease	68.58130591679686	source normalized percent	Fig. 4	F154	68.58130591679686	False			False
+VCM:TOMM20_4o	VCM	disease	53.521698556006065	source normalized percent	Fig. 4	F155	53.521698556006065	False			False
+VCM:TOMM20_4o	VCM	treated	102.9591362402404	source normalized percent	Fig. 4	F156	102.9591362402404	False			False
+VCM:TOMM20_4o	VCM	treated	68.44266922164722	source normalized percent	Fig. 4	F157	68.44266922164722	False			False
+VCM:TOMM20_4o	VCM	treated	114.21806140781544	source normalized percent	Fig. 4	F158	114.21806140781544	False			False
+VCM:TOMM20_4o	VCM	treated	50.41211373540057	source normalized percent	Fig. 4	F159	50.41211373540057	False			False
+VCM:TOMM20_4o	VCM	treated	97.5228926417647	source normalized percent	Fig. 4	F160	97.5228926417647	False			False
+VCM:TOMM20_4o	VCM	treated	50.55292335214098	source normalized percent	Fig. 4	F161	50.55292335214098	False			False
+VCM:PGC1a_4p	VCM	control	88.70685711054146	source normalized percent	Fig. 4	N140	88.70685711054146	False			False
+VCM:PGC1a_4p	VCM	control	118.33166347010251	source normalized percent	Fig. 4	N141	118.33166347010251	False			False
+VCM:PGC1a_4p	VCM	control	171.2798145993016	source normalized percent	Fig. 4	N142	171.2798145993016	False			False
+VCM:PGC1a_4p	VCM	control	178.1814838064789	source normalized percent	Fig. 4	N143	178.1814838064789	False			False
+VCM:PGC1a_4p	VCM	control	91.0995918996912	source normalized percent	Fig. 4	N144	91.0995918996912	False			False
+VCM:PGC1a_4p	VCM	control	71.32079569244965	source normalized percent	Fig. 4	N145	71.32079569244965	False			False
+VCM:PGC1a_4p	VCM	control	30.92230554844376	source normalized percent	Fig. 4	N146	30.92230554844376	False			False
+VCM:PGC1a_4p	VCM	control	50.157487872991084	source normalized percent	Fig. 4	N147	50.157487872991084	False			False
+VCM:PGC1a_4p	VCM	disease	57.07132401659251	source normalized percent	Fig. 4	N148	57.07132401659251	False			False
+VCM:PGC1a_4p	VCM	disease	61.564895078221625	source normalized percent	Fig. 4	N149	61.564895078221625	False			False
+VCM:PGC1a_4p	VCM	disease	25.214522019383004	source normalized percent	Fig. 4	N150	25.214522019383004	False			False
+VCM:PGC1a_4p	VCM	disease	28.795799814739972	source normalized percent	Fig. 4	N151	28.795799814739972	False			False
+VCM:PGC1a_4p	VCM	disease	55.71473140164119	source normalized percent	Fig. 4	N152	55.71473140164119	False			False
+VCM:PGC1a_4p	VCM	disease	43.50088408929224	source normalized percent	Fig. 4	N153	43.50088408929224	False			False
+VCM:PGC1a_4p	VCM	disease	49.350390851328385	source normalized percent	Fig. 4	N154	49.350390851328385	False			False
+VCM:PGC1a_4p	VCM	disease	32.32464056972161	source normalized percent	Fig. 4	N155	32.32464056972161	False			False
+VCM:PGC1a_4p	VCM	treated	98.50667560631771	source normalized percent	Fig. 4	N156	98.50667560631771	False			False
+VCM:PGC1a_4p	VCM	treated	64.68404694540632	source normalized percent	Fig. 4	N157	64.68404694540632	False			False
+VCM:PGC1a_4p	VCM	treated	146.17822210724043	source normalized percent	Fig. 4	N158	146.17822210724043	False			False
+VCM:PGC1a_4p	VCM	treated	63.55366565819632	source normalized percent	Fig. 4	N159	63.55366565819632	False			False
+VCM:PGC1a_4p	VCM	treated	147.84908157457232	source normalized percent	Fig. 4	N160	147.84908157457232	False			False
+VCM:PGC1a_4p	VCM	treated	38.03304876184459	source normalized percent	Fig. 4	N161	38.03304876184459	False			False
+VCM:PINK1_4q	VCM	control	91.84784240737886	source normalized percent	Fig. 4	V140	91.84784240737886	False			False
+VCM:PINK1_4q	VCM	control	101.07645974162084	source normalized percent	Fig. 4	V141	101.07645974162084	False			False
+VCM:PINK1_4q	VCM	control	104.13226121704623	source normalized percent	Fig. 4	V142	104.13226121704623	False			False
+VCM:PINK1_4q	VCM	control	90.11088419249238	source normalized percent	Fig. 4	V143	90.11088419249238	False			False
+VCM:PINK1_4q	VCM	control	102.68410311640635	source normalized percent	Fig. 4	V144	102.68410311640635	False			False
+VCM:PINK1_4q	VCM	control	100.45612798095856	source normalized percent	Fig. 4	V145	100.45612798095856	False			False
+VCM:PINK1_4q	VCM	control	109.69232134409683	source normalized percent	Fig. 4	V146	109.69232134409683	False			False
+VCM:PINK1_4q	VCM	control	106.0429366181264	source normalized percent	Fig. 4	V147	106.0429366181264	False			False
+VCM:PINK1_4q	VCM	disease	89.8365267324957	source normalized percent	Fig. 4	V148	89.8365267324957	False			False
+VCM:PINK1_4q	VCM	disease	96.03628557163879	source normalized percent	Fig. 4	V149	96.03628557163879	False			False
+VCM:PINK1_4q	VCM	disease	75.62146981607242	source normalized percent	Fig. 4	V150	75.62146981607242	False			False
+VCM:PINK1_4q	VCM	disease	96.07797429883634	source normalized percent	Fig. 4	V151	96.07797429883634	False			False
+VCM:PINK1_4q	VCM	disease	88.1529035355363	source normalized percent	Fig. 4	V152	88.1529035355363	False			False
+VCM:PINK1_4q	VCM	disease	70.4501939496815	source normalized percent	Fig. 4	V153	70.4501939496815	False			False
+VCM:PINK1_4q	VCM	disease	81.21353568799968	source normalized percent	Fig. 4	V154	81.21353568799968	False			False
+VCM:PINK1_4q	VCM	disease	73.72798809511866	source normalized percent	Fig. 4	V155	73.72798809511866	False			False
+VCM:PINK1_4q	VCM	treated	82.75111944745417	source normalized percent	Fig. 4	V156	82.75111944745417	False			False
+VCM:PINK1_4q	VCM	treated	125.40304274996562	source normalized percent	Fig. 4	V157	125.40304274996562	False			False
+VCM:PINK1_4q	VCM	treated	96.94991181585958	source normalized percent	Fig. 4	V158	96.94991181585958	False			False
+VCM:PINK1_4q	VCM	treated	92.14855085646892	source normalized percent	Fig. 4	V159	92.14855085646892	False			False
+VCM:PINK1_4q	VCM	treated	76.04246657283402	source normalized percent	Fig. 4	V160	76.04246657283402	False			False
+VCM:PINK1_4q	VCM	treated	113.81298100599686	source normalized percent	Fig. 4	V161	113.81298100599686	False			False
+C26-F:tumor_wet_weight	C26-F	disease	1454.0	mg	SFig. 3	Q41	1454	False			False
+C26-F:tumor_wet_weight	C26-F	disease	2188.0	mg	SFig. 3	Q42	2188	False			False
+C26-F:tumor_wet_weight	C26-F	disease	1707.0	mg	SFig. 3	Q43	1707	False			False
+C26-F:tumor_wet_weight	C26-F	disease	1265.0	mg	SFig. 3	Q44	1265	False			False
+C26-F:tumor_wet_weight	C26-F	disease	2188.0	mg	SFig. 3	Q45	2188	False			False
+C26-F:tumor_wet_weight	C26-F	disease	1664.0	mg	SFig. 3	Q46	1664	False			False
+C26-F:tumor_wet_weight	C26-F	disease	2330.0	mg	SFig. 3	Q47	2330	False			False
+C26-F:tumor_wet_weight	C26-F	treated	2276.0	mg	SFig. 3	R41	2276	False			False
+C26-F:tumor_wet_weight	C26-F	treated	781.0	mg	SFig. 3	R42	781	False			False
+C26-F:tumor_wet_weight	C26-F	treated	1385.0	mg	SFig. 3	R43	1385	False			False
+C26-F:tumor_wet_weight	C26-F	treated	1726.0	mg	SFig. 3	R44	1726	False			False
+C26-F:tumor_wet_weight	C26-F	treated	590.0	mg	SFig. 3	R45	590	False			False
+C26-F:tumor_wet_weight	C26-F	treated	1055.0	mg	SFig. 3	R46	1055	False			False
+C26-F:tumor_wet_weight	C26-F	treated	1732.0	mg	SFig. 3	R47	1732	False			False
+C26-F:complex_activity_CI	C26-F	control	39.49	nmol/min/mg protein	SFig. 4	B62	39.49	False			False
+C26-F:complex_activity_CI	C26-F	control	49.22	nmol/min/mg protein	SFig. 4	B63	49.22	False			False
+C26-F:complex_activity_CI	C26-F	control	67.69	nmol/min/mg protein	SFig. 4	B64	67.69	False			False
+C26-F:complex_activity_CI	C26-F	control	62.67	nmol/min/mg protein	SFig. 4	B65	62.67	False			False
+C26-F:complex_activity_CI	C26-F	control	73.07	nmol/min/mg protein	SFig. 4	B66	73.07	False			False
+C26-F:complex_activity_CI	C26-F	disease	34.65	nmol/min/mg protein	SFig. 4	C62	34.65	False			False
+C26-F:complex_activity_CI	C26-F	disease	64.61	nmol/min/mg protein	SFig. 4	C63	64.61	False			False
+C26-F:complex_activity_CI	C26-F	disease	57.21	nmol/min/mg protein	SFig. 4	C64	57.21	False			False
+C26-F:complex_activity_CI	C26-F	disease	44.83	nmol/min/mg protein	SFig. 4	C65	44.83	False			False
+C26-F:complex_activity_CI	C26-F	disease	30.68	nmol/min/mg protein	SFig. 4	C66	30.68	False			False
+C26-F:complex_activity_CI	C26-F	treated	60.88	nmol/min/mg protein	SFig. 4	D62	60.88	False			False
+C26-F:complex_activity_CI	C26-F	treated	33.56	nmol/min/mg protein	SFig. 4	D63	33.56	False			False
+C26-F:complex_activity_CI	C26-F	treated	63.24	nmol/min/mg protein	SFig. 4	D64	63.24	False			False
+C26-F:complex_activity_CI	C26-F	treated	69.23	nmol/min/mg protein	SFig. 4	D65	69.23	False			False
+C26-F:complex_activity_CI	C26-F	treated	72.56	nmol/min/mg protein	SFig. 4	D66	72.56	False			False
+C26-F:complex_activity_CII	C26-F	control	43.89	nmol/min/mg protein	SFig. 4	H62	43.89	False			False
+C26-F:complex_activity_CII	C26-F	control	55.64	nmol/min/mg protein	SFig. 4	H63	55.64	False			False
+C26-F:complex_activity_CII	C26-F	control	68.22	nmol/min/mg protein	SFig. 4	H64	68.22	False			False
+C26-F:complex_activity_CII	C26-F	control	45.99	nmol/min/mg protein	SFig. 4	H65	45.99	False			False
+C26-F:complex_activity_CII	C26-F	control	80.23	nmol/min/mg protein	SFig. 4	H66	80.23	False			False
+C26-F:complex_activity_CII	C26-F	disease	43.29	nmol/min/mg protein	SFig. 4	I62	43.29	False			False
+C26-F:complex_activity_CII	C26-F	disease	45.14	nmol/min/mg protein	SFig. 4	I63	45.14	False			False
+C26-F:complex_activity_CII	C26-F	disease	38.94	nmol/min/mg protein	SFig. 4	I64	38.94	False			False
+C26-F:complex_activity_CII	C26-F	disease	42.4	nmol/min/mg protein	SFig. 4	I65	42.4	False			False
+C26-F:complex_activity_CII	C26-F	disease	58.86	nmol/min/mg protein	SFig. 4	I66	58.86	False			False
+C26-F:complex_activity_CII	C26-F	treated	71.05	nmol/min/mg protein	SFig. 4	J62	71.05	False			False
+C26-F:complex_activity_CII	C26-F	treated	42.7	nmol/min/mg protein	SFig. 4	J63	42.7	False			False
+C26-F:complex_activity_CII	C26-F	treated	67.95	nmol/min/mg protein	SFig. 4	J64	67.95	False			False
+C26-F:complex_activity_CII	C26-F	treated	109.46	nmol/min/mg protein	SFig. 4	J65	109.46	False			False
+C26-F:complex_activity_CII	C26-F	treated	55.71	nmol/min/mg protein	SFig. 4	J66	55.71	False			False
+C26-F:complex_activity_CIII	C26-F	control	204.49	nmol/min/mg protein	SFig. 4	N62	204.49	False			False
+C26-F:complex_activity_CIII	C26-F	control	201.99	nmol/min/mg protein	SFig. 4	N63	201.99	False			False
+C26-F:complex_activity_CIII	C26-F	control	155.57	nmol/min/mg protein	SFig. 4	N64	155.57	False			False
+C26-F:complex_activity_CIII	C26-F	control	165.21	nmol/min/mg protein	SFig. 4	N65	165.21	False			False
+C26-F:complex_activity_CIII	C26-F	control	159.52	nmol/min/mg protein	SFig. 4	N66	159.52	False			False
+C26-F:complex_activity_CIII	C26-F	disease	195.27	nmol/min/mg protein	SFig. 4	O62	195.27	False			False
+C26-F:complex_activity_CIII	C26-F	disease	260.88	nmol/min/mg protein	SFig. 4	O63	260.88	False			False
+C26-F:complex_activity_CIII	C26-F	disease	200.81	nmol/min/mg protein	SFig. 4	O64	200.81	False			False
+C26-F:complex_activity_CIII	C26-F	disease	275.45	nmol/min/mg protein	SFig. 4	O65	275.45	False			False
+C26-F:complex_activity_CIII	C26-F	disease	161.17	nmol/min/mg protein	SFig. 4	O66	161.17	False			False
+C26-F:complex_activity_CIII	C26-F	treated	215.53	nmol/min/mg protein	SFig. 4	P62	215.53	False			False
+C26-F:complex_activity_CIII	C26-F	treated	162.12	nmol/min/mg protein	SFig. 4	P63	162.12	False			False
+C26-F:complex_activity_CIII	C26-F	treated	185.37	nmol/min/mg protein	SFig. 4	P64	185.37	False			False
+C26-F:complex_activity_CIII	C26-F	treated	234.84	nmol/min/mg protein	SFig. 4	P65	234.84	False			False
+C26-F:complex_activity_CIII	C26-F	treated	182.43	nmol/min/mg protein	SFig. 4	P66	182.43	False			False
+C26-F:complex_activity_CIV	C26-F	control	252.58	nmol/min/mg protein	SFig. 4	T62	252.58	False			False
+C26-F:complex_activity_CIV	C26-F	control	300.28	nmol/min/mg protein	SFig. 4	T63	300.28	False			False
+C26-F:complex_activity_CIV	C26-F	control	216.57	nmol/min/mg protein	SFig. 4	T64	216.57	False			False
+C26-F:complex_activity_CIV	C26-F	control	218.78	nmol/min/mg protein	SFig. 4	T65	218.78	False			False
+C26-F:complex_activity_CIV	C26-F	control	212.17	nmol/min/mg protein	SFig. 4	T66	212.17	False			False
+C26-F:complex_activity_CIV	C26-F	disease	237.88	nmol/min/mg protein	SFig. 4	U62	237.88	False			False
+C26-F:complex_activity_CIV	C26-F	disease	341.52	nmol/min/mg protein	SFig. 4	U63	341.52	False			False
+C26-F:complex_activity_CIV	C26-F	disease	157.05	nmol/min/mg protein	SFig. 4	U64	157.05	False			False
+C26-F:complex_activity_CIV	C26-F	disease	245.33	nmol/min/mg protein	SFig. 4	U65	245.33	False			False
+C26-F:complex_activity_CIV	C26-F	disease	160.61	nmol/min/mg protein	SFig. 4	U66	160.61	False			False
+C26-F:complex_activity_CIV	C26-F	treated	375.77	nmol/min/mg protein	SFig. 4	V62	375.77	False			False
+C26-F:complex_activity_CIV	C26-F	treated	189.76	nmol/min/mg protein	SFig. 4	V63	189.76	False			False
+C26-F:complex_activity_CIV	C26-F	treated	155.67	nmol/min/mg protein	SFig. 4	V64	155.67	False			False
+C26-F:complex_activity_CIV	C26-F	treated	337.28	nmol/min/mg protein	SFig. 4	V65	337.28	False			False
+C26-F:complex_activity_CIV	C26-F	treated	241.3	nmol/min/mg protein	SFig. 4	V66	241.3	False			False

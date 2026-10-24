@@ -1,0 +1,80 @@
+{
+  "analysis": "public source-paper response reanalysis, exploratory",
+  "source_sha256": "7a60e4cf2622c760922fa7363bc568a0dcd78d54022049de293167d6eed7a696",
+  "engine_sha256": "96c50382df21de02cfdc31b9c3101ad718e5a26999418373f2f4eeaa53013e65",
+  "config_sha256": "e36fe97e9c4eeccf65c634a00231d2e9c2d2896f8fb7c5911e571f44eef9c921",
+  "observation_count": 18,
+  "comparison_count": 2,
+  "biological_unit": "independent differentiation experiment summary; triplicate wells, images and cells averaged within experiment",
+  "analysis_plan": {
+    "primary_contrast": "treated minus vehicle within Tri21 neurons with DYRK1A dosage-corrected astrocytes",
+    "primary_test": "two-sided Welch t test, no inferred pairing from row order",
+    "primary_family": "two measured outcomes, Holm correction",
+    "exact_reference_test": "two-sided unpaired mean-difference permutation over all 20 allocations of six observations to n3+n3; assumes exchangeability; minimum two-sided p=0.1",
+    "effect_interval": "95 percent Welch t interval for normalized mean difference"
+  },
+  "groups": {
+    "reference": {
+      "column": "B",
+      "neurons": "cDi21",
+      "astrocytes": "cDi21",
+      "pba": false
+    },
+    "vehicle": {
+      "column": "C",
+      "neurons": "Tri21",
+      "astrocytes": "DY+/+/m",
+      "pba": false
+    },
+    "treated": {
+      "column": "D",
+      "neurons": "Tri21",
+      "astrocytes": "DY+/+/m",
+      "pba": true
+    }
+  },
+  "contrasts": [
+    {
+      "outcome": "aggregate_intensity",
+      "n_treated": 3,
+      "n_vehicle": 3,
+      "mean_reference": 1.0,
+      "mean_vehicle": 1.2409232451170396,
+      "mean_treated": 0.8758141817433253,
+      "treated_minus_vehicle": -0.3651090633737143,
+      "difference_ci_low": -0.6072959137139269,
+      "difference_ci_high": -0.12292221303350165,
+      "percent_lower_than_vehicle": 29.422372802701304,
+      "treated_minus_reference_descriptive": -0.12418581825667474,
+      "welch_df": 3.3241389305539033,
+      "p_nominal": 0.015951542770337016,
+      "exact_permutation_p_two_sided": 0.1,
+      "exact_permutation_allocations": 20,
+      "exact_permutation_extreme_allocations": 2,
+      "minimum_two_sided_permutation_p": 0.1,
+      "p_holm_two_outcomes": 0.03190308554067403,
+      "exact_permutation_p_holm_two_outcomes": 0.2
+    },
+    {
+      "outcome": "active_caspase3_intensity",
+      "n_treated": 3,
+      "n_vehicle": 3,
+      "mean_reference": 1.0000000969378284,
+      "mean_vehicle": 1.2799637368812247,
+      "mean_treated": 0.9344771779564369,
+      "treated_minus_vehicle": -0.34548655892478775,
+      "difference_ci_low": -0.6290632570308456,
+      "difference_ci_high": -0.06190986081872979,
+      "percent_lower_than_vehicle": 26.991902111742995,
+      "treated_minus_reference_descriptive": -0.06552291898139151,
+      "welch_df": 3.4906938556626623,
+      "p_nominal": 0.02893756976334416,
+      "exact_permutation_p_two_sided": 0.1,
+      "exact_permutation_allocations": 20,
+      "exact_permutation_extreme_allocations": 2,
+      "minimum_two_sided_permutation_p": 0.1,
+      "p_holm_two_outcomes": 0.03190308554067403,
+      "exact_permutation_p_holm_two_outcomes": 0.2
+    }
+  ]
+}

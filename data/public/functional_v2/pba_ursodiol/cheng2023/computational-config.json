@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "study_doi": "10.1038/s42255-023-00832-9",
+  "input_sha256": {
+    "fidelity_observations.csv": "29e9afc3fe55e03d8744c68a2dbea2bb8cbe2ae0a1843942e0b4765228937727",
+    "42255_2023_832_MOESM4_ESM.xlsx": "c7e46081ff1eba40d5cf450ea57bf3202565db1f2ad9432b15dc36ab8d69385d",
+    "42255_2023_832_MOESM6_ESM.xlsx": "ed98c767488a673a6833da2593e75325302a321fb5c24d94b28f657f29b8a888"
+  },
+  "observation_count": 69,
+  "contrast_count": 18,
+  "unit": "independent-experiment percentage; contrast in percentage points",
+  "endpoints": [
+    "misalignment",
+    "lagging_chromosomes",
+    "micronuclei"
+  ],
+  "pairing": "unpaired; no original IDs or denominators available",
+  "simple_contrasts": "Welch t 95% CI and exact two-sided mean-difference label permutation p",
+  "interaction": "independent four-group linear contrast with Welch-Satterthwaite 95% CI and t p; no permutation",
+  "multiplicity": "Benjamini-Hochberg across all 18 contrasts; simple permutation p plus interaction Welch p",
+  "inference_status": "retrospective analysis of inspected published source values; primary flags identify requested rescue contrasts, not preregistration",
+  "NAC_endpoint_concentration_mM": null,
+  "NAC_endpoint_duration_hours": null,
+  "dose_policy": "Exact Fig2h/3n dose and duration unresolved; studywide 1-5 mM range and 24h imaging window not imputed",
+  "confidence_level": 0.95,
+  "permutation_alternative": "two-sided absolute unstudentized mean difference",
+  "permutation_exchangeability": "Simple label tests assume exchangeable independent observations under the equal-distribution null, stronger than equal means with unequal variances.",
+  "primary_rescue_definition": [
+    "Fig.2h G6PDi+NAC minus G6PDi",
+    "Fig.3n BAG3 T285A+NAC minus BAG3 T285A"
+  ],
+  "do_not_pool": "Do not pool cells, endpoints, or figures as independent replications; no matched-row or binomial analysis."
+}

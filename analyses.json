@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "analyses": [
+    {
+      "id": "pba_exposure",
+      "group": "core",
+      "commands": [
+        [
+          "scripts/pba_exposure_bounds.py",
+          "--config",
+          "data/public/pba_exposure/computation.json",
+          "--output",
+          "results/pba_exposure"
+        ]
+      ],
+      "inputs": [
+        {
+          "path": "data/public/pba_exposure/computation.json",
+          "sha256": "650019d6e509bc9cd77679ba2f4ad633ef7ab21bf3812db9ded9fc63d197bbc4"
+        }
+      ],
+      "reference_files": [
+        "pba_exposure/summary.json",
+        "pba_exposure/exposure_scenarios.tsv"
+      ],
+      "biological_unit": "Deterministic assumption scenarios, no biological n"
+    },
+    {
+      "id": "bubr1_fidelity",
+      "group": "core",
+      "commands": [
+        [
+          "scripts/bubr1_fidelity_calibration.py",
+          "--project-root",
+          "."
+        ]
+      ],
+      "inputs": [
+        {
+          "path": "data/public/bubr1-functional-v2/elife-16620-fig7-data1-v1.xlsx",
+          "sha256": "62e710b61a15a697f64f57fece56de4f7ea4698422fc0790ff8ce9b841e4742d"
+        },
+        {
+          "path": "data/public/bubr1-functional-v2/fidelity-config.json",
+          "sha256": "a7adc4723c8bcdff477dbfab6bebef8b45495383d85fb454d47ec5ad702d5414"
+        }
+      ],
+      "reference_files": [
+        "bubr1_fidelity_calibration/summary.json",
+        "bubr1_fidelity_calibration/line_outcomes.tsv"
+      ],
+      "biological_unit": "Independently generated MEF lines; n6per construct/arm"
+    },
+    {
+      "id": "prediction_controls",
+      "group": "core",
+      "commands": [
+        [
+          "scripts/bubr1_prediction_calibration.py",
+          "--project-root",
+          "."
+        ]
+      ],
+      "inputs": [
+        {
+          "path": "data/public/bubr1-functional-v2/prediction-controls.tsv",
+          "sha256": "96980ed8d6a5ea393e3f5e28aec51545b4dde50c37e5e1cc2f3efc519c309244"
+        },
+        {
+          "path": "data/public/bubr1-functional-v2/prediction-config.json",
+          "sha256": "f8c36869326fec1efd39c49f13debf57adb8869a0d299598214bb62099f42efa"
+        }
+      ],
+      "reference_files": [
+        "bubr1_prediction_calibration/summary.json"
+      ],
+      "biological_unit": "Published variant controls with shared residue positions"
+    },
+    {
+      "id": "pba_neuronal",
+      "group": "core",
+      "commands": [
+        [
+          "data/public/pba_bridge/neuronal_response.py",
+          "--config",
+          "data/public/pba_bridge/neuronal_computation.json",
+          "--out",
+          "results/pba_neuronal"
+        ]
+      ],
+      "inputs": [
+        {
+          "path": "data/public/pba_bridge/42003_2026_9902_MOESM3_ESM.xlsx",
+          "sha256": "7a60e4cf2622c760922fa7363bc568a0dcd78d54022049de293167d6eed7a696"
+        },
+        {
+          "path": "data/public/pba_bridge/neuronal_computation.json",
+          "sha256": "e36fe97e9c4eeccf65c634a00231d2e9c2d2896f8fb7c5911e571f44eef9c921"
+        }
+      ],
+      "reference_files": [
+        "pba_neuronal/summary.json",
+        "pba_neuronal/contrasts.tsv"
+      ],
+      "biological_unit": "Independent differentiation summaries; n3per arm within one parental background"
+    },
+    {
+      "id": "niacin_cachexia",
+      "group": "core",
+      "commands": [
+        [
+          "data/public/functional_v2/niacin_cachexia/analyze_function.py",
+          "--config",
+          "data/public/functional_v2/niacin_cachexia/computational-config.json",
+          "--output",
+          "results/niacin_cachexia"
+        ]
+      ],
+      "inputs": [
+        {
+          "path": "data/public/functional_v2/niacin_cachexia/41467_2023_37595_MOESM6_ESM.xlsx",
+          "sha256": "86793d776a43b1b9864d45af5ae78aaa0d2e79998c0d27405b611ca087bd1055"
+        },
+        {
+          "path": "data/public/functional_v2/niacin_cachexia/computational-config.json",
+          "sha256": "2cacbc4e5cb96e1b37bcafc3ecc330bd453c7de33251716727f7e2b92e114c03"
+        }
+      ],
+      "reference_files": [
+        "niacin_cachexia/results.json",
+        "niacin_cachexia/observations.tsv",
+        "niacin_cachexia/source-inventory.json"
+      ],
+      "biological_unit": "Independent mouse; no cross-endpoint identity inference"
+    },
+    {
+      "id": "nac_fly",
+      "group": "core",
+      "commands": [
+        [
+          "data/public/functional_v2/nac_bubr1/analyze_nac_functional.py",
+          "--data-dir",
+          "data/public/functional_v2/nac_bubr1",
+          "--config",
+          "data/public/functional_v2/nac_bubr1/nac_computation.json",
+          "--dataset",
+          "rodriguez",
+          "--output",
+          "results/nac_functional/rodriguez.json"
+        ]
+      ],
+      "inputs": [
+        {
+          "path": "data/public/functional_v2/nac_bubr1/Rodriguez2021_TILfluxtissue.csv",
+          "sha256": "1206c99bb661138f43a3ba2a2f01fcaac589da4b1747f23f1dc14e6f681bc171"
+        },
+        {
+          "path": "data/public/functional_v2/nac_bubr1/Rodriguez2021_TILROSmgtissue.csv",
+          "sha256": "61694e401a6c5cc6a0ed759ddad54a3ddb967ca3bf2279db5c522b63c1dbe1ae"
+        },
+        {
+          "path": "data/public/functional_v2/nac_bubr1/nac_computation.json",
+          "sha256": "04374028eb6765a15d6aea42eea0e047d2380aa8ab687f8b00fed3749911110d"
+        }
+      ],
+      "reference_files": [
+        "nac_functional/rodriguez.json"
+      ],
+      "biological_unit": "Two-larva chamber"
+    },
+    {
+      "id": "nac_ndufa3",
+      "group": "core",
+      "commands": [
+        [
+          "data/public/functional_v2/nac_bubr1/analyze_nac_functional.py",
+          "--data-dir",
+          "data/public/functional_v2/nac_bubr1",
+          "--config",
+          "data/public/functional_v2/nac_bubr1/nac_computation.json",
+          "--dataset",
+          "wang",
+          "--output",
+          "results/nac_functional/wang.json"
+        ]
+      ],
+      "inputs": [
+        {
+          "path": "data/public/functional_v2/nac_bubr1/Wang2026_quantification_data_5A.xlsx",
+          "sha256": "ae58b0c476c814f29092542eb022ebc435c751dd66919c1147a66256b176ab11"
+        },
+        {
+          "path": "data/public/functional_v2/nac_bubr1/Wang2026_quantification_data_5C.xlsx",
+          "sha256": "17247c7e94416a128d013fe80086d041828e27038ab10897707b4f99c3accb4a"
+        },
+        {
+          "path": "data/public/functional_v2/nac_bubr1/nac_computation.json",
+          "sha256": "04374028eb6765a15d6aea42eea0e047d2380aa8ab687f8b00fed3749911110d"
+        }
+      ],
+      "reference_files": [
+        "nac_functional/wang.json"
+      ],
+      "biological_unit": "Independent experiment; no cell-count denominators"
+    },
+    {
+      "id": "nac_g6pd",
+      "group": "core",
+      "commands": [
+        [
+          "data/public/functional_v2/pba_ursodiol/cheng2023/analyze_fidelity.py",
+          "--data-dir",
+          "data/public/functional_v2/pba_ursodiol/cheng2023",
+          "--config",
+          "data/public/functional_v2/pba_ursodiol/cheng2023/computational-config.json",
+          "--output-dir",
+          "results/nac_g6pd_fidelity"
+        ]
+      ],
+      "inputs": [
+        {
+          "path": "data/public/functional_v2/pba_ursodiol/cheng2023/42255_2023_832_MOESM4_ESM.xlsx",
+          "sha256": "c7e46081ff1eba40d5cf450ea57bf3202565db1f2ad9432b15dc36ab8d69385d"
+        },
+        {
+          "path": "data/public/functional_v2/pba_ursodiol/cheng2023/42255_2023_832_MOESM6_ESM.xlsx",
+          "sha256": "ed98c767488a673a6833da2593e75325302a321fb5c24d94b28f657f29b8a888"
+        },
+        {
+          "path": "data/public/functional_v2/pba_ursodiol/cheng2023/fidelity_observations.csv",
+          "sha256": "29e9afc3fe55e03d8744c68a2dbea2bb8cbe2ae0a1843942e0b4765228937727"
+        },
+        {
+          "path": "data/public/functional_v2/pba_ursodiol/cheng2023/computational-config.json",
+          "sha256": "e103fef1bf1962cfb8f6811b7f1b387938ed8fd6bbf80dbcfe59feb19f35840b"
+        }
+      ],
+      "reference_files": [
+        "nac_g6pd_fidelity/fidelity_results.json"
+      ],
+      "biological_unit": "Independent experiment-level percentage; no inferred cross-arm pairing"
+    },
+    {
+      "id": "import_kinetics",
+      "group": "import",
+      "commands": [
+        [
+          "scripts/importkinetics.py",
+          "--root",
+          "."
+        ]
+      ],
+      "inputs": [
+        {
+          "path": "data/public/protein_import/source_data.xlsx",
+          "sha256": "1deeb9ab66b001f1899a8cd7b525d72e8a99292c6e4b2f101479d9a7cc6b2227"
+        },
+        {
+          "path": "data/public/protein_import/kinetics_config.json",
+          "sha256": "6eda1168d9c19573b870f97289ef3724fe415e520cae29ffb1e0efbb565c26a1"
+        }
+      ],
+      "reference_files": [
+        "import_kinetics/summary.json",
+        "import_kinetics/endpoint_contrasts.tsv",
+        "import_kinetics/paired_trajectories.tsv",
+        "import_kinetics/paired_endpoints.tsv"
+      ],
+      "biological_unit": "Matched import assay; repeated times do not multiply n"
+    },
+    {
+      "id": "submission_sensitivity",
+      "group": "sensitivity",
+      "commands": [
+        [
+          "scripts/pba_exposure_bounds.py",
+          "--config",
+          "data/public/pba_exposure/computation.json",
+          "--output",
+          "results/pba_exposure"
+        ],
+        [
+          "data/public/pba_bridge/neuronal_response.py",
+          "--config",
+          "data/public/pba_bridge/neuronal_computation.json",
+          "--out",
+          "results/pba_neuronal"
+        ],
+        [
+          "scripts/submission_sensitivity.py",
+          "--root",
+          ".",
+          "--design",
+          "data/public/pba_exposure/submission-sensitivity-design.json"
+        ]
+      ],
+      "inputs": [
+        {
+          "path": "data/public/pba_exposure/computation.json",
+          "sha256": "650019d6e509bc9cd77679ba2f4ad633ef7ab21bf3812db9ded9fc63d197bbc4"
+        },
+        {
+          "path": "data/public/pba_exposure/submission-sensitivity-design.json",
+          "sha256": "8d8cce2f4bf84d8a6f466aa4c0a0c2ecabeaa08780e777c0c6cd07f2849633ca"
+        },
+        {
+          "path": "data/public/pba_bridge/42003_2026_9902_MOESM3_ESM.xlsx",
+          "sha256": "7a60e4cf2622c760922fa7363bc568a0dcd78d54022049de293167d6eed7a696"
+        },
+        {
+          "path": "data/public/pba_bridge/neuronal_computation.json",
+          "sha256": "e36fe97e9c4eeccf65c634a00231d2e9c2d2896f8fb7c5911e571f44eef9c921"
+        }
+      ],
+      "reference_files": [
+        "submission_sensitivity/summary.json",
+        "submission_sensitivity/deletion_results.tsv",
+        "submission_sensitivity/exposure_thresholds.tsv"
+      ],
+      "biological_unit": "Descriptive deletion subsets/assumption scenarios; no new biological units"
+    }
+  ]
+}

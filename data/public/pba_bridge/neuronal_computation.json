@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "source_file": "42003_2026_9902_MOESM3_ESM.xlsx",
+  "source_sha256": "7a60e4cf2622c760922fa7363bc568a0dcd78d54022049de293167d6eed7a696",
+  "source_article": "https://doi.org/10.1038/s42003-026-09902-6",
+  "source_archive_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13179340/supplementaryFiles",
+  "sheet": "Figure8",
+  "unit": "independent differentiation experiment summary; triplicate wells, images and cells averaged within experiment",
+  "replicates_per_arm": 3,
+  "treatment": {
+    "compound": "sodium 4-phenylbutyrate",
+    "source_product": "Merck SML0309",
+    "concentration_uM": 100,
+    "neuron_exposure_days": [
+      0,
+      21
+    ]
+  },
+  "groups": {
+    "reference": {
+      "column": "B",
+      "neurons": "cDi21",
+      "astrocytes": "cDi21",
+      "pba": false
+    },
+    "vehicle": {
+      "column": "C",
+      "neurons": "Tri21",
+      "astrocytes": "DY+/+/m",
+      "pba": false
+    },
+    "treated": {
+      "column": "D",
+      "neurons": "Tri21",
+      "astrocytes": "DY+/+/m",
+      "pba": true
+    }
+  },
+  "outcomes": [
+    {
+      "id": "aggregate_intensity",
+      "panel": "Fig. 8i",
+      "panel_cell": "A51",
+      "data_rows": [
+        54,
+        55,
+        56
+      ],
+      "unit": "fluorescence intensity per area, normalized to mean reference"
+    },
+    {
+      "id": "active_caspase3_intensity",
+      "panel": "Fig. 8j",
+      "panel_cell": "A58",
+      "data_rows": [
+        61,
+        62,
+        63
+      ],
+      "unit": "fluorescence intensity per area, normalized to mean reference"
+    }
+  ],
+  "analysis": {
+    "primary_contrast": "treated minus vehicle within Tri21 neurons with DYRK1A dosage-corrected astrocytes",
+    "primary_test": "two-sided Welch t test, no inferred pairing from row order",
+    "primary_family": "two measured outcomes, Holm correction",
+    "exact_reference_test": "two-sided unpaired mean-difference permutation over all 20 allocations of six observations to n3+n3; assumes exchangeability; minimum two-sided p=0.1",
+    "effect_interval": "95 percent Welch t interval for normalized mean difference"
+  }
+}

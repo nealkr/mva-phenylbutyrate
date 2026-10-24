@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "verified_date": "2026-10-24",
+  "scope": "Numerical reproduction of eight core and two optional public-data analyses",
+  "python": "3.10.12",
+  "dependencies": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pandas": "2.3.3",
+    "openpyxl": "3.1.5"
+  },
+  "analyses": [
+    "pba_exposure",
+    "bubr1_fidelity",
+    "prediction_controls",
+    "pba_neuronal",
+    "niacin_cachexia",
+    "nac_fly",
+    "nac_ndufa3",
+    "nac_g6pd",
+    "import_kinetics",
+    "submission_sensitivity"
+  ],
+  "reference_files_compared": 20,
+  "numerical_tolerance": {
+    "relative": 1e-10,
+    "absolute": 1e-10
+  },
+  "ignored_runtime_metadata_fields": [
+    "generated_utc",
+    "numpy",
+    "python",
+    "scipy"
+  ],
+  "inputs": "Source and prepared-input hashes matched provenance.json.",
+  "fresh_download_checks": {
+    "checked_utc": "2026-10-24T04:26:04.005326+00:00",
+    "sources": 5,
+    "result": "All downloaded source hashes matched provenance.json."
+  },
+  "provenance_sha256": "b2bc3b8fb16255271a04ba2fadc4c0b40e09cb8dec1a727f69f9095dcd2ae6e3"
+}

@@ -1,0 +1,892 @@
+{
+  "source_sha256": "86793d776a43b1b9864d45af5ae78aaa0d2e79998c0d27405b611ca087bd1055",
+  "config_sha256": "2cacbc4e5cb96e1b37bcafc3ecc330bd453c7de33251716727f7e2b92e114c03",
+  "n_observations": 908,
+  "omitted_non_numeric_cells": [
+    {
+      "endpoint": "C26-F:GSN muscle NAD+",
+      "group": "treated",
+      "cell": "D7",
+      "reason": "Published technical exclusion/non-numeric unavailable observation",
+      "raw_value": "#"
+    }
+  ],
+  "endpoints": [
+    {
+      "id": "C26-F:GSN muscle NAD+",
+      "model": "C26-F",
+      "unit": "pmol/mg of muscle",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 6,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:TA wet-muscle weight",
+      "model": "C26-F",
+      "unit": "mg/IBW",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:GSN wet-muscle weight",
+      "model": "C26-F",
+      "unit": "mg/IBW",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:SUnSET protein synthesis",
+      "model": "C26-F",
+      "unit": "normalized source percent",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 6,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:LC3B-II/total LC3B",
+      "model": "C26-F",
+      "unit": "normalized source percent",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:p-AMPK/AMPK",
+      "model": "C26-F",
+      "unit": "normalized source percent",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "VCM:GSN muscle NAD+",
+      "model": "VCM",
+      "unit": "pmol/mg of muscle",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 6,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "VCM:TA wet-muscle weight",
+      "model": "VCM",
+      "unit": "mg",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 6,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "VCM:GSN wet-muscle weight",
+      "model": "VCM",
+      "unit": "mg",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 6,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "VCM:LC3B-II/total LC3B",
+      "model": "VCM",
+      "unit": "normalized source percent",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 6,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:grasping_day22",
+      "model": "C26-F",
+      "unit": "mN/g IBW",
+      "role": "primary_productive_output",
+      "groups": {
+        "control": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:grasping_day22_minus_day4",
+      "model": "C26-F",
+      "unit": "mN/g IBW",
+      "role": "within_force_baseline_sensitivity",
+      "groups": {
+        "control": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:respiratory_capacity_CI",
+      "model": "C26-F",
+      "unit": "pmol O2/s/mg tissue",
+      "role": "respiratory_state_supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:respiratory_capacity_CI&CII",
+      "model": "C26-F",
+      "unit": "pmol O2/s/mg tissue",
+      "role": "primary_respiratory_capacity",
+      "groups": {
+        "control": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:respiratory_capacity_CII",
+      "model": "C26-F",
+      "unit": "pmol O2/s/mg tissue",
+      "role": "respiratory_state_supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:GSN tissue ATP",
+      "model": "C26-F",
+      "unit": "ATP (microM/mg of protein)",
+      "role": "primary_tissue_ATP",
+      "groups": {
+        "control": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 7,
+          "n_author_rout": 1
+        },
+        "treated": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:GSN mtDNA/nuclear DNA abundance",
+      "model": "C26-F",
+      "unit": "mtDNA (A.U.)",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:GSN citrate-synthase activity",
+      "model": "C26-F",
+      "unit": "CS activity (nmolt/mg*min)",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "VCM:respiratory_capacity_CI",
+      "model": "VCM",
+      "unit": "pmol O2/s/mg tissue",
+      "role": "respiratory_state_supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 6,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "VCM:respiratory_capacity_CI&CII",
+      "model": "VCM",
+      "unit": "pmol O2/s/mg tissue",
+      "role": "primary_respiratory_capacity",
+      "groups": {
+        "control": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 6,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "VCM:respiratory_capacity_CII",
+      "model": "VCM",
+      "unit": "pmol O2/s/mg tissue",
+      "role": "respiratory_state_supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 6,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "VCM:GSN tissue ATP",
+      "model": "VCM",
+      "unit": "ATP (microM/mg of protein)",
+      "role": "primary_tissue_ATP",
+      "groups": {
+        "control": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 6,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "VCM:GSN mtDNA/nuclear DNA abundance",
+      "model": "VCM",
+      "unit": "mtDNA (A.U.)",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 6,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:OXPHOS_ATP5A",
+      "model": "C26-F",
+      "unit": "source normalized percent",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:OXPHOS_UBCRC2_as_source",
+      "model": "C26-F",
+      "unit": "source normalized percent",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:OXPHOS_MTCO1",
+      "model": "C26-F",
+      "unit": "source normalized percent",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:OXPHOS_SDHB",
+      "model": "C26-F",
+      "unit": "source normalized percent",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:OXPHOS_NDUF88_as_source",
+      "model": "C26-F",
+      "unit": "source normalized percent",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:TOMM20_4g",
+      "model": "C26-F",
+      "unit": "source normalized percent",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:PGC1a_4h",
+      "model": "C26-F",
+      "unit": "source normalized percent",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:PINK1_4i",
+      "model": "C26-F",
+      "unit": "source normalized percent",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "VCM:OXPHOS_ATP5A",
+      "model": "VCM",
+      "unit": "source normalized percent",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 6,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "VCM:OXPHOS_UBCRC2_as_source",
+      "model": "VCM",
+      "unit": "source normalized percent",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 6,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "VCM:OXPHOS_MTCO1",
+      "model": "VCM",
+      "unit": "source normalized percent",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 6,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "VCM:OXPHOS_SDHB",
+      "model": "VCM",
+      "unit": "source normalized percent",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 6,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "VCM:OXPHOS_NDUF88_as_source",
+      "model": "VCM",
+      "unit": "source normalized percent",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 6,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "VCM:TOMM20_4o",
+      "model": "VCM",
+      "unit": "source normalized percent",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 6,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "VCM:PGC1a_4p",
+      "model": "VCM",
+      "unit": "source normalized percent",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 6,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "VCM:PINK1_4q",
+      "model": "VCM",
+      "unit": "source normalized percent",
+      "role": "supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 8,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 6,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:tumor_wet_weight",
+      "model": "C26-F",
+      "unit": "mg",
+      "role": "tumor_context",
+      "groups": {
+        "disease": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 7,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:complex_activity_CI",
+      "model": "C26-F",
+      "unit": "nmol/min/mg protein",
+      "role": "direct_complex_activity_supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 5,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 5,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 5,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:complex_activity_CII",
+      "model": "C26-F",
+      "unit": "nmol/min/mg protein",
+      "role": "direct_complex_activity_supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 5,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 5,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 5,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:complex_activity_CIII",
+      "model": "C26-F",
+      "unit": "nmol/min/mg protein",
+      "role": "direct_complex_activity_supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 5,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 5,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 5,
+          "n_author_rout": 0
+        }
+      }
+    },
+    {
+      "id": "C26-F:complex_activity_CIV",
+      "model": "C26-F",
+      "unit": "nmol/min/mg protein",
+      "role": "direct_complex_activity_supportive",
+      "groups": {
+        "control": {
+          "n_numeric": 5,
+          "n_author_rout": 0
+        },
+        "disease": {
+          "n_numeric": 5,
+          "n_author_rout": 0
+        },
+        "treated": {
+          "n_numeric": 5,
+          "n_author_rout": 0
+        }
+      }
+    }
+  ]
+}

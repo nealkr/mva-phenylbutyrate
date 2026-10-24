@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "author": "Neal Krishna",
+  "team": "Signal Works",
+  "original_material_license": "CC-BY-4.0",
+  "inputs": [
+    {
+      "id": "weaver_fig7",
+      "path": "data/public/bubr1-functional-v2/elife-16620-fig7-data1-v1.xlsx",
+      "groups": [
+        "core"
+      ],
+      "distribution": "bundle",
+      "sha256": "62e710b61a15a697f64f57fece56de4f7ea4698422fc0790ff8ce9b841e4742d",
+      "bytes": 12751,
+      "urls": [
+        "https://cdn.elifesciences.org/articles/16620/elife-16620-fig7-data1-v1.xlsx"
+      ],
+      "article": "https://doi.org/10.7554/eLife.16620.025",
+      "license": "CC-BY-4.0",
+      "license_evidence": "https://elifesciences.org/articles/16620"
+    },
+    {
+      "id": "neuronal_pba",
+      "path": "data/public/pba_bridge/42003_2026_9902_MOESM3_ESM.xlsx",
+      "groups": [
+        "core"
+      ],
+      "distribution": "fetch",
+      "sha256": "7a60e4cf2622c760922fa7363bc568a0dcd78d54022049de293167d6eed7a696",
+      "bytes": 47675,
+      "urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC13179340.1/42003_2026_9902_MOESM3_ESM.xlsx",
+        "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs42003-026-09902-6/MediaObjects/42003_2026_9902_MOESM3_ESM.xlsx"
+      ],
+      "article": "https://doi.org/10.1038/s42003-026-09902-6",
+      "license": "CC-BY-NC-ND-4.0; fetch only",
+      "license_evidence": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13179340/"
+    },
+    {
+      "id": "niacin_mouse",
+      "path": "data/public/functional_v2/niacin_cachexia/41467_2023_37595_MOESM6_ESM.xlsx",
+      "groups": [
+        "core"
+      ],
+      "distribution": "fetch",
+      "sha256": "86793d776a43b1b9864d45af5ae78aaa0d2e79998c0d27405b611ca087bd1055",
+      "bytes": 4658345,
+      "urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC10070388.1/41467_2023_37595_MOESM6_ESM.xlsx?md5=74acd3094bc631421a7185a228137b20"
+      ],
+      "article": "https://doi.org/10.1038/s41467-023-37595-6",
+      "license": "CC-BY-4.0",
+      "license_evidence": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10070388/"
+    },
+    {
+      "id": "rodriguez_respiration",
+      "path": "data/public/functional_v2/nac_bubr1/Rodriguez2021_TILfluxtissue.csv",
+      "groups": [
+        "core"
+      ],
+      "distribution": "bundle",
+      "sha256": "1206c99bb661138f43a3ba2a2f01fcaac589da4b1747f23f1dc14e6f681bc171",
+      "bytes": 13417,
+      "urls": [
+        "https://ndownloader.figshare.com/files/30578214"
+      ],
+      "article": "https://doi.org/10.5522/04/16539723.v1",
+      "license": "CC0-1.0",
+      "license_evidence": "https://api.figshare.com/v2/articles/16539723"
+    },
+    {
+      "id": "rodriguez_ros",
+      "path": "data/public/functional_v2/nac_bubr1/Rodriguez2021_TILROSmgtissue.csv",
+      "groups": [
+        "core"
+      ],
+      "distribution": "bundle",
+      "sha256": "61694e401a6c5cc6a0ed759ddad54a3ddb967ca3bf2279db5c522b63c1dbe1ae",
+      "bytes": 2160,
+      "urls": [
+        "https://ndownloader.figshare.com/files/30578217"
+      ],
+      "article": "https://doi.org/10.5522/04/16539723.v1",
+      "license": "CC0-1.0",
+      "license_evidence": "https://api.figshare.com/v2/articles/16539723"
+    },
+    {
+      "id": "wang_5A",
+      "path": "data/public/functional_v2/nac_bubr1/Wang2026_quantification_data_5A.xlsx",
+      "groups": [
+        "core"
+      ],
+      "distribution": "bundle",
+      "sha256": "ae58b0c476c814f29092542eb022ebc435c751dd66919c1147a66256b176ab11",
+      "bytes": 10786,
+      "urls": [
+        "https://ftp.ebi.ac.uk/biostudies/fire/S-SCDT-10_1038-S44319-026-00937-/008/S-SCDT-10_1038-S44319-026-00937-8/Files/quantification_data_5A.xlsx"
+      ],
+      "article": "https://doi.org/10.1038/s44319-026-00937-8",
+      "license": "CC0-1.0 research data",
+      "license_evidence": "https://link.springer.com/article/10.1038/s44319-026-00937-8"
+    },
+    {
+      "id": "wang_5C",
+      "path": "data/public/functional_v2/nac_bubr1/Wang2026_quantification_data_5C.xlsx",
+      "groups": [
+        "core"
+      ],
+      "distribution": "bundle",
+      "sha256": "17247c7e94416a128d013fe80086d041828e27038ab10897707b4f99c3accb4a",
+      "bytes": 10420,
+      "urls": [
+        "https://ftp.ebi.ac.uk/biostudies/fire/S-SCDT-10_1038-S44319-026-00937-/008/S-SCDT-10_1038-S44319-026-00937-8/Files/quantification_data_5C.xlsx"
+      ],
+      "article": "https://doi.org/10.1038/s44319-026-00937-8",
+      "license": "CC0-1.0 research data",
+      "license_evidence": "https://link.springer.com/article/10.1038/s44319-026-00937-8"
+    },
+    {
+      "id": "cheng_MOESM4",
+      "path": "data/public/functional_v2/pba_ursodiol/cheng2023/42255_2023_832_MOESM4_ESM.xlsx",
+      "groups": [
+        "core"
+      ],
+      "distribution": "fetch",
+      "sha256": "c7e46081ff1eba40d5cf450ea57bf3202565db1f2ad9432b15dc36ab8d69385d",
+      "bytes": 32756,
+      "urls": [
+        "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs42255-023-00832-9/MediaObjects/42255_2023_832_MOESM4_ESM.xlsx"
+      ],
+      "article": "https://doi.org/10.1038/s42255-023-00832-9",
+      "license": "Publisher exclusive rights; no open-data license established; fetch only",
+      "license_evidence": "https://www.nature.com/articles/s42255-023-00832-9"
+    },
+    {
+      "id": "cheng_MOESM6",
+      "path": "data/public/functional_v2/pba_ursodiol/cheng2023/42255_2023_832_MOESM6_ESM.xlsx",
+      "groups": [
+        "core"
+      ],
+      "distribution": "fetch",
+      "sha256": "ed98c767488a673a6833da2593e75325302a321fb5c24d94b28f657f29b8a888",
+      "bytes": 22173,
+      "urls": [
+        "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs42255-023-00832-9/MediaObjects/42255_2023_832_MOESM6_ESM.xlsx"
+      ],
+      "article": "https://doi.org/10.1038/s42255-023-00832-9",
+      "license": "Publisher exclusive rights; no open-data license established; fetch only",
+      "license_evidence": "https://www.nature.com/articles/s42255-023-00832-9"
+    },
+    {
+      "id": "rasp_predictions",
+      "path": "data/public/bubr1-functional-v2/rasp-O60566-v2.csv",
+      "groups": [
+        "core"
+      ],
+      "distribution": "fetch",
+      "sha256": "8ae13c5d5daec133fd91aa3191c4943300a8d0566f05c36fac2caf9c4de97f2e",
+      "bytes": 24536120,
+      "urls": [
+        "https://sid.erda.dk/share_redirect/fFPJWflLeE/rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_prism_dir/O6/05/66/rasp_pred_AF-O60566-F1-model_v2A.csv"
+      ],
+      "article": "https://doi.org/10.7554/eLife.82593",
+      "license": "External score-data license not established; fetch only",
+      "license_evidence": "https://doi.org/10.17894/ucph.7f82bee1-b6ed-4660-8616-96482372e736"
+    },
+    {
+      "id": "import_source",
+      "path": "data/public/protein_import/source_data.xlsx",
+      "groups": [
+        "import"
+      ],
+      "distribution": "fetch",
+      "sha256": "1deeb9ab66b001f1899a8cd7b525d72e8a99292c6e4b2f101479d9a7cc6b2227",
+      "bytes": 59047515,
+      "urls": [
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12174339.1/41467_2025_60857_MOESM8_ESM.xlsx?md5=0a2dbc2e33add75b68548992d7a52584"
+      ],
+      "article": "https://doi.org/10.1038/s41467-025-60857-4",
+      "license": "CC-BY-4.0; fetch to reduce release size",
+      "license_evidence": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12174339/"
+    },
+    {
+      "id": "prediction_labels",
+      "path": "data/public/bubr1-functional-v2/prediction-labels.tsv",
+      "groups": [
+        "core"
+      ],
+      "distribution": "bundle",
+      "sha256": "5ecf6eba010e3faf0566f0570166e14dd1d00cb26ac334716ede20e7cef8010e",
+      "bytes": 472,
+      "urls": [],
+      "article": "https://doi.org/10.1126/science.adg7492",
+      "license": "Original label curation CC-BY-4.0; precomputed AlphaMissense subset CC-BY-4.0",
+      "license_evidence": "https://github.com/google-deepmind/alphamissense#alphamissense-predictions-license",
+      "transformation": "14 published control variants; unchanged AlphaMissense values. RaSP score and model confidence fields omitted and reconstructed after download."
+    }
+  ],
+  "derived_inputs": [
+    {
+      "path": "data/public/bubr1-functional-v2/prediction-controls.tsv",
+      "groups": [
+        "core"
+      ],
+      "distribution": "fetch",
+      "sha256": "96980ed8d6a5ea393e3f5e28aec51545b4dde50c37e5e1cc2f3efc519c309244",
+      "bytes": 944,
+      "preparation": "fetch_inputs.py; original row order/format and source hash enforced"
+    },
+    {
+      "path": "data/public/functional_v2/pba_ursodiol/cheng2023/fidelity_observations.csv",
+      "groups": [
+        "core"
+      ],
+      "distribution": "fetch",
+      "sha256": "29e9afc3fe55e03d8744c68a2dbea2bb8cbe2ae0a1843942e0b4765228937727",
+      "bytes": 9041,
+      "preparation": "fetch_inputs.py; original row order/format and source hash enforced"
+    }
+  ],
+  "generated_fetch_artifacts": [
+    "data/public/functional_v2/pba_ursodiol/cheng2023/fidelity_source_cells.csv",
+    "data/public/functional_v2/pba_ursodiol/cheng2023/source_workbook_inventory.json"
+  ],
+  "exposure_sources": [
+    {
+      "id": "parent_phenylbutyrate_PK",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d15f2cbf-4d22-40b5-8ef9-16b9d323a7f9",
+      "values": "Adult reported single-dose mean Cmax146/169ug/mL; half-life0.5/0.8h; food sensitivities in computation.json"
+    },
+    {
+      "id": "human_plasma_binding",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2013/203284s000lbl.pdf",
+      "values": "In-vitro parent plasma binding range; culture unbound fractions are assumptions"
+    }
+  ],
+  "prediction_sources": {
+    "AlphaMissense": "https://doi.org/10.1126/science.adg7492",
+    "RaSP": "https://doi.org/10.7554/eLife.82593",
+    "parent_AlphaMissense_gene_wide_sha256": "5fa6d36fe08f74b89cd4b12029e84fc7bfc0eb19b9239ce141aca392584efb33",
+    "control_label_scope": "Heterogeneous published abundance/stability controls; variant-level diagnostic ranking, not an efficacy calibration."
+  }
+}

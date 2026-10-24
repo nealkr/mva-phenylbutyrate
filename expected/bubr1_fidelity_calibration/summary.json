@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "design_sha256": "a7adc4723c8bcdff477dbfab6bebef8b45495383d85fb454d47ec5ad702d5414",
+  "engine_sha256": "a1dddb7da983d6cf3412fa52a1062388f08d06e58d46d7a1723cf564c605725e",
+  "source_sha256": "62e710b61a15a697f64f57fece56de4f7ea4698422fc0790ff8ce9b841e4742d",
+  "species": "Mus musculus",
+  "outcome": "MEF-line percentage of cells with one or more misaligned chromosomes after monastrol washout",
+  "primary": [
+    {
+      "construct": "FL-Bub1b",
+      "reference": "Wild-type",
+      "effect_pp": -7.333333333333334,
+      "ci95_pp": [
+        -10.666666666666666,
+        -4.0
+      ],
+      "allocations": 924,
+      "two_sided_p": 0.012987012987012988,
+      "null": "exchangeable_line_outcomes_across_construct_groups",
+      "bh_q_four_primary_comparisons": 0.05194805194805195
+    },
+    {
+      "construct": "Bub1b\u0394I",
+      "reference": "Wild-type",
+      "effect_pp": -5.333333333333334,
+      "ci95_pp": [
+        -8.000000000000002,
+        -2.666666666666666
+      ],
+      "allocations": 924,
+      "two_sided_p": 0.032467532467532464,
+      "null": "exchangeable_line_outcomes_across_construct_groups",
+      "bh_q_four_primary_comparisons": 0.06493506493506493
+    },
+    {
+      "construct": "Bub1b\u0394N",
+      "reference": "Wild-type",
+      "effect_pp": -1.3333333333333321,
+      "ci95_pp": [
+        -5.333333333333336,
+        2.666666666666668
+      ],
+      "allocations": 924,
+      "two_sided_p": 0.7922077922077922,
+      "null": "exchangeable_line_outcomes_across_construct_groups",
+      "bh_q_four_primary_comparisons": 0.7922077922077922
+    },
+    {
+      "construct": "Bub1bN",
+      "reference": "Wild-type",
+      "effect_pp": -3.333333333333332,
+      "ci95_pp": [
+        -7.333333333333332,
+        0.6666666666666679
+      ],
+      "allocations": 924,
+      "two_sided_p": 0.24675324675324675,
+      "null": "exchangeable_line_outcomes_across_construct_groups",
+      "bh_q_four_primary_comparisons": 0.329004329004329
+    }
+  ],
+  "groups": [
+    {
+      "construct": "Wild-type",
+      "vehicle_line_values_pp": [
+        4.0,
+        8.0,
+        0.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "stressor_line_values_pp": [
+        16.0,
+        24.0,
+        20.0,
+        16.0,
+        24.0,
+        20.0
+      ],
+      "vehicle_mean_pp": 4.0,
+      "stressor_mean_pp": 20.0,
+      "independent_arm_change_ci95_pp": [
+        12.666666666666668,
+        19.333333333333332
+      ],
+      "unknown_pairing_sensitivity": {
+        "assumption": "same_six_lines_in_each_arm_with_unknown_correspondence",
+        "pairings_enumerated": 720,
+        "mean_change_pp": 16.0,
+        "paired_t_ci95_outer_envelope_pp": [
+          10.063495540885647,
+          21.936504459114353
+        ],
+        "paired_standard_error_range_pp": [
+          1.0327955589886446,
+          2.3094010767585034
+        ]
+      }
+    },
+    {
+      "construct": "FL-Bub1b",
+      "vehicle_line_values_pp": [
+        4.0,
+        0.0,
+        4.0,
+        4.0,
+        4.0,
+        0.0
+      ],
+      "stressor_line_values_pp": [
+        12.0,
+        12.0,
+        16.0,
+        12.0,
+        8.0,
+        16.0
+      ],
+      "vehicle_mean_pp": 2.6666666666666665,
+      "stressor_mean_pp": 12.666666666666666,
+      "independent_arm_change_ci95_pp": [
+        7.333333333333332,
+        12.666666666666666
+      ],
+      "unknown_pairing_sensitivity": {
+        "assumption": "same_six_lines_in_each_arm_with_unknown_correspondence",
+        "pairings_enumerated": 720,
+        "mean_change_pp": 10.0,
+        "paired_t_ci95_outer_envelope_pp": [
+          4.858836328727372,
+          15.14116367127263
+        ],
+        "paired_standard_error_range_pp": [
+          0.8944271909999159,
+          2.0
+        ]
+      }
+    },
+    {
+      "construct": "Bub1b\u0394I",
+      "vehicle_line_values_pp": [
+        8.0,
+        8.0,
+        8.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "stressor_line_values_pp": [
+        16.0,
+        16.0,
+        12.0,
+        16.0,
+        12.0,
+        16.0
+      ],
+      "vehicle_mean_pp": 6.0,
+      "stressor_mean_pp": 14.666666666666666,
+      "independent_arm_change_ci95_pp": [
+        6.666666666666666,
+        10.666666666666668
+      ],
+      "unknown_pairing_sensitivity": {
+        "assumption": "same_six_lines_in_each_arm_with_unknown_correspondence",
+        "pairings_enumerated": 720,
+        "mean_change_pp": 8.666666666666666,
+        "paired_t_ci95_outer_envelope_pp": [
+          4.539479427154641,
+          12.793853906178692
+        ],
+        "paired_standard_error_range_pp": [
+          0.6666666666666666,
+          1.6055459438389728
+        ]
+      }
+    },
+    {
+      "construct": "Bub1b\u0394N",
+      "vehicle_line_values_pp": [
+        0.0,
+        4.0,
+        0.0,
+        12.0,
+        12.0,
+        8.0
+      ],
+      "stressor_line_values_pp": [
+        16.0,
+        24.0,
+        12.0,
+        16.0,
+        24.0,
+        20.0
+      ],
+      "vehicle_mean_pp": 6.0,
+      "stressor_mean_pp": 18.666666666666668,
+      "independent_arm_change_ci95_pp": [
+        7.333333333333334,
+        18.0
+      ],
+      "unknown_pairing_sensitivity": {
+        "assumption": "same_six_lines_in_each_arm_with_unknown_correspondence",
+        "pairings_enumerated": 720,
+        "mean_change_pp": 12.666666666666668,
+        "paired_t_ci95_outer_envelope_pp": [
+          1.9097380599207927,
+          23.423595273412545
+        ],
+        "paired_standard_error_range_pp": [
+          0.6666666666666666,
+          4.184627953726724
+        ]
+      }
+    },
+    {
+      "construct": "Bub1bN",
+      "vehicle_line_values_pp": [
+        8.0,
+        8.0,
+        4.0,
+        4.0,
+        8.0,
+        8.0
+      ],
+      "stressor_line_values_pp": [
+        16.0,
+        24.0,
+        16.0,
+        12.0,
+        16.0,
+        16.0
+      ],
+      "vehicle_mean_pp": 6.666666666666667,
+      "stressor_mean_pp": 16.666666666666668,
+      "independent_arm_change_ci95_pp": [
+        7.333333333333333,
+        13.333333333333336
+      ],
+      "unknown_pairing_sensitivity": {
+        "assumption": "same_six_lines_in_each_arm_with_unknown_correspondence",
+        "pairings_enumerated": 720,
+        "mean_change_pp": 10.0,
+        "paired_t_ci95_outer_envelope_pp": [
+          4.213811190997102,
+          15.786188809002898
+        ],
+        "paired_standard_error_range_pp": [
+          1.3662601021279466,
+          2.250925735484551
+        ]
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "construct": "FL-Bub1b",
+      "difference_in_drug_changes_vs_wt_pp": -6.0,
+      "conditional_unknown_pairing_ci95_outer_envelope_pp": [
+        -13.853257227921294,
+        1.8532572279212944
+      ],
+      "status": "descriptive_sensitivity_not_primary_test"
+    },
+    {
+      "construct": "Bub1b\u0394I",
+      "difference_in_drug_changes_vs_wt_pp": -7.333333333333334,
+      "conditional_unknown_pairing_ci95_outer_envelope_pp": [
+        -14.563531097093016,
+        -0.10313556957365222
+      ],
+      "status": "descriptive_sensitivity_not_primary_test"
+    },
+    {
+      "construct": "Bub1b\u0394N",
+      "difference_in_drug_changes_vs_wt_pp": -3.333333333333332,
+      "conditional_unknown_pairing_ci95_outer_envelope_pp": [
+        -15.619650855020307,
+        8.952984188353643
+      ],
+      "status": "descriptive_sensitivity_not_primary_test"
+    },
+    {
+      "construct": "Bub1bN",
+      "difference_in_drug_changes_vs_wt_pp": -6.0,
+      "conditional_unknown_pairing_ci95_outer_envelope_pp": [
+        -14.289877328797754,
+        2.289877328797754
+      ],
+      "status": "descriptive_sensitivity_not_primary_test"
+    }
+  ],
+  "bootstrap_draws": 9999,
+  "canonical_design_sha256": "e83103e1e626a2e30fe27e4ad6dd501e6ceecd73cba2b1db9173ba4e2d0b9f50",
+  "interpretation": [],
+  "uncertainty": []
+}

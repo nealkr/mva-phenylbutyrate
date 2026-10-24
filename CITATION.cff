@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this package, cite it and the original data sources listed in THIRD_PARTY.md."
+type: software
+title: "Chromosome-function public-data reproducibility package"
+authors:
+  - family-names: Krishna
+    given-names: Neal
+    affiliation: Signal Works
+date-released: 2026-10-24
+license: CC-BY-4.0
+abstract: "Portable analyses and retained numerical references for eight selected public-data comparisons, with optional mitochondrial import-kinetics and sensitivity analyses."
+keywords:
+  - reproducibility
+  - chromosome function
+  - public data

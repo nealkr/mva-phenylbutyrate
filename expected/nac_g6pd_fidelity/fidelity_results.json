@@ -1,0 +1,785 @@
+{
+  "config": {
+    "schema_version": 1,
+    "study_doi": "10.1038/s42255-023-00832-9",
+    "input_sha256": {
+      "fidelity_observations.csv": "29e9afc3fe55e03d8744c68a2dbea2bb8cbe2ae0a1843942e0b4765228937727",
+      "42255_2023_832_MOESM4_ESM.xlsx": "c7e46081ff1eba40d5cf450ea57bf3202565db1f2ad9432b15dc36ab8d69385d",
+      "42255_2023_832_MOESM6_ESM.xlsx": "ed98c767488a673a6833da2593e75325302a321fb5c24d94b28f657f29b8a888"
+    },
+    "observation_count": 69,
+    "contrast_count": 18,
+    "unit": "independent-experiment percentage; contrast in percentage points",
+    "endpoints": [
+      "misalignment",
+      "lagging_chromosomes",
+      "micronuclei"
+    ],
+    "pairing": "unpaired; no original IDs or denominators available",
+    "simple_contrasts": "Welch t 95% CI and exact two-sided mean-difference label permutation p",
+    "interaction": "independent four-group linear contrast with Welch-Satterthwaite 95% CI and t p; no permutation",
+    "multiplicity": "Benjamini-Hochberg across all 18 contrasts; simple permutation p plus interaction Welch p",
+    "inference_status": "retrospective analysis of inspected published source values; primary flags identify requested rescue contrasts, not preregistration",
+    "NAC_endpoint_concentration_mM": null,
+    "NAC_endpoint_duration_hours": null,
+    "dose_policy": "Exact Fig2h/3n dose and duration unresolved; studywide 1-5 mM range and 24h imaging window not imputed",
+    "confidence_level": 0.95,
+    "permutation_alternative": "two-sided absolute unstudentized mean difference",
+    "permutation_exchangeability": "Simple label tests assume exchangeable independent observations under the equal-distribution null, stronger than equal means with unequal variances.",
+    "primary_rescue_definition": [
+      "Fig.2h G6PDi+NAC minus G6PDi",
+      "Fig.3n BAG3 T285A+NAC minus BAG3 T285A"
+    ],
+    "do_not_pool": "Do not pool cells, endpoints, or figures as independent replications; no matched-row or binomial analysis."
+  },
+  "validation": {
+    "status": "validated",
+    "study_outcomes_computed": true,
+    "observation_count_checked": 69,
+    "checks": [
+      "fixed_input_SHA256",
+      "ZIP_CRC",
+      "69_exact_source_coordinates",
+      "exact_workbook_value_match",
+      "schema_arms_n_percent_range",
+      "blank_ID_counts_unpaired",
+      "negative_gate_mutations",
+      "toy_Welch_exact_permutation_interaction_BH"
+    ],
+    "input_sha256": {
+      "fidelity_observations.csv": "29e9afc3fe55e03d8744c68a2dbea2bb8cbe2ae0a1843942e0b4765228937727",
+      "42255_2023_832_MOESM4_ESM.xlsx": "c7e46081ff1eba40d5cf450ea57bf3202565db1f2ad9432b15dc36ab8d69385d",
+      "42255_2023_832_MOESM6_ESM.xlsx": "ed98c767488a673a6833da2593e75325302a321fb5c24d94b28f657f29b8a888"
+    },
+    "script_sha256": "43d55c7b0f043967d9d595ff56589a0e3fc61fbad421a1d80728ead4ce8e7109",
+    "config_sha256": "e103fef1bf1962cfb8f6811b7f1b387938ed8fd6bbf80dbcfe59feb19f35840b",
+    "python": "3.10.12",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "contrasts": [
+    {
+      "figure": "Fig.2h",
+      "endpoint": "misalignment",
+      "family": "context",
+      "primary_rescue": false,
+      "arms_in_weight_order": [
+        "G6PDi",
+        "DMSO"
+      ],
+      "weights": [
+        1,
+        -1
+      ],
+      "n": [
+        4,
+        4
+      ],
+      "means_percent": [
+        45.06,
+        4.725
+      ],
+      "sd_percent": [
+        4.823525681490666,
+        1.9259196937221101
+      ],
+      "estimate_pp": 40.335,
+      "se_pp": 2.596900395984926,
+      "df": 3.932821694977969,
+      "ci95_low_pp": 33.07601610991292,
+      "ci95_high_pp": 47.59398389008708,
+      "welch_t": 15.531978069841278,
+      "welch_p": 0.00011228530669647474,
+      "permutation_p": 0.02857142857142857,
+      "permutation_extreme_allocations": 2,
+      "permutation_total_allocations": 70,
+      "bh_input_p": 0.02857142857142857,
+      "p_method": "exact_unpaired_mean_difference_label_permutation",
+      "bh_q_all18": 0.07346938775510203
+    },
+    {
+      "figure": "Fig.2h",
+      "endpoint": "misalignment",
+      "family": "rescue",
+      "primary_rescue": true,
+      "arms_in_weight_order": [
+        "G6PDi+NAC",
+        "G6PDi"
+      ],
+      "weights": [
+        1,
+        -1
+      ],
+      "n": [
+        4,
+        4
+      ],
+      "means_percent": [
+        22.025,
+        45.06
+      ],
+      "sd_percent": [
+        3.3500000000000014,
+        4.823525681490666
+      ],
+      "estimate_pp": -23.035000000000004,
+      "se_pp": 2.936362545735795,
+      "df": 5.3478402100903395,
+      "ci95_low_pp": -30.43785518065291,
+      "ci95_high_pp": -15.632144819347097,
+      "welch_t": -7.8447397558082805,
+      "welch_p": 0.0003953569398978658,
+      "permutation_p": 0.02857142857142857,
+      "permutation_extreme_allocations": 2,
+      "permutation_total_allocations": 70,
+      "bh_input_p": 0.02857142857142857,
+      "p_method": "exact_unpaired_mean_difference_label_permutation",
+      "bh_q_all18": 0.07346938775510203
+    },
+    {
+      "figure": "Fig.3n",
+      "endpoint": "misalignment",
+      "family": "context",
+      "primary_rescue": false,
+      "arms_in_weight_order": [
+        "BAG3 T285A",
+        "BAG3 WT"
+      ],
+      "weights": [
+        1,
+        -1
+      ],
+      "n": [
+        3,
+        3
+      ],
+      "means_percent": [
+        18.84058,
+        5.3045963333333335
+      ],
+      "sd_percent": [
+        3.3207078317882766,
+        1.3148723755537393
+      ],
+      "estimate_pp": 13.535983666666667,
+      "se_pp": 2.0620370080815986,
+      "df": 2.612095618165467,
+      "ci95_low_pp": 6.386374961213765,
+      "ci95_high_pp": 20.68559237211957,
+      "welch_t": 6.5643747486665,
+      "welch_p": 0.010879039970572204,
+      "permutation_p": 0.1,
+      "permutation_extreme_allocations": 2,
+      "permutation_total_allocations": 20,
+      "bh_input_p": 0.1,
+      "p_method": "exact_unpaired_mean_difference_label_permutation",
+      "bh_q_all18": 0.12000000000000001
+    },
+    {
+      "figure": "Fig.3n",
+      "endpoint": "misalignment",
+      "family": "reference_NAC",
+      "primary_rescue": false,
+      "arms_in_weight_order": [
+        "BAG3 WT+NAC",
+        "BAG3 WT"
+      ],
+      "weights": [
+        1,
+        -1
+      ],
+      "n": [
+        3,
+        3
+      ],
+      "means_percent": [
+        5.109606666666667,
+        5.3045963333333335
+      ],
+      "sd_percent": [
+        1.479669642946132,
+        1.3148723755537393
+      ],
+      "estimate_pp": -0.1949896666666664,
+      "se_pp": 1.142849015436228,
+      "df": 3.9454964223243856,
+      "ci95_low_pp": -3.3854090720540757,
+      "ci95_high_pp": 2.995429738720743,
+      "welch_t": -0.1706171716762064,
+      "welch_p": 0.8729160240770333,
+      "permutation_p": 0.6,
+      "permutation_extreme_allocations": 12,
+      "permutation_total_allocations": 20,
+      "bh_input_p": 0.6,
+      "p_method": "exact_unpaired_mean_difference_label_permutation",
+      "bh_q_all18": 0.6
+    },
+    {
+      "figure": "Fig.3n",
+      "endpoint": "misalignment",
+      "family": "rescue",
+      "primary_rescue": true,
+      "arms_in_weight_order": [
+        "BAG3 T285A+NAC",
+        "BAG3 T285A"
+      ],
+      "weights": [
+        1,
+        -1
+      ],
+      "n": [
+        3,
+        3
+      ],
+      "means_percent": [
+        4.861111333333334,
+        18.84058
+      ],
+      "sd_percent": [
+        1.2028128683616304,
+        3.3207078317882766
+      ],
+      "estimate_pp": -13.979468666666666,
+      "se_pp": 2.039105956082741,
+      "df": 2.5159203608742655,
+      "ci95_low_pp": -21.235674151848034,
+      "ci95_high_pp": -6.723263181485296,
+      "welch_t": -6.855685269794494,
+      "welch_p": 0.010909925855770681,
+      "permutation_p": 0.1,
+      "permutation_extreme_allocations": 2,
+      "permutation_total_allocations": 20,
+      "bh_input_p": 0.1,
+      "p_method": "exact_unpaired_mean_difference_label_permutation",
+      "bh_q_all18": 0.12000000000000001
+    },
+    {
+      "figure": "Fig.3n",
+      "endpoint": "misalignment",
+      "family": "NAC_interaction_mutant_minus_WT",
+      "primary_rescue": false,
+      "arms_in_weight_order": [
+        "BAG3 T285A+NAC",
+        "BAG3 T285A",
+        "BAG3 WT+NAC",
+        "BAG3 WT"
+      ],
+      "weights": [
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "n": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "means_percent": [
+        4.861111333333334,
+        18.84058,
+        5.109606666666667,
+        5.3045963333333335
+      ],
+      "sd_percent": [
+        1.2028128683616304,
+        3.3207078317882766,
+        1.479669642946132,
+        1.3148723755537393
+      ],
+      "estimate_pp": -13.784479000000001,
+      "se_pp": 2.337532239823799,
+      "df": 4.08759078470014,
+      "ci95_low_pp": -20.22002817693542,
+      "ci95_high_pp": -7.3489298230645845,
+      "welch_t": -5.897021981198027,
+      "welch_p": 0.0038632231047360595,
+      "bh_input_p": 0.0038632231047360595,
+      "p_method": "four_group_Welch_Satterthwaite_t",
+      "bh_q_all18": 0.03476900794262454
+    },
+    {
+      "figure": "Fig.2h",
+      "endpoint": "lagging_chromosomes",
+      "family": "context",
+      "primary_rescue": false,
+      "arms_in_weight_order": [
+        "G6PDi",
+        "DMSO"
+      ],
+      "weights": [
+        1,
+        -1
+      ],
+      "n": [
+        4,
+        4
+      ],
+      "means_percent": [
+        30.117500000000003,
+        6.8500000000000005
+      ],
+      "sd_percent": [
+        8.333220165898256,
+        3.34912924006624
+      ],
+      "estimate_pp": 23.267500000000002,
+      "se_pp": 4.490524050709451,
+      "df": 3.9445040897959287,
+      "ci95_low_pp": 10.7303225892272,
+      "ci95_high_pp": 35.804677410772804,
+      "welch_t": 5.181466514208738,
+      "welch_p": 0.006855367539324189,
+      "permutation_p": 0.02857142857142857,
+      "permutation_extreme_allocations": 2,
+      "permutation_total_allocations": 70,
+      "bh_input_p": 0.02857142857142857,
+      "p_method": "exact_unpaired_mean_difference_label_permutation",
+      "bh_q_all18": 0.07346938775510203
+    },
+    {
+      "figure": "Fig.2h",
+      "endpoint": "lagging_chromosomes",
+      "family": "rescue",
+      "primary_rescue": true,
+      "arms_in_weight_order": [
+        "G6PDi+NAC",
+        "G6PDi"
+      ],
+      "weights": [
+        1,
+        -1
+      ],
+      "n": [
+        4,
+        4
+      ],
+      "means_percent": [
+        14.9,
+        30.117500000000003
+      ],
+      "sd_percent": [
+        1.8938496948455712,
+        8.333220165898256
+      ],
+      "estimate_pp": -15.217500000000003,
+      "se_pp": 4.272856918971194,
+      "df": 3.309071917744437,
+      "ci95_low_pp": -28.124611969726857,
+      "ci95_high_pp": -2.310388030273147,
+      "welch_t": -3.5614344895180876,
+      "welch_p": 0.032227473961840586,
+      "permutation_p": 0.02857142857142857,
+      "permutation_extreme_allocations": 2,
+      "permutation_total_allocations": 70,
+      "bh_input_p": 0.02857142857142857,
+      "p_method": "exact_unpaired_mean_difference_label_permutation",
+      "bh_q_all18": 0.07346938775510203
+    },
+    {
+      "figure": "Fig.3n",
+      "endpoint": "lagging_chromosomes",
+      "family": "context",
+      "primary_rescue": false,
+      "arms_in_weight_order": [
+        "BAG3 T285A",
+        "BAG3 WT"
+      ],
+      "weights": [
+        1,
+        -1
+      ],
+      "n": [
+        3,
+        3
+      ],
+      "means_percent": [
+        14.492753333333335,
+        5.3045963333333335
+      ],
+      "sd_percent": [
+        2.510215047388039,
+        1.3148723755537393
+      ],
+      "estimate_pp": 9.188157,
+      "se_pp": 1.636059182724112,
+      "df": 3.0206644603416155,
+      "ci95_low_pp": 4.0015790315754645,
+      "ci95_high_pp": 14.374734968424537,
+      "welch_t": 5.616029723754434,
+      "welch_p": 0.010957373454612349,
+      "permutation_p": 0.1,
+      "permutation_extreme_allocations": 2,
+      "permutation_total_allocations": 20,
+      "bh_input_p": 0.1,
+      "p_method": "exact_unpaired_mean_difference_label_permutation",
+      "bh_q_all18": 0.12000000000000001
+    },
+    {
+      "figure": "Fig.3n",
+      "endpoint": "lagging_chromosomes",
+      "family": "reference_NAC",
+      "primary_rescue": false,
+      "arms_in_weight_order": [
+        "BAG3 WT+NAC",
+        "BAG3 WT"
+      ],
+      "weights": [
+        1,
+        -1
+      ],
+      "n": [
+        3,
+        3
+      ],
+      "means_percent": [
+        4.352031,
+        5.3045963333333335
+      ],
+      "sd_percent": [
+        0.16751009770160097,
+        1.3148723755537393
+      ],
+      "estimate_pp": -0.9525653333333333,
+      "se_pp": 0.7652775088873172,
+      "df": 2.0649023453335595,
+      "ci95_low_pp": -4.148072683881237,
+      "ci95_high_pp": 2.242942017214571,
+      "welch_t": -1.2447319074074517,
+      "welch_p": 0.3359233029532473,
+      "permutation_p": 0.2,
+      "permutation_extreme_allocations": 4,
+      "permutation_total_allocations": 20,
+      "bh_input_p": 0.2,
+      "p_method": "exact_unpaired_mean_difference_label_permutation",
+      "bh_q_all18": 0.225
+    },
+    {
+      "figure": "Fig.3n",
+      "endpoint": "lagging_chromosomes",
+      "family": "rescue",
+      "primary_rescue": true,
+      "arms_in_weight_order": [
+        "BAG3 T285A+NAC",
+        "BAG3 T285A"
+      ],
+      "weights": [
+        1,
+        -1
+      ],
+      "n": [
+        3,
+        3
+      ],
+      "means_percent": [
+        4.227053333333334,
+        14.492753333333335
+      ],
+      "sd_percent": [
+        0.10459219741612345,
+        2.510215047388039
+      ],
+      "estimate_pp": -10.2657,
+      "se_pp": 1.4505308352339692,
+      "df": 2.00694441073571,
+      "ci95_low_pp": -16.486181281130186,
+      "ci95_high_pp": -4.045218718869814,
+      "welch_t": -7.077202187393799,
+      "welch_p": 0.01920788370522491,
+      "permutation_p": 0.1,
+      "permutation_extreme_allocations": 2,
+      "permutation_total_allocations": 20,
+      "bh_input_p": 0.1,
+      "p_method": "exact_unpaired_mean_difference_label_permutation",
+      "bh_q_all18": 0.12000000000000001
+    },
+    {
+      "figure": "Fig.3n",
+      "endpoint": "lagging_chromosomes",
+      "family": "NAC_interaction_mutant_minus_WT",
+      "primary_rescue": false,
+      "arms_in_weight_order": [
+        "BAG3 T285A+NAC",
+        "BAG3 T285A",
+        "BAG3 WT+NAC",
+        "BAG3 WT"
+      ],
+      "weights": [
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "n": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "means_percent": [
+        4.227053333333334,
+        14.492753333333335,
+        4.352031,
+        5.3045963333333335
+      ],
+      "sd_percent": [
+        0.10459219741612345,
+        2.510215047388039,
+        0.16751009770160097,
+        1.3148723755537393
+      ],
+      "estimate_pp": -9.313134666666667,
+      "se_pp": 1.640027246594804,
+      "df": 3.050011476898093,
+      "ci95_low_pp": -14.484350447625005,
+      "ci95_high_pp": -4.141918885708328,
+      "welch_t": -5.678646306641289,
+      "welch_p": 0.010345415268843474,
+      "bh_input_p": 0.010345415268843474,
+      "p_method": "four_group_Welch_Satterthwaite_t",
+      "bh_q_all18": 0.06207249161306084
+    },
+    {
+      "figure": "Fig.2h",
+      "endpoint": "micronuclei",
+      "family": "context",
+      "primary_rescue": false,
+      "arms_in_weight_order": [
+        "G6PDi",
+        "DMSO"
+      ],
+      "weights": [
+        1,
+        -1
+      ],
+      "n": [
+        3,
+        3
+      ],
+      "means_percent": [
+        15.083333333333334,
+        4.730933333333334
+      ],
+      "sd_percent": [
+        1.806523117298346,
+        0.6276122794634706
+      ],
+      "estimate_pp": 10.3524,
+      "se_pp": 1.1041471741675666,
+      "df": 2.4758551430880567,
+      "ci95_low_pp": 6.3777792967270885,
+      "ci95_high_pp": 14.327020703272911,
+      "welch_t": 9.375924009228962,
+      "welch_p": 0.005388648726334643,
+      "permutation_p": 0.1,
+      "permutation_extreme_allocations": 2,
+      "permutation_total_allocations": 20,
+      "bh_input_p": 0.1,
+      "p_method": "exact_unpaired_mean_difference_label_permutation",
+      "bh_q_all18": 0.12000000000000001
+    },
+    {
+      "figure": "Fig.2h",
+      "endpoint": "micronuclei",
+      "family": "rescue",
+      "primary_rescue": true,
+      "arms_in_weight_order": [
+        "G6PDi+NAC",
+        "G6PDi"
+      ],
+      "weights": [
+        1,
+        -1
+      ],
+      "n": [
+        3,
+        3
+      ],
+      "means_percent": [
+        6.766427666666666,
+        15.083333333333334
+      ],
+      "sd_percent": [
+        0.3945312521972543,
+        1.806523117298346
+      ],
+      "estimate_pp": -8.316905666666667,
+      "se_pp": 1.0675799239859698,
+      "df": 2.1903482709688538,
+      "ci95_low_pp": -12.548225332112246,
+      "ci95_high_pp": -4.085586001221087,
+      "welch_t": -7.790429062785531,
+      "welch_p": 0.01232488747852408,
+      "permutation_p": 0.1,
+      "permutation_extreme_allocations": 2,
+      "permutation_total_allocations": 20,
+      "bh_input_p": 0.1,
+      "p_method": "exact_unpaired_mean_difference_label_permutation",
+      "bh_q_all18": 0.12000000000000001
+    },
+    {
+      "figure": "Fig.3n",
+      "endpoint": "micronuclei",
+      "family": "context",
+      "primary_rescue": false,
+      "arms_in_weight_order": [
+        "BAG3 T285A",
+        "BAG3 WT"
+      ],
+      "weights": [
+        1,
+        -1
+      ],
+      "n": [
+        3,
+        3
+      ],
+      "means_percent": [
+        12.91028,
+        4.609805666666667
+      ],
+      "sd_percent": [
+        0.4974112366040805,
+        0.30940850110870166
+      ],
+      "estimate_pp": 8.300474333333334,
+      "se_pp": 0.3382068197904619,
+      "df": 3.3461793569823617,
+      "ci95_low_pp": 7.284481383700015,
+      "ci95_high_pp": 9.316467282966652,
+      "welch_t": 24.542598929483276,
+      "welch_p": 6.777678441065524e-05,
+      "permutation_p": 0.1,
+      "permutation_extreme_allocations": 2,
+      "permutation_total_allocations": 20,
+      "bh_input_p": 0.1,
+      "p_method": "exact_unpaired_mean_difference_label_permutation",
+      "bh_q_all18": 0.12000000000000001
+    },
+    {
+      "figure": "Fig.3n",
+      "endpoint": "micronuclei",
+      "family": "reference_NAC",
+      "primary_rescue": false,
+      "arms_in_weight_order": [
+        "BAG3 WT+NAC",
+        "BAG3 WT"
+      ],
+      "weights": [
+        1,
+        -1
+      ],
+      "n": [
+        3,
+        3
+      ],
+      "means_percent": [
+        4.862317666666667,
+        4.609805666666667
+      ],
+      "sd_percent": [
+        0.42364698841055576,
+        0.30940850110870166
+      ],
+      "estimate_pp": 0.2525119999999994,
+      "se_pp": 0.3028808298917067,
+      "df": 3.6610221728690697,
+      "ci95_low_pp": -0.6200358424035566,
+      "ci95_high_pp": 1.1250598424035554,
+      "welch_t": 0.8337008324042284,
+      "welch_p": 0.45537544225592896,
+      "permutation_p": 0.5,
+      "permutation_extreme_allocations": 10,
+      "permutation_total_allocations": 20,
+      "bh_input_p": 0.5,
+      "p_method": "exact_unpaired_mean_difference_label_permutation",
+      "bh_q_all18": 0.5294117647058824
+    },
+    {
+      "figure": "Fig.3n",
+      "endpoint": "micronuclei",
+      "family": "rescue",
+      "primary_rescue": true,
+      "arms_in_weight_order": [
+        "BAG3 T285A+NAC",
+        "BAG3 T285A"
+      ],
+      "weights": [
+        1,
+        -1
+      ],
+      "n": [
+        3,
+        3
+      ],
+      "means_percent": [
+        4.453478666666666,
+        12.91028
+      ],
+      "sd_percent": [
+        0.4417883575042843,
+        0.4974112366040805
+      ],
+      "estimate_pp": -8.456801333333335,
+      "se_pp": 0.38409846442734524,
+      "df": 3.9450381757791377,
+      "ci95_low_pp": -9.529114714310339,
+      "ci95_high_pp": -7.38448795235633,
+      "welch_t": -22.017274518245294,
+      "welch_p": 2.814237465260285e-05,
+      "permutation_p": 0.1,
+      "permutation_extreme_allocations": 2,
+      "permutation_total_allocations": 20,
+      "bh_input_p": 0.1,
+      "p_method": "exact_unpaired_mean_difference_label_permutation",
+      "bh_q_all18": 0.12000000000000001
+    },
+    {
+      "figure": "Fig.3n",
+      "endpoint": "micronuclei",
+      "family": "NAC_interaction_mutant_minus_WT",
+      "primary_rescue": false,
+      "arms_in_weight_order": [
+        "BAG3 T285A+NAC",
+        "BAG3 T285A",
+        "BAG3 WT+NAC",
+        "BAG3 WT"
+      ],
+      "weights": [
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "n": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "means_percent": [
+        4.453478666666666,
+        12.91028,
+        4.862317666666667,
+        4.609805666666667
+      ],
+      "sd_percent": [
+        0.4417883575042843,
+        0.4974112366040805,
+        0.42364698841055576,
+        0.30940850110870166
+      ],
+      "estimate_pp": -8.709313333333334,
+      "se_pp": 0.48915072062845166,
+      "df": 7.324716490146505,
+      "ci95_low_pp": -9.855657046391137,
+      "ci95_high_pp": -7.562969620275531,
+      "welch_t": -17.80496882871556,
+      "welch_p": 2.6892947197208455e-07,
+      "bh_input_p": 2.6892947197208455e-07,
+      "p_method": "four_group_Welch_Satterthwaite_t",
+      "bh_q_all18": 4.840730495497522e-06
+    }
+  ]
+}

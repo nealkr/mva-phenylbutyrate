@@ -1,0 +1,962 @@
+{
+  "schema_version": 1,
+  "id": "NIACIN_CANCER_CACHEXIA_FUNCTIONAL_V1",
+  "source": {
+    "file": "41467_2023_37595_MOESM6_ESM.xlsx",
+    "sha256": "86793d776a43b1b9864d45af5ae78aaa0d2e79998c0d27405b611ca087bd1055",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10070388.1/41467_2023_37595_MOESM6_ESM.xlsx?md5=74acd3094bc631421a7185a228137b20",
+    "md5": "74acd3094bc631421a7185a228137b20",
+    "doi": "10.1038/s41467-023-37595-6"
+  },
+  "unit_verification_sha256": "13a0ae8520e9c2a1a636519b290fa167467bffa3e44810043ae341ee88aa5f49",
+  "cohorts": {
+    "C26-F": {
+      "age": "6 months",
+      "sex": "Female",
+      "strain": "Wild-type BALB/c",
+      "group_n": {
+        "Control": 7,
+        "C26-F": 7,
+        "C26-F + NA": 7
+      },
+      "induction": "5 x 10^5 Colon26 adenocarcinoma cells subcutaneously on the back.",
+      "chemotherapy": "Folfox on post-implantation days 7, 14 and 21: oxaliplatin 6 mg/kg, 5-fluorouracil 25 mg/kg, leucovorin 90 mg/kg.",
+      "niacin": "150 mg/kg daily by oral gavage, dissolved in tap water, starting day 4 after tumor injection until day 28 endpoint.",
+      "controls": "Healthy controls received saline injection without cells and daily tap water. C26-F mice are tumor-bearing animals also receiving Folfox.",
+      "terminal_tissue_time": "Post-implantation day 28",
+      "SUnSET": "Puromycin 40 micromol/kg intraperitoneally, 30 minutes before euthanasia.",
+      "grasping_strength_source_days": [
+        4,
+        8,
+        15,
+        22
+      ],
+      "grasping_strength_methods_days": [
+        0,
+        8,
+        15,
+        22
+      ],
+      "grasping_strength_baseline_label_conflict": "Methods Sec10 calls the first measurement day 0. Source workbook explicitly records day 4, and the Figure 3 caption calls it the start of NA treatment. Preserve source day 4 for analysis and retain this discrepancy."
+    },
+    "VCM": {
+      "age": "12 months",
+      "sex": "Male",
+      "strain": "Villin-Cre/Msh2loxP/loxP",
+      "group_n": {
+        "Control": 8,
+        "VCM": 8,
+        "VCM + NA": 6
+      },
+      "induction": "Conditional enterocyte Msh2 knockout; spontaneous intestinal adenomas/adenocarcinomas.",
+      "niacin": "150 mg/kg daily (up to 4.5 mg/day) by oral gavage for 28 days.",
+      "controls": "Age- and sex-matched untreated VCM mice and Msh2loxP/loxP healthy controls.",
+      "grasping_strength_endpoint_available": false,
+      "tumor_burden_endpoint_available": false,
+      "tumor_burden_note": "Results Sec5 explicitly says heterogeneous spontaneous tumors prevented dissection of NA effects on tumor burden."
+    }
+  },
+  "endpoints": [
+    {
+      "id": "C26-F:GSN muscle NAD+",
+      "model": "C26-F",
+      "sheet": "Fig. 3",
+      "unit": "pmol/mg of muscle",
+      "groups": {
+        "control": {
+          "range": "B6:B12"
+        },
+        "disease": {
+          "range": "C6:C12"
+        },
+        "treated": {
+          "range": "D6:D12"
+        }
+      },
+      "panel": "3b",
+      "role": "supportive"
+    },
+    {
+      "id": "C26-F:TA wet-muscle weight",
+      "model": "C26-F",
+      "sheet": "Fig. 3",
+      "unit": "mg/IBW",
+      "groups": {
+        "control": {
+          "range": "H6:H12"
+        },
+        "disease": {
+          "range": "I6:I12"
+        },
+        "treated": {
+          "range": "J6:J12"
+        }
+      },
+      "panel": "3c",
+      "role": "supportive"
+    },
+    {
+      "id": "C26-F:GSN wet-muscle weight",
+      "model": "C26-F",
+      "sheet": "Fig. 3",
+      "unit": "mg/IBW",
+      "groups": {
+        "control": {
+          "range": "N6:N12"
+        },
+        "disease": {
+          "range": "O6:O12"
+        },
+        "treated": {
+          "range": "P6:P12"
+        }
+      },
+      "panel": "3d",
+      "role": "supportive"
+    },
+    {
+      "id": "C26-F:SUnSET protein synthesis",
+      "model": "C26-F",
+      "sheet": "Fig. 3",
+      "unit": "normalized source percent",
+      "groups": {
+        "control": {
+          "range": "W30:W36"
+        },
+        "disease": {
+          "range": "W37:W43"
+        },
+        "treated": {
+          "range": "W44:W50"
+        }
+      },
+      "panel": "3g",
+      "role": "supportive"
+    },
+    {
+      "id": "C26-F:LC3B-II/total LC3B",
+      "model": "C26-F",
+      "sheet": "Fig. 3",
+      "unit": "normalized source percent",
+      "groups": {
+        "control": {
+          "range": "AF30:AF36"
+        },
+        "disease": {
+          "range": "AF37:AF43"
+        },
+        "treated": {
+          "range": "AF44:AF50"
+        }
+      },
+      "panel": "3h",
+      "role": "supportive"
+    },
+    {
+      "id": "C26-F:p-AMPK/AMPK",
+      "model": "C26-F",
+      "sheet": "Fig. 3",
+      "unit": "normalized source percent",
+      "groups": {
+        "control": {
+          "range": "AO30:AO36"
+        },
+        "disease": {
+          "range": "AO37:AO43"
+        },
+        "treated": {
+          "range": "AO44:AO50"
+        }
+      },
+      "panel": "3i",
+      "role": "supportive"
+    },
+    {
+      "id": "VCM:GSN muscle NAD+",
+      "model": "VCM",
+      "sheet": "Fig. 3",
+      "unit": "pmol/mg of muscle",
+      "groups": {
+        "control": {
+          "range": "B76:B83"
+        },
+        "disease": {
+          "range": "C76:C83"
+        },
+        "treated": {
+          "range": "D76:D81"
+        }
+      },
+      "panel": "3k",
+      "role": "supportive"
+    },
+    {
+      "id": "VCM:TA wet-muscle weight",
+      "model": "VCM",
+      "sheet": "Fig. 3",
+      "unit": "mg",
+      "groups": {
+        "control": {
+          "range": "H76:H83"
+        },
+        "disease": {
+          "range": "I76:I83"
+        },
+        "treated": {
+          "range": "J76:J81"
+        }
+      },
+      "panel": "3l",
+      "role": "supportive"
+    },
+    {
+      "id": "VCM:GSN wet-muscle weight",
+      "model": "VCM",
+      "sheet": "Fig. 3",
+      "unit": "mg",
+      "groups": {
+        "control": {
+          "range": "N76:N83"
+        },
+        "disease": {
+          "range": "O76:O83"
+        },
+        "treated": {
+          "range": "P76:P81"
+        }
+      },
+      "panel": "3m",
+      "role": "supportive"
+    },
+    {
+      "id": "VCM:LC3B-II/total LC3B",
+      "model": "VCM",
+      "sheet": "Fig. 3",
+      "unit": "normalized source percent",
+      "groups": {
+        "control": {
+          "range": "V90:V97"
+        },
+        "disease": {
+          "range": "V98:V105"
+        },
+        "treated": {
+          "range": "V106:V111"
+        }
+      },
+      "panel": "3p",
+      "role": "supportive"
+    },
+    {
+      "id": "C26-F:grasping_day22",
+      "model": "C26-F",
+      "sheet": "Fig. 3",
+      "unit": "mN/g IBW",
+      "groups": {
+        "control": {
+          "range": "C23:I23",
+          "identity_range": "C19:I19"
+        },
+        "disease": {
+          "range": "J23:P23",
+          "identity_range": "J19:P19"
+        },
+        "treated": {
+          "range": "Q23:W23",
+          "identity_range": "Q19:W19"
+        }
+      },
+      "panel": "3e",
+      "role": "primary_productive_output"
+    },
+    {
+      "id": "C26-F:grasping_day22_minus_day4",
+      "model": "C26-F",
+      "sheet": "Fig. 3",
+      "unit": "mN/g IBW",
+      "groups": {
+        "control": {
+          "range": "C23:I23",
+          "identity_range": "C19:I19",
+          "baseline_range": "C20:I20"
+        },
+        "disease": {
+          "range": "J23:P23",
+          "identity_range": "J19:P19",
+          "baseline_range": "J20:P20"
+        },
+        "treated": {
+          "range": "Q23:W23",
+          "identity_range": "Q19:W19",
+          "baseline_range": "Q20:W20"
+        }
+      },
+      "panel": "3e",
+      "role": "within_force_baseline_sensitivity"
+    },
+    {
+      "id": "C26-F:respiratory_capacity_CI",
+      "model": "C26-F",
+      "sheet": "Fig. 4",
+      "unit": "pmol O2/s/mg tissue",
+      "groups": {
+        "control": {
+          "range": "B7:B13"
+        },
+        "disease": {
+          "range": "C7:C13"
+        },
+        "treated": {
+          "range": "D7:D13"
+        }
+      },
+      "panel": "4a",
+      "role": "respiratory_state_supportive"
+    },
+    {
+      "id": "C26-F:respiratory_capacity_CI&CII",
+      "model": "C26-F",
+      "sheet": "Fig. 4",
+      "unit": "pmol O2/s/mg tissue",
+      "groups": {
+        "control": {
+          "range": "E7:E13"
+        },
+        "disease": {
+          "range": "F7:F13"
+        },
+        "treated": {
+          "range": "G7:G13"
+        }
+      },
+      "panel": "4a",
+      "role": "primary_respiratory_capacity"
+    },
+    {
+      "id": "C26-F:respiratory_capacity_CII",
+      "model": "C26-F",
+      "sheet": "Fig. 4",
+      "unit": "pmol O2/s/mg tissue",
+      "groups": {
+        "control": {
+          "range": "H7:H13"
+        },
+        "disease": {
+          "range": "I7:I13"
+        },
+        "treated": {
+          "range": "J7:J13"
+        }
+      },
+      "panel": "4a",
+      "role": "respiratory_state_supportive"
+    },
+    {
+      "id": "C26-F:GSN tissue ATP",
+      "model": "C26-F",
+      "sheet": "Fig. 4",
+      "unit": "ATP (microM/mg of protein)",
+      "groups": {
+        "control": {
+          "range": "N6:N12"
+        },
+        "disease": {
+          "range": "O6:O12"
+        },
+        "treated": {
+          "range": "P6:P12"
+        }
+      },
+      "panel": "4b",
+      "role": "primary_tissue_ATP"
+    },
+    {
+      "id": "C26-F:GSN mtDNA/nuclear DNA abundance",
+      "model": "C26-F",
+      "sheet": "Fig. 4",
+      "unit": "mtDNA (A.U.)",
+      "groups": {
+        "control": {
+          "range": "T6:T12"
+        },
+        "disease": {
+          "range": "U6:U12"
+        },
+        "treated": {
+          "range": "V6:V12"
+        }
+      },
+      "panel": "4c",
+      "role": "supportive"
+    },
+    {
+      "id": "C26-F:GSN citrate-synthase activity",
+      "model": "C26-F",
+      "sheet": "Fig. 4",
+      "unit": "CS activity (nmolt/mg*min)",
+      "groups": {
+        "control": {
+          "range": "Z6:Z12"
+        },
+        "disease": {
+          "range": "AA6:AA12"
+        },
+        "treated": {
+          "range": "AB6:AB12"
+        }
+      },
+      "panel": "4d",
+      "role": "supportive"
+    },
+    {
+      "id": "VCM:respiratory_capacity_CI",
+      "model": "VCM",
+      "sheet": "Fig. 4",
+      "unit": "pmol O2/s/mg tissue",
+      "groups": {
+        "control": {
+          "range": "B89:B96"
+        },
+        "disease": {
+          "range": "C89:C96"
+        },
+        "treated": {
+          "range": "D89:D96"
+        }
+      },
+      "panel": "4j",
+      "role": "respiratory_state_supportive"
+    },
+    {
+      "id": "VCM:respiratory_capacity_CI&CII",
+      "model": "VCM",
+      "sheet": "Fig. 4",
+      "unit": "pmol O2/s/mg tissue",
+      "groups": {
+        "control": {
+          "range": "E89:E96"
+        },
+        "disease": {
+          "range": "F89:F96"
+        },
+        "treated": {
+          "range": "G89:G96"
+        }
+      },
+      "panel": "4j",
+      "role": "primary_respiratory_capacity"
+    },
+    {
+      "id": "VCM:respiratory_capacity_CII",
+      "model": "VCM",
+      "sheet": "Fig. 4",
+      "unit": "pmol O2/s/mg tissue",
+      "groups": {
+        "control": {
+          "range": "H89:H96"
+        },
+        "disease": {
+          "range": "I89:I96"
+        },
+        "treated": {
+          "range": "J89:J96"
+        }
+      },
+      "panel": "4j",
+      "role": "respiratory_state_supportive"
+    },
+    {
+      "id": "VCM:GSN tissue ATP",
+      "model": "VCM",
+      "sheet": "Fig. 4",
+      "unit": "ATP (microM/mg of protein)",
+      "groups": {
+        "control": {
+          "range": "N88:N95"
+        },
+        "disease": {
+          "range": "O88:O95"
+        },
+        "treated": {
+          "range": "P88:P93"
+        }
+      },
+      "panel": "4k",
+      "role": "primary_tissue_ATP"
+    },
+    {
+      "id": "VCM:GSN mtDNA/nuclear DNA abundance",
+      "model": "VCM",
+      "sheet": "Fig. 4",
+      "unit": "mtDNA (A.U.)",
+      "groups": {
+        "control": {
+          "range": "T88:T95"
+        },
+        "disease": {
+          "range": "U88:U95"
+        },
+        "treated": {
+          "range": "V88:V93"
+        }
+      },
+      "panel": "4l",
+      "role": "supportive"
+    },
+    {
+      "id": "C26-F:OXPHOS_ATP5A",
+      "model": "C26-F",
+      "sheet": "Fig. 4",
+      "unit": "source normalized percent",
+      "groups": {
+        "control": {
+          "range": "Y20:Y26"
+        },
+        "disease": {
+          "range": "Y27:Y33"
+        },
+        "treated": {
+          "range": "Y34:Y40"
+        }
+      },
+      "panel": "4f",
+      "role": "supportive"
+    },
+    {
+      "id": "C26-F:OXPHOS_UBCRC2_as_source",
+      "model": "C26-F",
+      "sheet": "Fig. 4",
+      "unit": "source normalized percent",
+      "groups": {
+        "control": {
+          "range": "Z20:Z26"
+        },
+        "disease": {
+          "range": "Z27:Z33"
+        },
+        "treated": {
+          "range": "Z34:Z40"
+        }
+      },
+      "panel": "4f",
+      "role": "supportive"
+    },
+    {
+      "id": "C26-F:OXPHOS_MTCO1",
+      "model": "C26-F",
+      "sheet": "Fig. 4",
+      "unit": "source normalized percent",
+      "groups": {
+        "control": {
+          "range": "AA20:AA26"
+        },
+        "disease": {
+          "range": "AA27:AA33"
+        },
+        "treated": {
+          "range": "AA34:AA40"
+        }
+      },
+      "panel": "4f",
+      "role": "supportive"
+    },
+    {
+      "id": "C26-F:OXPHOS_SDHB",
+      "model": "C26-F",
+      "sheet": "Fig. 4",
+      "unit": "source normalized percent",
+      "groups": {
+        "control": {
+          "range": "AB20:AB26"
+        },
+        "disease": {
+          "range": "AB27:AB33"
+        },
+        "treated": {
+          "range": "AB34:AB40"
+        }
+      },
+      "panel": "4f",
+      "role": "supportive"
+    },
+    {
+      "id": "C26-F:OXPHOS_NDUF88_as_source",
+      "model": "C26-F",
+      "sheet": "Fig. 4",
+      "unit": "source normalized percent",
+      "groups": {
+        "control": {
+          "range": "AC20:AC26"
+        },
+        "disease": {
+          "range": "AC27:AC33"
+        },
+        "treated": {
+          "range": "AC34:AC40"
+        }
+      },
+      "panel": "4f",
+      "role": "supportive"
+    },
+    {
+      "id": "C26-F:TOMM20_4g",
+      "model": "C26-F",
+      "sheet": "Fig. 4",
+      "unit": "source normalized percent",
+      "groups": {
+        "control": {
+          "range": "F61:F67"
+        },
+        "disease": {
+          "range": "F68:F74"
+        },
+        "treated": {
+          "range": "F75:F81"
+        }
+      },
+      "panel": "4g",
+      "role": "supportive"
+    },
+    {
+      "id": "C26-F:PGC1a_4h",
+      "model": "C26-F",
+      "sheet": "Fig. 4",
+      "unit": "source normalized percent",
+      "groups": {
+        "control": {
+          "range": "N61:N67"
+        },
+        "disease": {
+          "range": "N68:N74"
+        },
+        "treated": {
+          "range": "N75:N81"
+        }
+      },
+      "panel": "4h",
+      "role": "supportive"
+    },
+    {
+      "id": "C26-F:PINK1_4i",
+      "model": "C26-F",
+      "sheet": "Fig. 4",
+      "unit": "source normalized percent",
+      "groups": {
+        "control": {
+          "range": "V61:V67"
+        },
+        "disease": {
+          "range": "V68:V74"
+        },
+        "treated": {
+          "range": "V75:V81"
+        }
+      },
+      "panel": "4i",
+      "role": "supportive"
+    },
+    {
+      "id": "VCM:OXPHOS_ATP5A",
+      "model": "VCM",
+      "sheet": "Fig. 4",
+      "unit": "source normalized percent",
+      "groups": {
+        "control": {
+          "range": "Y103:Y110"
+        },
+        "disease": {
+          "range": "Y111:Y118"
+        },
+        "treated": {
+          "range": "Y119:Y124"
+        }
+      },
+      "panel": "4n",
+      "role": "supportive"
+    },
+    {
+      "id": "VCM:OXPHOS_UBCRC2_as_source",
+      "model": "VCM",
+      "sheet": "Fig. 4",
+      "unit": "source normalized percent",
+      "groups": {
+        "control": {
+          "range": "Z103:Z110"
+        },
+        "disease": {
+          "range": "Z111:Z118"
+        },
+        "treated": {
+          "range": "Z119:Z124"
+        }
+      },
+      "panel": "4n",
+      "role": "supportive"
+    },
+    {
+      "id": "VCM:OXPHOS_MTCO1",
+      "model": "VCM",
+      "sheet": "Fig. 4",
+      "unit": "source normalized percent",
+      "groups": {
+        "control": {
+          "range": "AA103:AA110"
+        },
+        "disease": {
+          "range": "AA111:AA118"
+        },
+        "treated": {
+          "range": "AA119:AA124"
+        }
+      },
+      "panel": "4n",
+      "role": "supportive"
+    },
+    {
+      "id": "VCM:OXPHOS_SDHB",
+      "model": "VCM",
+      "sheet": "Fig. 4",
+      "unit": "source normalized percent",
+      "groups": {
+        "control": {
+          "range": "AB103:AB110"
+        },
+        "disease": {
+          "range": "AB111:AB118"
+        },
+        "treated": {
+          "range": "AB119:AB124"
+        }
+      },
+      "panel": "4n",
+      "role": "supportive"
+    },
+    {
+      "id": "VCM:OXPHOS_NDUF88_as_source",
+      "model": "VCM",
+      "sheet": "Fig. 4",
+      "unit": "source normalized percent",
+      "groups": {
+        "control": {
+          "range": "AC103:AC110"
+        },
+        "disease": {
+          "range": "AC111:AC118"
+        },
+        "treated": {
+          "range": "AC119:AC124"
+        }
+      },
+      "panel": "4n",
+      "role": "supportive"
+    },
+    {
+      "id": "VCM:TOMM20_4o",
+      "model": "VCM",
+      "sheet": "Fig. 4",
+      "unit": "source normalized percent",
+      "groups": {
+        "control": {
+          "range": "F140:F147"
+        },
+        "disease": {
+          "range": "F148:F155"
+        },
+        "treated": {
+          "range": "F156:F161"
+        }
+      },
+      "panel": "4o",
+      "role": "supportive"
+    },
+    {
+      "id": "VCM:PGC1a_4p",
+      "model": "VCM",
+      "sheet": "Fig. 4",
+      "unit": "source normalized percent",
+      "groups": {
+        "control": {
+          "range": "N140:N147"
+        },
+        "disease": {
+          "range": "N148:N155"
+        },
+        "treated": {
+          "range": "N156:N161"
+        }
+      },
+      "panel": "4p",
+      "role": "supportive"
+    },
+    {
+      "id": "VCM:PINK1_4q",
+      "model": "VCM",
+      "sheet": "Fig. 4",
+      "unit": "source normalized percent",
+      "groups": {
+        "control": {
+          "range": "V140:V147"
+        },
+        "disease": {
+          "range": "V148:V155"
+        },
+        "treated": {
+          "range": "V156:V161"
+        }
+      },
+      "panel": "4q",
+      "role": "supportive"
+    },
+    {
+      "id": "C26-F:tumor_wet_weight",
+      "model": "C26-F",
+      "sheet": "SFig. 3",
+      "unit": "mg",
+      "groups": {
+        "disease": {
+          "range": "Q41:Q47"
+        },
+        "treated": {
+          "range": "R41:R47"
+        }
+      },
+      "panel": "Supplementary Figure 3h",
+      "role": "tumor_context"
+    },
+    {
+      "id": "C26-F:complex_activity_CI",
+      "model": "C26-F",
+      "sheet": "SFig. 4",
+      "unit": "nmol/min/mg protein",
+      "groups": {
+        "control": {
+          "range": "B62:B66"
+        },
+        "disease": {
+          "range": "C62:C66"
+        },
+        "treated": {
+          "range": "D62:D66"
+        }
+      },
+      "panel": "S4h",
+      "role": "direct_complex_activity_supportive"
+    },
+    {
+      "id": "C26-F:complex_activity_CII",
+      "model": "C26-F",
+      "sheet": "SFig. 4",
+      "unit": "nmol/min/mg protein",
+      "groups": {
+        "control": {
+          "range": "H62:H66"
+        },
+        "disease": {
+          "range": "I62:I66"
+        },
+        "treated": {
+          "range": "J62:J66"
+        }
+      },
+      "panel": "S4i",
+      "role": "direct_complex_activity_supportive"
+    },
+    {
+      "id": "C26-F:complex_activity_CIII",
+      "model": "C26-F",
+      "sheet": "SFig. 4",
+      "unit": "nmol/min/mg protein",
+      "groups": {
+        "control": {
+          "range": "N62:N66"
+        },
+        "disease": {
+          "range": "O62:O66"
+        },
+        "treated": {
+          "range": "P62:P66"
+        }
+      },
+      "panel": "S4j",
+      "role": "direct_complex_activity_supportive"
+    },
+    {
+      "id": "C26-F:complex_activity_CIV",
+      "model": "C26-F",
+      "sheet": "SFig. 4",
+      "unit": "nmol/min/mg protein",
+      "groups": {
+        "control": {
+          "range": "T62:T66"
+        },
+        "disease": {
+          "range": "U62:U66"
+        },
+        "treated": {
+          "range": "V62:V66"
+        }
+      },
+      "panel": "S4k",
+      "role": "direct_complex_activity_supportive"
+    }
+  ],
+  "source_checks": [
+    {
+      "sheet": "Fig. 3",
+      "cell": "B19",
+      "value": "Mouse ID"
+    },
+    {
+      "sheet": "Fig. 3",
+      "cell": "B20",
+      "value": "4"
+    },
+    {
+      "sheet": "Fig. 3",
+      "cell": "B23",
+      "value": "22"
+    },
+    {
+      "sheet": "Fig. 4",
+      "cell": "E5",
+      "value": "CI&CII"
+    },
+    {
+      "sheet": "Fig. 4",
+      "cell": "O10",
+      "value": "*3757,16"
+    }
+  ],
+  "analysis": {
+    "comparison": "Independent niacin versus disease groups separately for each mouse model; disease versus healthy is a distinct contextual contrast",
+    "main": "All available numeric biological observations including author ROUT values",
+    "sensitivity": "Remove only explicitly starred author ROUT values; unavailable # technical exclusions have no recoverable number",
+    "ci": "Welch 95% confidence interval for difference of means",
+    "test": "Exact two-sided independent-group label permutation of mean difference, <=100000 assignments",
+    "multiplicity": "BH across all inspected endpoints in both models within each contrast and exclusion policy",
+    "cross_endpoint_correlations": false,
+    "pooled_technical_runs": false,
+    "pooled_models": false,
+    "biological_n": "Mouse, not respiratory state/technical run/qPCR well",
+    "healthy_gap": "Mean-difference ratio descriptive only, with denominator CI flag; no individual respiration-per-mtDNA ratios"
+  },
+  "not_available": {
+    "VCM_productive_force_output": true,
+    "VCM_tumor_burden": true,
+    "cross_endpoint_animal_identity": true,
+    "coupled_ATP_production_or_import": true
+  },
+  "source_discrepancies": {
+    "TA_GSN_panel_order": "Workbook labels preserved; article caption order differs",
+    "force_baseline": "Source day4 retained; methods says day0",
+    "QUAD": "Source normalization label differs from caption; preserved in unit inventory but excluded from comparison family",
+    "adjacent_tumor_NAD": "Apparent inverted column headings excluded; unambiguous Q/R tumor block used",
+    "protein_labels": "UBCRC2/NDUF88 copied as deposited, not relabeled to different gene identity"
+  },
+  "author_known_findings": {
+    "C26-F": "Reported better muscle mass/force/protein synthesis and ATP/mitochondrial content; no significant frozen respiratory-capacity improvement",
+    "VCM": "Reported preserved muscle mass and higher mtDNA/PGC1a; no respiratory-capacity or ATP improvement",
+    "tumor": "Reported no significant C26 tumor-mass effect; separate survival experiment did not improve survival"
+  },
+  "new_quantitative_role": "Estimate model-specific functional effect uncertainty and sensitivity to published ROUT exclusion. These data are external cachexia observations, not aneuploid/BUBR1 rescue."
+}

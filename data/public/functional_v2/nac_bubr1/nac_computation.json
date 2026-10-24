@@ -1,0 +1,148 @@
+{
+  "input_sha256": {
+    "Rodriguez2021_TILfluxtissue.csv": "1206c99bb661138f43a3ba2a2f01fcaac589da4b1747f23f1dc14e6f681bc171",
+    "Rodriguez2021_TILROSmgtissue.csv": "61694e401a6c5cc6a0ed759ddad54a3ddb967ca3bf2279db5c522b63c1dbe1ae",
+    "Wang2026_quantification_data_5A.xlsx": "ae58b0c476c814f29092542eb022ebc435c751dd66919c1147a66256b176ab11",
+    "Wang2026_quantification_data_5C.xlsx": "17247c7e94416a128d013fe80086d041828e27038ab10897707b4f99c3accb4a"
+  },
+  "rodriguez": {
+    "endpoints": [
+      {
+        "file": "Rodriguez2021_TILfluxtissue.csv",
+        "column": "NProSGp_P",
+        "units": "source O2 flux per mg tissue; dimensional time unit unverified",
+        "expected_n": {
+          "WT": {
+            "Control": 6,
+            "NAC": 6
+          },
+          "COX": {
+            "Control": 5,
+            "NAC": 5
+          },
+          "BAR": {
+            "Control": 5,
+            "NAC": 7
+          }
+        }
+      },
+      {
+        "file": "Rodriguez2021_TILROSmgtissue.csv",
+        "column": "NProSGp.P",
+        "units": "source ROS per mg tissue; dimensional time unit unverified",
+        "expected_n": {
+          "WT": {
+            "Control": 3,
+            "NAC": 3
+          },
+          "COX": {
+            "Control": 4,
+            "NAC": 3
+          },
+          "BAR": {
+            "Control": 4,
+            "NAC": 4
+          }
+        }
+      }
+    ]
+  },
+  "wang": {
+    "endpoints": [
+      {
+        "file": "Wang2026_quantification_data_5A.xlsx",
+        "sheet": "Figure 5A",
+        "endpoint": "Misalignment",
+        "header_row": 7,
+        "columns": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "data_rows": [
+          8,
+          9,
+          10
+        ],
+        "experiment_labels": [
+          "n1",
+          "n2",
+          "n3"
+        ],
+        "arm_labels": [
+          "Control",
+          "Control+ATP",
+          "Control+NAC",
+          "shNDUFA3",
+          "shNDUFA3+ATP",
+          "shNDUFA3+NAC"
+        ]
+      },
+      {
+        "file": "Wang2026_quantification_data_5A.xlsx",
+        "sheet": "Figure 5A",
+        "endpoint": "Lagging",
+        "header_row": 7,
+        "columns": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "data_rows": [
+          8,
+          9,
+          10
+        ],
+        "experiment_labels": [
+          "n1",
+          "n2",
+          "n3"
+        ],
+        "arm_labels": [
+          "Control",
+          "Control+ATP",
+          "Control+NAC",
+          "shNDUFA3",
+          "shNDUFA3+ATP",
+          "shNDUFA3+NAC"
+        ]
+      },
+      {
+        "file": "Wang2026_quantification_data_5C.xlsx",
+        "sheet": "Figure 5C",
+        "endpoint": "Micronucleus",
+        "header_row": 6,
+        "columns": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "data_rows": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "experiment_labels": [
+          "n1",
+          "n2",
+          "n3",
+          "n4"
+        ],
+        "arm_labels": [
+          "Control",
+          "Control+NAC",
+          "shNDUFA3",
+          "shNDUFA3+NAC"
+        ]
+      }
+    ]
+  }
+}

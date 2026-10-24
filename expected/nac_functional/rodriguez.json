@@ -1,0 +1,632 @@
+{
+  "config": {
+    "input_sha256": {
+      "Rodriguez2021_TILfluxtissue.csv": "1206c99bb661138f43a3ba2a2f01fcaac589da4b1747f23f1dc14e6f681bc171",
+      "Rodriguez2021_TILROSmgtissue.csv": "61694e401a6c5cc6a0ed759ddad54a3ddb967ca3bf2279db5c522b63c1dbe1ae",
+      "Wang2026_quantification_data_5A.xlsx": "ae58b0c476c814f29092542eb022ebc435c751dd66919c1147a66256b176ab11",
+      "Wang2026_quantification_data_5C.xlsx": "17247c7e94416a128d013fe80086d041828e27038ab10897707b4f99c3accb4a"
+    },
+    "rodriguez": {
+      "endpoints": [
+        {
+          "file": "Rodriguez2021_TILfluxtissue.csv",
+          "column": "NProSGp_P",
+          "units": "source O2 flux per mg tissue; dimensional time unit unverified",
+          "expected_n": {
+            "WT": {
+              "Control": 6,
+              "NAC": 6
+            },
+            "COX": {
+              "Control": 5,
+              "NAC": 5
+            },
+            "BAR": {
+              "Control": 5,
+              "NAC": 7
+            }
+          }
+        },
+        {
+          "file": "Rodriguez2021_TILROSmgtissue.csv",
+          "column": "NProSGp.P",
+          "units": "source ROS per mg tissue; dimensional time unit unverified",
+          "expected_n": {
+            "WT": {
+              "Control": 3,
+              "NAC": 3
+            },
+            "COX": {
+              "Control": 4,
+              "NAC": 3
+            },
+            "BAR": {
+              "Control": 4,
+              "NAC": 4
+            }
+          }
+        }
+      ]
+    },
+    "wang": {
+      "endpoints": [
+        {
+          "file": "Wang2026_quantification_data_5A.xlsx",
+          "sheet": "Figure 5A",
+          "endpoint": "Misalignment",
+          "header_row": 7,
+          "columns": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "data_rows": [
+            8,
+            9,
+            10
+          ],
+          "experiment_labels": [
+            "n1",
+            "n2",
+            "n3"
+          ],
+          "arm_labels": [
+            "Control",
+            "Control+ATP",
+            "Control+NAC",
+            "shNDUFA3",
+            "shNDUFA3+ATP",
+            "shNDUFA3+NAC"
+          ]
+        },
+        {
+          "file": "Wang2026_quantification_data_5A.xlsx",
+          "sheet": "Figure 5A",
+          "endpoint": "Lagging",
+          "header_row": 7,
+          "columns": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "data_rows": [
+            8,
+            9,
+            10
+          ],
+          "experiment_labels": [
+            "n1",
+            "n2",
+            "n3"
+          ],
+          "arm_labels": [
+            "Control",
+            "Control+ATP",
+            "Control+NAC",
+            "shNDUFA3",
+            "shNDUFA3+ATP",
+            "shNDUFA3+NAC"
+          ]
+        },
+        {
+          "file": "Wang2026_quantification_data_5C.xlsx",
+          "sheet": "Figure 5C",
+          "endpoint": "Micronucleus",
+          "header_row": 6,
+          "columns": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "data_rows": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "experiment_labels": [
+            "n1",
+            "n2",
+            "n3",
+            "n4"
+          ],
+          "arm_labels": [
+            "Control",
+            "Control+NAC",
+            "shNDUFA3",
+            "shNDUFA3+NAC"
+          ]
+        }
+      ]
+    }
+  },
+  "datasets": {
+    "rodriguez": {
+      "audit": [
+        {
+          "file": "Rodriguez2021_TILfluxtissue.csv",
+          "rows": 51,
+          "selected_n": {
+            "WT": {
+              "Control": 6,
+              "NAC": 6
+            },
+            "COX": {
+              "Control": 5,
+              "NAC": 5
+            },
+            "BAR": {
+              "Control": 5,
+              "NAC": 7
+            }
+          },
+          "all_deposited_arm_counts": {
+            "WT|Control": 6,
+            "WT|NAC": 6,
+            "WT|Protein": 5,
+            "COX|Control": 5,
+            "COX|NAC": 5,
+            "COX|Protein": 6,
+            "BAR|Control": 5,
+            "BAR|NAC": 7,
+            "BAR|Protein": 6
+          },
+          "qc_exclusions": [],
+          "scope": "All deposited NAC and Control observations used; Protein comparator retained in source, outside authorized NAC-Control contrasts."
+        },
+        {
+          "file": "Rodriguez2021_TILROSmgtissue.csv",
+          "rows": 32,
+          "selected_n": {
+            "WT": {
+              "Control": 3,
+              "NAC": 3
+            },
+            "COX": {
+              "Control": 4,
+              "NAC": 3
+            },
+            "BAR": {
+              "Control": 4,
+              "NAC": 4
+            }
+          },
+          "all_deposited_arm_counts": {
+            "WT|Control": 3,
+            "WT|NAC": 3,
+            "WT|Protein": 3,
+            "COX|Control": 4,
+            "COX|NAC": 3,
+            "COX|Protein": 3,
+            "BAR|Control": 4,
+            "BAR|NAC": 4,
+            "BAR|Protein": 5
+          },
+          "qc_exclusions": [],
+          "scope": "All deposited NAC and Control observations used; Protein comparator retained in source, outside authorized NAC-Control contrasts."
+        }
+      ],
+      "contrasts": [
+        {
+          "dataset": "Rodriguez2021",
+          "endpoint": "NProSGp_P",
+          "stratum": "WT",
+          "comparison": "NAC-Control",
+          "n_treated": 6,
+          "n_reference": 6,
+          "unit": "one chamber containing two pooled larvae",
+          "measurement_units": "source O2 flux per mg tissue; dimensional time unit unverified",
+          "treated_ids": [
+            "29A",
+            "32B",
+            "34A",
+            "50B",
+            "53A",
+            "60B"
+          ],
+          "reference_ids": [
+            "25A",
+            "37B",
+            "42B",
+            "54A",
+            "56A",
+            "60A"
+          ],
+          "treated_observations": [
+            69.25439852,
+            99.25684326,
+            41.71250558,
+            87.98628863,
+            64.07311434,
+            109.8088519
+          ],
+          "reference_observations": [
+            53.71584596,
+            96.66554478,
+            67.00998619,
+            39.8707168,
+            46.90302282,
+            52.55086034
+          ],
+          "mean_treated": 78.68200037166666,
+          "mean_reference": 59.452662815,
+          "difference": 19.229337556666664,
+          "ci95": [
+            -10.310392355767679,
+            48.769067469101
+          ],
+          "welch_df": 9.584949529758765,
+          "welch_p": 0.1765445871042182,
+          "exact_permutation_p": 0.170995670995671,
+          "label_allocations": 924,
+          "permutation_assumption": "exchangeable unpaired biological units between arms",
+          "multiplicity_p": 0.170995670995671,
+          "bh_q": 0.341991341991342,
+          "bh_family_n": 10
+        },
+        {
+          "dataset": "Rodriguez2021",
+          "endpoint": "NProSGp_P",
+          "stratum": "COX",
+          "comparison": "NAC-Control",
+          "n_treated": 5,
+          "n_reference": 5,
+          "unit": "one chamber containing two pooled larvae",
+          "measurement_units": "source O2 flux per mg tissue; dimensional time unit unverified",
+          "treated_ids": [
+            "38B",
+            "41B",
+            "46B",
+            "51B",
+            "55B"
+          ],
+          "reference_ids": [
+            "30B",
+            "32A",
+            "49B",
+            "53B",
+            "59A"
+          ],
+          "treated_observations": [
+            73.54843365,
+            65.76232799,
+            101.93627,
+            101.2212868,
+            107.4693465
+          ],
+          "reference_observations": [
+            75.77873359,
+            66.80629996,
+            48.37498051,
+            81.50823168,
+            41.96675721
+          ],
+          "mean_treated": 89.987532988,
+          "mean_reference": 62.88700059,
+          "difference": 27.100532398,
+          "ci95": [
+            0.7224322489082304,
+            53.47863254709176
+          ],
+          "welch_df": 7.924184052100556,
+          "welch_p": 0.04531639420997933,
+          "exact_permutation_p": 0.07142857142857142,
+          "label_allocations": 252,
+          "permutation_assumption": "exchangeable unpaired biological units between arms",
+          "multiplicity_p": 0.07142857142857142,
+          "bh_q": 0.25,
+          "bh_family_n": 10
+        },
+        {
+          "dataset": "Rodriguez2021",
+          "endpoint": "NProSGp_P",
+          "stratum": "BAR",
+          "comparison": "NAC-Control",
+          "n_treated": 7,
+          "n_reference": 5,
+          "unit": "one chamber containing two pooled larvae",
+          "measurement_units": "source O2 flux per mg tissue; dimensional time unit unverified",
+          "treated_ids": [
+            "25B",
+            "35B",
+            "45B",
+            "51A",
+            "57A",
+            "59B",
+            "61A"
+          ],
+          "reference_ids": [
+            "36B",
+            "37A",
+            "39B",
+            "43B",
+            "47B"
+          ],
+          "treated_observations": [
+            103.1209319,
+            96.17227175,
+            76.63427105,
+            52.99188169,
+            53.73525628,
+            87.98108545,
+            43.6794667
+          ],
+          "reference_observations": [
+            74.53484273,
+            50.30963509,
+            85.4939786,
+            91.97584863,
+            46.97694017
+          ],
+          "mean_treated": 73.47359497428572,
+          "mean_reference": 69.858249044,
+          "difference": 3.615345930285713,
+          "ci95": [
+            -24.941877792130676,
+            32.1725696527021
+          ],
+          "welch_df": 9.494614809193733,
+          "welch_p": 0.7824095364832221,
+          "exact_permutation_p": 0.7626262626262627,
+          "label_allocations": 792,
+          "permutation_assumption": "exchangeable unpaired biological units between arms",
+          "multiplicity_p": 0.7626262626262627,
+          "bh_q": 0.7626262626262627,
+          "bh_family_n": 10
+        },
+        {
+          "dataset": "Rodriguez2021",
+          "endpoint": "NProSGp_P",
+          "stratum": "COX",
+          "comparison": "(NAC-Control) in COX minus (NAC-Control) in WT",
+          "difference": 7.871194841333335,
+          "ci95": [
+            -28.846795215240213,
+            44.58918489790688
+          ],
+          "measurement_units": "source O2 flux per mg tissue; dimensional time unit unverified",
+          "welch_df": 17.469344413774206,
+          "welch_p": 0.6572866738784264,
+          "multiplicity_p": 0.6572866738784264,
+          "method": "four-group unpaired Welch contrast",
+          "group_n": [
+            5,
+            5,
+            6,
+            6
+          ],
+          "permutation_p": null,
+          "permutation_reason": "simple within-genotype label permutations do not test equal nonzero treatment effects",
+          "bh_q": 0.7626262626262627,
+          "bh_family_n": 10
+        },
+        {
+          "dataset": "Rodriguez2021",
+          "endpoint": "NProSGp_P",
+          "stratum": "BAR",
+          "comparison": "(NAC-Control) in BAR minus (NAC-Control) in WT",
+          "difference": -15.613991626380951,
+          "ci95": [
+            -53.94923694908226,
+            22.72125369632036
+          ],
+          "measurement_units": "source O2 flux per mg tissue; dimensional time unit unverified",
+          "welch_df": 19.061913305087753,
+          "welch_p": 0.40462721484123254,
+          "multiplicity_p": 0.40462721484123254,
+          "method": "four-group unpaired Welch contrast",
+          "group_n": [
+            7,
+            5,
+            6,
+            6
+          ],
+          "permutation_p": null,
+          "permutation_reason": "simple within-genotype label permutations do not test equal nonzero treatment effects",
+          "bh_q": 0.6530612244897959,
+          "bh_family_n": 10
+        },
+        {
+          "dataset": "Rodriguez2021",
+          "endpoint": "NProSGp.P",
+          "stratum": "WT",
+          "comparison": "NAC-Control",
+          "n_treated": 3,
+          "n_reference": 3,
+          "unit": "one chamber containing two pooled larvae",
+          "measurement_units": "source ROS per mg tissue; dimensional time unit unverified",
+          "treated_ids": [
+            "44A",
+            "48A",
+            "53A"
+          ],
+          "reference_ids": [
+            "46A",
+            "54A",
+            "56A"
+          ],
+          "treated_observations": [
+            0.36,
+            0.25,
+            0.25
+          ],
+          "reference_observations": [
+            0.23,
+            0.21,
+            0.22
+          ],
+          "mean_treated": 0.2866666666666667,
+          "mean_reference": 0.22,
+          "difference": 0.06666666666666668,
+          "ci95": [
+            -0.08602798660425054,
+            0.2193613199375839
+          ],
+          "welch_df": 2.099112627986348,
+          "welch_p": 0.20833996459104584,
+          "exact_permutation_p": 0.1,
+          "label_allocations": 20,
+          "permutation_assumption": "exchangeable unpaired biological units between arms",
+          "multiplicity_p": 0.1,
+          "bh_q": 0.25,
+          "bh_family_n": 10
+        },
+        {
+          "dataset": "Rodriguez2021",
+          "endpoint": "NProSGp.P",
+          "stratum": "COX",
+          "comparison": "NAC-Control",
+          "n_treated": 3,
+          "n_reference": 4,
+          "unit": "one chamber containing two pooled larvae",
+          "measurement_units": "source ROS per mg tissue; dimensional time unit unverified",
+          "treated_ids": [
+            "38B",
+            "46B",
+            "51B"
+          ],
+          "reference_ids": [
+            "40A",
+            "45A",
+            "49B",
+            "55A"
+          ],
+          "treated_observations": [
+            0.45,
+            0.48,
+            0.43
+          ],
+          "reference_observations": [
+            0.33,
+            0.12,
+            0.33,
+            0.12
+          ],
+          "mean_treated": 0.4533333333333333,
+          "mean_reference": 0.225,
+          "difference": 0.2283333333333333,
+          "ci95": [
+            0.040839401522052426,
+            0.4158272651446142
+          ],
+          "welch_df": 3.3380479626695503,
+          "welch_p": 0.029388134242343104,
+          "exact_permutation_p": 0.08571428571428572,
+          "label_allocations": 35,
+          "permutation_assumption": "exchangeable unpaired biological units between arms",
+          "multiplicity_p": 0.08571428571428572,
+          "bh_q": 0.25,
+          "bh_family_n": 10
+        },
+        {
+          "dataset": "Rodriguez2021",
+          "endpoint": "NProSGp.P",
+          "stratum": "BAR",
+          "comparison": "NAC-Control",
+          "n_treated": 4,
+          "n_reference": 4,
+          "unit": "one chamber containing two pooled larvae",
+          "measurement_units": "source ROS per mg tissue; dimensional time unit unverified",
+          "treated_ids": [
+            "45B",
+            "51A",
+            "57A",
+            "59B"
+          ],
+          "reference_ids": [
+            "37A",
+            "39B",
+            "42A",
+            "43B"
+          ],
+          "treated_observations": [
+            0.36,
+            0.29,
+            0.33,
+            0.15
+          ],
+          "reference_observations": [
+            0.25,
+            0.26,
+            0.19,
+            0.25
+          ],
+          "mean_treated": 0.2825,
+          "mean_reference": 0.2375,
+          "difference": 0.044999999999999984,
+          "ci95": [
+            -0.09579319072341066,
+            0.18579319072341063
+          ],
+          "welch_df": 3.703113349792057,
+          "welch_p": 0.4152652796664731,
+          "exact_permutation_p": 0.45714285714285713,
+          "label_allocations": 70,
+          "permutation_assumption": "exchangeable unpaired biological units between arms",
+          "multiplicity_p": 0.45714285714285713,
+          "bh_q": 0.6530612244897959,
+          "bh_family_n": 10
+        },
+        {
+          "dataset": "Rodriguez2021",
+          "endpoint": "NProSGp.P",
+          "stratum": "COX",
+          "comparison": "(NAC-Control) in COX minus (NAC-Control) in WT",
+          "difference": 0.16166666666666663,
+          "ci95": [
+            -0.02369557814751283,
+            0.3470289114808461
+          ],
+          "measurement_units": "source ROS per mg tissue; dimensional time unit unverified",
+          "welch_df": 5.104288226105175,
+          "welch_p": 0.07523553123138627,
+          "multiplicity_p": 0.07523553123138627,
+          "method": "four-group unpaired Welch contrast",
+          "group_n": [
+            3,
+            4,
+            3,
+            3
+          ],
+          "permutation_p": null,
+          "permutation_reason": "simple within-genotype label permutations do not test equal nonzero treatment effects",
+          "bh_q": 0.25,
+          "bh_family_n": 10
+        },
+        {
+          "dataset": "Rodriguez2021",
+          "endpoint": "NProSGp.P",
+          "stratum": "BAR",
+          "comparison": "(NAC-Control) in BAR minus (NAC-Control) in WT",
+          "difference": -0.021666666666666695,
+          "ci95": [
+            -0.1735653581474323,
+            0.1302320248140989
+          ],
+          "measurement_units": "source ROS per mg tissue; dimensional time unit unverified",
+          "welch_df": 5.802151117336826,
+          "welch_p": 0.7373183987302733,
+          "multiplicity_p": 0.7373183987302733,
+          "method": "four-group unpaired Welch contrast",
+          "group_n": [
+            4,
+            4,
+            3,
+            3
+          ],
+          "permutation_p": null,
+          "permutation_reason": "simple within-genotype label permutations do not test equal nonzero treatment effects",
+          "bh_q": 0.7626262626262627,
+          "bh_family_n": 10
+        }
+      ]
+    }
+  }
+}

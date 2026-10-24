@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "input": "data/public/bubr1-functional-v2/prediction-controls.tsv",
+  "input_sha256": "96980ed8d6a5ea393e3f5e28aec51545b4dde50c37e5e1cc2f3efc519c309244",
+  "control_variants": [
+    "R727C",
+    "K795R",
+    "R814H",
+    "L844F",
+    "I909T",
+    "D911A",
+    "L1012P",
+    "D882A",
+    "D882N",
+    "S884A",
+    "S913A",
+    "Q921H",
+    "K795A",
+    "D911N"
+  ],
+  "expected_control_counts": [
+    12,
+    14
+  ],
+  "expected_class_counts": [
+    [
+      7,
+      5
+    ],
+    [
+      9,
+      5
+    ]
+  ],
+  "predictors": [
+    "alphamissense",
+    "rasp_score_ml"
+  ],
+  "parent_prediction_sha256": {
+    "alphamissense": "5fa6d36fe08f74b89cd4b12029e84fc7bfc0eb19b9239ce141aca392584efb33",
+    "rasp_score_ml": "8ae13c5d5daec133fd91aa3191c4943300a8d0566f05c36fac2caf9c4de97f2e"
+  }
+}

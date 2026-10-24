@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "engine_sha256": "6307775f64d972610bc0c3fe6e2a73c65b8e42150f263026747bac7ae15ec995",
+  "config_sha256": "f8c36869326fec1efd39c49f13debf57adb8869a0d299598214bb62099f42efa",
+  "input_sha256": "96980ed8d6a5ea393e3f5e28aec51545b4dde50c37e5e1cc2f3efc519c309244",
+  "parent_prediction_sha256": {
+    "alphamissense": "5fa6d36fe08f74b89cd4b12029e84fc7bfc0eb19b9239ce141aca392584efb33",
+    "rasp_score_ml": "8ae13c5d5daec133fd91aa3191c4943300a8d0566f05c36fac2caf9c4de97f2e"
+  },
+  "comparisons": [
+    {
+      "control_set": "initial12",
+      "predictors": {
+        "alphamissense": {
+          "auroc": 0.5428571428571428,
+          "concordant_pair_equivalents": 19.0,
+          "positive_negative_pairs": 35,
+          "positive_count": 7,
+          "negative_count": 5,
+          "higher_score_direction": "reduced_abundance"
+        },
+        "rasp_score_ml": {
+          "auroc": 0.8857142857142857,
+          "concordant_pair_equivalents": 31.0,
+          "positive_negative_pairs": 35,
+          "positive_count": 7,
+          "negative_count": 5,
+          "higher_score_direction": "reduced_abundance"
+        }
+      },
+      "unique_residue_count": 11,
+      "positive_unique_residues": 7,
+      "negative_unique_residues": 4,
+      "variants": [
+        "R727C",
+        "K795R",
+        "R814H",
+        "L844F",
+        "I909T",
+        "D911A",
+        "L1012P",
+        "D882A",
+        "D882N",
+        "S884A",
+        "S913A",
+        "Q921H"
+      ]
+    },
+    {
+      "control_set": "expanded14",
+      "predictors": {
+        "alphamissense": {
+          "auroc": 0.6,
+          "concordant_pair_equivalents": 27.0,
+          "positive_negative_pairs": 45,
+          "positive_count": 9,
+          "negative_count": 5,
+          "higher_score_direction": "reduced_abundance"
+        },
+        "rasp_score_ml": {
+          "auroc": 0.8,
+          "concordant_pair_equivalents": 36.0,
+          "positive_negative_pairs": 45,
+          "positive_count": 9,
+          "negative_count": 5,
+          "higher_score_direction": "reduced_abundance"
+        }
+      },
+      "unique_residue_count": 11,
+      "positive_unique_residues": 7,
+      "negative_unique_residues": 4,
+      "variants": [
+        "R727C",
+        "K795R",
+        "R814H",
+        "L844F",
+        "I909T",
+        "D911A",
+        "L1012P",
+        "D882A",
+        "D882N",
+        "S884A",
+        "S913A",
+        "Q921H",
+        "K795A",
+        "D911N"
+      ]
+    }
+  ],
+  "data_type": "previously_published_experimental_controls_and_precomputed_prediction_scores",
+  "new_model_predictions": false,
+  "bootstrap_or_p_values": false,
+  "unit": "variant_controls_with_shared_residue_clusters",
+  "interpretation": "diagnostic_rankings_for_heterogeneous_cellular_abundance_labels"
+}

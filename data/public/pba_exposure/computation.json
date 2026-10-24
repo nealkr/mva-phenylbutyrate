@@ -1,0 +1,40 @@
+{
+  "molecular_weight_values_mg_per_mmol": [
+    163.19,
+    164.2
+  ],
+  "mass_conversion_basis": "phenylbutyrate-anion and free-acid-equivalent sensitivity; label does not specify plasma assay mass calibration; neither uses administered sodium-salt mass186.2",
+  "adult_single_dose_cmax_ug_ml": [
+    146.0,
+    169.0
+  ],
+  "adult_half_life_hours": [
+    0.5,
+    0.8
+  ],
+  "food_peak_factors": {
+    "fasted": 1.0,
+    "high_fat_meal": 0.45,
+    "normal_meal_lower": 0.55,
+    "normal_meal_upper": 0.57
+  },
+  "human_plasma_unbound_fraction_bounds": [
+    0.02,
+    0.194
+  ],
+  "culture_unbound_fraction_sensitivity": [
+    0.02,
+    0.2,
+    1.0
+  ],
+  "culture_nominal_mM": [
+    0.1,
+    0.5,
+    1.0,
+    2.0,
+    10.0
+  ],
+  "model": "post-peak one-exponential decay only; no absorption, repeated dosing, tissue partition, intracellular pharmacodynamics or patient predictions",
+  "inference": "deterministic exposure requirements and assumption sensitivity; no inferential P values",
+  "pk_range_scope": "ranges of reported means, not bounds on individual or population exposure"
+}

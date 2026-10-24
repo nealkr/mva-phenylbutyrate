@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "status": "exploratory_defined_after_prior_result_inspection",
+  "inputs": {
+    "neuronal_config": {"path":"data/public/pba_bridge/neuronal_computation.json","sha256":"e36fe97e9c4eeccf65c634a00231d2e9c2d2896f8fb7c5911e571f44eef9c921"},
+    "neuronal_workbook": {"path":"data/public/pba_bridge/42003_2026_9902_MOESM3_ESM.xlsx","sha256":"7a60e4cf2622c760922fa7363bc568a0dcd78d54022049de293167d6eed7a696"},
+    "neuronal_summary": {"path":"results/pba_neuronal/summary.json","sha256":"4c0e73dc86889f5ec1f86f72a7df44961a427ceb1f1c815c877b8fa768052633"},
+    "neuronal_observations": {"path":"results/pba_neuronal/observations.tsv","sha256":"1e9ac51f602c03d11820ffb61e654f13359b5826f4093c9af304395dc77a22f6"},
+    "exposure_config": {"path":"data/public/pba_exposure/computation.json","sha256":"650019d6e509bc9cd77679ba2f4ad633ef7ab21bf3812db9ded9fc63d197bbc4"},
+    "exposure_summary": {"path":"results/pba_exposure/summary.json","sha256":"587117577dccf026ae045d1a9f33763e8e911980984042e98e0b2147fda57a56"}
+  },
+  "neuronal_methods": {
+    "endpoints":["aggregate_intensity","active_caspase3_intensity"],
+    "unit":"independent differentiation summary; technical measurements averaged; one parental donor background",
+    "deletions":"full; all six single-arm delete-one subsets; all nine Cartesian delete-one-per-arm subsets per endpoint",
+    "effect":"treated minus vehicle and100*(1-treated_mean/vehicle_mean)",
+    "null":"inclusive absolute mean difference over all unpaired same-size allocations; arm exchangeability assumption",
+    "family":"two full-data exact tests, Holm; deletion results descriptive only",
+    "pairing":"no inferred row pairing or cross-endpoint linkage",
+    "confirmation":"none; no new biological units and no endpoint or subset selection"
+  },
+  "exposure_methods": {
+    "nominal_culture_mM":0.1,
+    "post_peak_h":[0.0,0.5,1.0,2.0,4.0],
+    "culture_fu":[0.02,0.2,1.0],
+    "formula":"culture_fu<=Cmax_total*plasma_fu*2**(-time/half_life)/0.1, capped at1",
+    "assumptions":"all64 existing combinations, no weights or probability interpretation",
+    "scope":"adult reported-mean scenarios; post-peak decay only, no absorption/repeated dosing/tissue distribution/pharmacodynamic persistence or case-specific PK"
+  },
+  "unresolved_endpoints":["mature cargo","productive neural function","new chromosome errors per division","drug-by-genotype interaction","case-relevant joint response","sustained free tissue exposure"],
+  "retuning":"no new endpoint/sign choice/panel/drug ranking/cutoff optimization or parameter fit"
+}

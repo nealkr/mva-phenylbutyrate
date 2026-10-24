@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "canonical_design_sha256": "e83103e1e626a2e30fe27e4ad6dd501e6ceecd73cba2b1db9173ba4e2d0b9f50",
+  "source": {
+    "path": "data/public/bubr1-functional-v2/elife-16620-fig7-data1-v1.xlsx",
+    "sha256": "62e710b61a15a697f64f57fece56de4f7ea4698422fc0790ff8ce9b841e4742d",
+    "sheet": "Figure_7_source_data"
+  },
+  "constructs": ["Wild-type", "FL-Bub1b", "Bub1bΔI", "Bub1bΔN", "Bub1bN"],
+  "biological_unit": {
+    "status": "six_independently_generated_mef_lines_supported_by_figure_legend_and_methods",
+    "n_per_construct_arm": 6
+  },
+  "seed": 20261011,
+  "bootstrap_draws": 9999
+}

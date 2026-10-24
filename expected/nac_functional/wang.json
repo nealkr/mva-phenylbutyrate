@@ -1,0 +1,656 @@
+{
+  "config": {
+    "input_sha256": {
+      "Rodriguez2021_TILfluxtissue.csv": "1206c99bb661138f43a3ba2a2f01fcaac589da4b1747f23f1dc14e6f681bc171",
+      "Rodriguez2021_TILROSmgtissue.csv": "61694e401a6c5cc6a0ed759ddad54a3ddb967ca3bf2279db5c522b63c1dbe1ae",
+      "Wang2026_quantification_data_5A.xlsx": "ae58b0c476c814f29092542eb022ebc435c751dd66919c1147a66256b176ab11",
+      "Wang2026_quantification_data_5C.xlsx": "17247c7e94416a128d013fe80086d041828e27038ab10897707b4f99c3accb4a"
+    },
+    "rodriguez": {
+      "endpoints": [
+        {
+          "file": "Rodriguez2021_TILfluxtissue.csv",
+          "column": "NProSGp_P",
+          "units": "source O2 flux per mg tissue; dimensional time unit unverified",
+          "expected_n": {
+            "WT": {
+              "Control": 6,
+              "NAC": 6
+            },
+            "COX": {
+              "Control": 5,
+              "NAC": 5
+            },
+            "BAR": {
+              "Control": 5,
+              "NAC": 7
+            }
+          }
+        },
+        {
+          "file": "Rodriguez2021_TILROSmgtissue.csv",
+          "column": "NProSGp.P",
+          "units": "source ROS per mg tissue; dimensional time unit unverified",
+          "expected_n": {
+            "WT": {
+              "Control": 3,
+              "NAC": 3
+            },
+            "COX": {
+              "Control": 4,
+              "NAC": 3
+            },
+            "BAR": {
+              "Control": 4,
+              "NAC": 4
+            }
+          }
+        }
+      ]
+    },
+    "wang": {
+      "endpoints": [
+        {
+          "file": "Wang2026_quantification_data_5A.xlsx",
+          "sheet": "Figure 5A",
+          "endpoint": "Misalignment",
+          "header_row": 7,
+          "columns": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "data_rows": [
+            8,
+            9,
+            10
+          ],
+          "experiment_labels": [
+            "n1",
+            "n2",
+            "n3"
+          ],
+          "arm_labels": [
+            "Control",
+            "Control+ATP",
+            "Control+NAC",
+            "shNDUFA3",
+            "shNDUFA3+ATP",
+            "shNDUFA3+NAC"
+          ]
+        },
+        {
+          "file": "Wang2026_quantification_data_5A.xlsx",
+          "sheet": "Figure 5A",
+          "endpoint": "Lagging",
+          "header_row": 7,
+          "columns": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "data_rows": [
+            8,
+            9,
+            10
+          ],
+          "experiment_labels": [
+            "n1",
+            "n2",
+            "n3"
+          ],
+          "arm_labels": [
+            "Control",
+            "Control+ATP",
+            "Control+NAC",
+            "shNDUFA3",
+            "shNDUFA3+ATP",
+            "shNDUFA3+NAC"
+          ]
+        },
+        {
+          "file": "Wang2026_quantification_data_5C.xlsx",
+          "sheet": "Figure 5C",
+          "endpoint": "Micronucleus",
+          "header_row": 6,
+          "columns": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "data_rows": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "experiment_labels": [
+            "n1",
+            "n2",
+            "n3",
+            "n4"
+          ],
+          "arm_labels": [
+            "Control",
+            "Control+NAC",
+            "shNDUFA3",
+            "shNDUFA3+NAC"
+          ]
+        }
+      ]
+    }
+  },
+  "datasets": {
+    "wang": {
+      "audit": [
+        {
+          "file": "Wang2026_quantification_data_5A.xlsx",
+          "endpoint": "Misalignment",
+          "labels": [
+            "Control",
+            "Control+ATP",
+            "Control+NAC",
+            "shNDUFA3",
+            "shNDUFA3+ATP",
+            "shNDUFA3+NAC"
+          ],
+          "n_per_arm": 3,
+          "row_pairing_verified": false
+        },
+        {
+          "file": "Wang2026_quantification_data_5A.xlsx",
+          "endpoint": "Lagging",
+          "labels": [
+            "Control",
+            "Control+ATP",
+            "Control+NAC",
+            "shNDUFA3",
+            "shNDUFA3+ATP",
+            "shNDUFA3+NAC"
+          ],
+          "n_per_arm": 3,
+          "row_pairing_verified": false
+        },
+        {
+          "file": "Wang2026_quantification_data_5C.xlsx",
+          "endpoint": "Micronucleus",
+          "labels": [
+            "Control",
+            "Control+NAC",
+            "shNDUFA3",
+            "shNDUFA3+NAC"
+          ],
+          "n_per_arm": 4,
+          "row_pairing_verified": false
+        }
+      ],
+      "contrasts": [
+        {
+          "dataset": "Wang2026",
+          "endpoint": "Misalignment",
+          "stratum": "shNDUFA3",
+          "comparison": "shNDUFA3+NAC minus shNDUFA3",
+          "n_treated": 3,
+          "n_reference": 3,
+          "unit": "independent experiment, not individual cell",
+          "measurement_units": "percentage points",
+          "treated_ids": [
+            "n1",
+            "n2",
+            "n3"
+          ],
+          "reference_ids": [
+            "n1",
+            "n2",
+            "n3"
+          ],
+          "treated_observations": [
+            10.0,
+            5.0,
+            6.666667
+          ],
+          "reference_observations": [
+            26.66667,
+            15.0,
+            18.33333
+          ],
+          "mean_treated": 7.222222333333334,
+          "mean_reference": 20.0,
+          "difference": -12.777777666666665,
+          "ci95": [
+            -25.572968509790037,
+            0.01741317645670648
+          ],
+          "welch_df": 2.6955408810069383,
+          "welch_p": 0.050156020065730375,
+          "exact_permutation_p": 0.1,
+          "label_allocations": 20,
+          "permutation_assumption": "exchangeable unpaired biological units between arms",
+          "multiplicity_p": 0.1,
+          "bh_q": 0.2,
+          "bh_family_n": 10
+        },
+        {
+          "dataset": "Wang2026",
+          "endpoint": "Misalignment",
+          "stratum": "Control",
+          "comparison": "Control+NAC minus Control",
+          "n_treated": 3,
+          "n_reference": 3,
+          "unit": "independent experiment, not individual cell",
+          "measurement_units": "percentage points",
+          "treated_ids": [
+            "n1",
+            "n2",
+            "n3"
+          ],
+          "reference_ids": [
+            "n1",
+            "n2",
+            "n3"
+          ],
+          "treated_observations": [
+            6.666667,
+            3.333333,
+            3.333333
+          ],
+          "reference_observations": [
+            1.666667,
+            3.333333,
+            5.333333
+          ],
+          "mean_treated": 4.444444333333333,
+          "mean_reference": 3.444444333333333,
+          "difference": 1.0,
+          "ci95": [
+            -3.267206606305945,
+            5.267206606305945
+          ],
+          "welch_df": 3.991138199621079,
+          "welch_p": 0.5504994599530444,
+          "exact_permutation_p": 0.7,
+          "label_allocations": 20,
+          "permutation_assumption": "exchangeable unpaired biological units between arms",
+          "multiplicity_p": 0.7,
+          "bh_q": 0.7777777777777778,
+          "bh_family_n": 10
+        },
+        {
+          "dataset": "Wang2026",
+          "endpoint": "Misalignment",
+          "stratum": "shNDUFA3",
+          "comparison": "shNDUFA3+ATP minus shNDUFA3",
+          "n_treated": 3,
+          "n_reference": 3,
+          "unit": "independent experiment, not individual cell",
+          "measurement_units": "percentage points",
+          "treated_ids": [
+            "n1",
+            "n2",
+            "n3"
+          ],
+          "reference_ids": [
+            "n1",
+            "n2",
+            "n3"
+          ],
+          "treated_observations": [
+            25.0,
+            15.0,
+            13.333333
+          ],
+          "reference_observations": [
+            26.66667,
+            15.0,
+            18.33333
+          ],
+          "mean_treated": 17.777777666666665,
+          "mean_reference": 20.0,
+          "difference": -2.2222223333333346,
+          "ci95": [
+            -16.202997842025894,
+            11.758553175359223
+          ],
+          "welch_df": 3.99050459285591,
+          "welch_p": 0.6815686983586066,
+          "exact_permutation_p": 0.6,
+          "label_allocations": 20,
+          "permutation_assumption": "exchangeable unpaired biological units between arms",
+          "multiplicity_p": 0.6,
+          "bh_q": 0.75,
+          "bh_family_n": 10
+        },
+        {
+          "dataset": "Wang2026",
+          "endpoint": "Misalignment",
+          "stratum": "Control",
+          "comparison": "Control+ATP minus Control",
+          "n_treated": 3,
+          "n_reference": 3,
+          "unit": "independent experiment, not individual cell",
+          "measurement_units": "percentage points",
+          "treated_ids": [
+            "n1",
+            "n2",
+            "n3"
+          ],
+          "reference_ids": [
+            "n1",
+            "n2",
+            "n3"
+          ],
+          "treated_observations": [
+            3.333333,
+            3.333333,
+            5.333333
+          ],
+          "reference_observations": [
+            1.666667,
+            3.333333,
+            5.333333
+          ],
+          "mean_treated": 3.999999666666666,
+          "mean_reference": 3.444444333333333,
+          "difference": 0.555555333333333,
+          "ci95": [
+            -3.193874944794421,
+            4.3049856114610865
+          ],
+          "welch_df": 3.368278517369976,
+          "welch_p": 0.6842521143533229,
+          "exact_permutation_p": 1.0,
+          "label_allocations": 20,
+          "permutation_assumption": "exchangeable unpaired biological units between arms",
+          "multiplicity_p": 1.0,
+          "bh_q": 1.0,
+          "bh_family_n": 10
+        },
+        {
+          "dataset": "Wang2026",
+          "endpoint": "Lagging",
+          "stratum": "shNDUFA3",
+          "comparison": "shNDUFA3+NAC minus shNDUFA3",
+          "n_treated": 3,
+          "n_reference": 3,
+          "unit": "independent experiment, not individual cell",
+          "measurement_units": "percentage points",
+          "treated_ids": [
+            "n1",
+            "n2",
+            "n3"
+          ],
+          "reference_ids": [
+            "n1",
+            "n2",
+            "n3"
+          ],
+          "treated_observations": [
+            16.66667,
+            11.66667,
+            15.0
+          ],
+          "reference_observations": [
+            26.66667,
+            28.33333,
+            36.66667
+          ],
+          "mean_treated": 14.444446666666666,
+          "mean_reference": 30.55555666666667,
+          "difference": -16.111110000000004,
+          "ci95": [
+            -27.319479512142426,
+            -4.9027404878575815
+          ],
+          "welch_df": 2.8594053183494696,
+          "welch_p": 0.020218555094073113,
+          "exact_permutation_p": 0.1,
+          "label_allocations": 20,
+          "permutation_assumption": "exchangeable unpaired biological units between arms",
+          "multiplicity_p": 0.1,
+          "bh_q": 0.2,
+          "bh_family_n": 10
+        },
+        {
+          "dataset": "Wang2026",
+          "endpoint": "Lagging",
+          "stratum": "Control",
+          "comparison": "Control+NAC minus Control",
+          "n_treated": 3,
+          "n_reference": 3,
+          "unit": "independent experiment, not individual cell",
+          "measurement_units": "percentage points",
+          "treated_ids": [
+            "n1",
+            "n2",
+            "n3"
+          ],
+          "reference_ids": [
+            "n1",
+            "n2",
+            "n3"
+          ],
+          "treated_observations": [
+            3.333333,
+            5.0,
+            6.666667
+          ],
+          "reference_observations": [
+            18.33333,
+            10.0,
+            8.333333
+          ],
+          "mean_treated": 5.0,
+          "mean_reference": 12.222221,
+          "difference": -7.222220999999999,
+          "ci95": [
+            -19.21715844314033,
+            4.772716443140332
+          ],
+          "welch_df": 2.383505555311098,
+          "welch_p": 0.13484515949657125,
+          "exact_permutation_p": 0.1,
+          "label_allocations": 20,
+          "permutation_assumption": "exchangeable unpaired biological units between arms",
+          "multiplicity_p": 0.1,
+          "bh_q": 0.2,
+          "bh_family_n": 10
+        },
+        {
+          "dataset": "Wang2026",
+          "endpoint": "Lagging",
+          "stratum": "shNDUFA3",
+          "comparison": "shNDUFA3+ATP minus shNDUFA3",
+          "n_treated": 3,
+          "n_reference": 3,
+          "unit": "independent experiment, not individual cell",
+          "measurement_units": "percentage points",
+          "treated_ids": [
+            "n1",
+            "n2",
+            "n3"
+          ],
+          "reference_ids": [
+            "n1",
+            "n2",
+            "n3"
+          ],
+          "treated_observations": [
+            26.66667,
+            25.0,
+            30.0
+          ],
+          "reference_observations": [
+            26.66667,
+            28.33333,
+            36.66667
+          ],
+          "mean_treated": 27.222223333333332,
+          "mean_reference": 30.55555666666667,
+          "difference": -3.3333333333333393,
+          "ci95": [
+            -14.541702845475761,
+            7.875036178809083
+          ],
+          "welch_df": 2.8594053183494696,
+          "welch_p": 0.40535895079824213,
+          "exact_permutation_p": 0.6,
+          "label_allocations": 20,
+          "permutation_assumption": "exchangeable unpaired biological units between arms",
+          "multiplicity_p": 0.6,
+          "bh_q": 0.75,
+          "bh_family_n": 10
+        },
+        {
+          "dataset": "Wang2026",
+          "endpoint": "Lagging",
+          "stratum": "Control",
+          "comparison": "Control+ATP minus Control",
+          "n_treated": 3,
+          "n_reference": 3,
+          "unit": "independent experiment, not individual cell",
+          "measurement_units": "percentage points",
+          "treated_ids": [
+            "n1",
+            "n2",
+            "n3"
+          ],
+          "reference_ids": [
+            "n1",
+            "n2",
+            "n3"
+          ],
+          "treated_observations": [
+            6.666667,
+            5.0,
+            5.0
+          ],
+          "reference_observations": [
+            18.33333,
+            10.0,
+            8.333333
+          ],
+          "mean_treated": 5.555555666666667,
+          "mean_reference": 12.222221,
+          "difference": -6.6666653333333326,
+          "ci95": [
+            -19.433550786654948,
+            6.100220119988283
+          ],
+          "welch_df": 2.1288982658270785,
+          "welch_p": 0.16018684225425756,
+          "exact_permutation_p": 0.1,
+          "label_allocations": 20,
+          "permutation_assumption": "exchangeable unpaired biological units between arms",
+          "multiplicity_p": 0.1,
+          "bh_q": 0.2,
+          "bh_family_n": 10
+        },
+        {
+          "dataset": "Wang2026",
+          "endpoint": "Micronucleus",
+          "stratum": "shNDUFA3",
+          "comparison": "shNDUFA3+NAC minus shNDUFA3",
+          "n_treated": 4,
+          "n_reference": 4,
+          "unit": "independent experiment, not individual cell",
+          "measurement_units": "percentage points",
+          "treated_ids": [
+            "n1",
+            "n2",
+            "n3",
+            "n4"
+          ],
+          "reference_ids": [
+            "n1",
+            "n2",
+            "n3",
+            "n4"
+          ],
+          "treated_observations": [
+            10.318,
+            7.44,
+            8.547,
+            11.554
+          ],
+          "reference_observations": [
+            28.24427,
+            12.93189,
+            17.08428,
+            15.12386
+          ],
+          "mean_treated": 9.46475,
+          "mean_reference": 18.346075,
+          "difference": -8.881324999999999,
+          "ci95": [
+            -19.350824163430605,
+            1.5881741634306081
+          ],
+          "welch_df": 3.430110637971305,
+          "welch_p": 0.0758350021971813,
+          "exact_permutation_p": 0.02857142857142857,
+          "label_allocations": 70,
+          "permutation_assumption": "exchangeable unpaired biological units between arms",
+          "multiplicity_p": 0.02857142857142857,
+          "bh_q": 0.2,
+          "bh_family_n": 10
+        },
+        {
+          "dataset": "Wang2026",
+          "endpoint": "Micronucleus",
+          "stratum": "Control",
+          "comparison": "Control+NAC minus Control",
+          "n_treated": 4,
+          "n_reference": 4,
+          "unit": "independent experiment, not individual cell",
+          "measurement_units": "percentage points",
+          "treated_ids": [
+            "n1",
+            "n2",
+            "n3",
+            "n4"
+          ],
+          "reference_ids": [
+            "n1",
+            "n2",
+            "n3",
+            "n4"
+          ],
+          "treated_observations": [
+            2.309,
+            3.739,
+            2.6,
+            4.131
+          ],
+          "reference_observations": [
+            4.293628809,
+            3.879310345,
+            2.210884354,
+            5.973451327
+          ],
+          "mean_treated": 3.19475,
+          "mean_reference": 4.08931870875,
+          "difference": -0.8945687087499996,
+          "ci95": [
+            -3.2149553315946564,
+            1.4258179140946572
+          ],
+          "welch_df": 4.753052434545739,
+          "welch_p": 0.36253810746746296,
+          "exact_permutation_p": 0.37142857142857144,
+          "label_allocations": 70,
+          "permutation_assumption": "exchangeable unpaired biological units between arms",
+          "multiplicity_p": 0.37142857142857144,
+          "bh_q": 0.6190476190476191,
+          "bh_family_n": 10
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,774 @@
+{
+  "generated_utc": "2026-10-11T16:40:21.060837+00:00",
+  "source_sha256": "1deeb9ab66b001f1899a8cd7b525d72e8a99292c6e4b2f101479d9a7cc6b2227",
+  "config_sha256": "6eda1168d9c19573b870f97289ef3724fe415e520cae29ffb1e0efbb565c26a1",
+  "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12174339.1/41467_2025_60857_MOESM8_ESM.xlsx?md5=0a2dbc2e33add75b68548992d7a52584",
+  "timepoints_min": [
+    1,
+    2,
+    5,
+    10
+  ],
+  "measured_zero": false,
+  "normalization": "100*each raw band signal/paired WT raw band at10minutes",
+  "units": "percent of matched WT10minute imported signal",
+  "raw_units": "Source band-intensity units (uncalibrated)",
+  "validation": [
+    {
+      "cargo": "su9_DHFR",
+      "sheet": "Fig. 7d",
+      "background": "13_3",
+      "replicate": "Rep1.1",
+      "raw_row": 4,
+      "normalized_row": 5,
+      "wt_columns": [
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "clone_columns": [
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "source_quality_flag": null,
+      "primary_eligible": true,
+      "wt_raw_trajectory_sha256": "518a3a4715cac9e4fabf08f62ccf0af06d9bfc4a361c431d3a0d6ae0727f96fa",
+      "normalization_formulas_checked": 8,
+      "time_headers_checked": 8,
+      "time_header_row": 3
+    },
+    {
+      "cargo": "su9_DHFR",
+      "sheet": "Fig. 7d",
+      "background": "13_3",
+      "replicate": "Rep3",
+      "raw_row": 13,
+      "normalized_row": 14,
+      "wt_columns": [
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "clone_columns": [
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "source_quality_flag": null,
+      "primary_eligible": true,
+      "wt_raw_trajectory_sha256": "f83c251e3f4fa8ff460a947fdb7ce65fbbdb51b8f3d70765d8338f37ff88e053",
+      "normalization_formulas_checked": 8,
+      "time_headers_checked": 8,
+      "time_header_row": 12
+    },
+    {
+      "cargo": "su9_DHFR",
+      "sheet": "Fig. 7d",
+      "background": "13_3",
+      "replicate": "Rep2",
+      "raw_row": 20,
+      "normalized_row": 21,
+      "wt_columns": [
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "clone_columns": [
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "source_quality_flag_cell": "A19",
+      "source_quality_flag": "Rep2(PK didn't work)",
+      "primary_eligible": false,
+      "wt_raw_trajectory_sha256": "b4db37252125b283dbdddd9cad0fa572311f9fbdd5b571c2c8cef4c66ccda9b3",
+      "normalization_formulas_checked": 8,
+      "time_headers_checked": 8,
+      "time_header_row": 19
+    },
+    {
+      "cargo": "su9_DHFR",
+      "sheet": "Fig. 7d",
+      "background": "13_3",
+      "replicate": "Rep5",
+      "raw_row": 76,
+      "normalized_row": 77,
+      "wt_columns": [
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "clone_columns": [
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "source_quality_flag": null,
+      "primary_eligible": true,
+      "wt_raw_trajectory_sha256": "f0fd884353e968ca7327ef594005ad3b6bdf1aa815d3af029fa6be0f2492099f",
+      "normalization_formulas_checked": 8,
+      "time_headers_checked": 8,
+      "time_header_row": 75
+    },
+    {
+      "cargo": "su9_DHFR",
+      "sheet": "Fig. 7d",
+      "background": "3_3",
+      "replicate": "Rep1.1",
+      "raw_row": 27,
+      "normalized_row": 28,
+      "wt_columns": [
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "clone_columns": [
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "source_quality_flag": null,
+      "primary_eligible": true,
+      "wt_raw_trajectory_sha256": "ddae3df6d4e3e2e3aa3b888dd9cede9ec14f464ecbf0fb35c83a08c5c34b74c2",
+      "normalization_formulas_checked": 8,
+      "time_headers_checked": 8,
+      "time_header_row": 26
+    },
+    {
+      "cargo": "su9_DHFR",
+      "sheet": "Fig. 7d",
+      "background": "3_3",
+      "replicate": "Rep3",
+      "raw_row": 35,
+      "normalized_row": 36,
+      "wt_columns": [
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "clone_columns": [
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "source_quality_flag": null,
+      "primary_eligible": true,
+      "wt_raw_trajectory_sha256": "18b24b7ded79cabc082f70f12ee0ec764bf24e4cb229308630f08db810c60f00",
+      "normalization_formulas_checked": 8,
+      "time_headers_checked": 8,
+      "time_header_row": 34
+    },
+    {
+      "cargo": "su9_DHFR",
+      "sheet": "Fig. 7d",
+      "background": "3_3",
+      "replicate": "Rep2",
+      "raw_row": 43,
+      "normalized_row": 44,
+      "wt_columns": [
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "clone_columns": [
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "source_quality_flag": null,
+      "primary_eligible": true,
+      "wt_raw_trajectory_sha256": "b4db37252125b283dbdddd9cad0fa572311f9fbdd5b571c2c8cef4c66ccda9b3",
+      "normalization_formulas_checked": 8,
+      "time_headers_checked": 8,
+      "time_header_row": 42
+    },
+    {
+      "cargo": "su9_DHFR",
+      "sheet": "Fig. 7d",
+      "background": "3_3",
+      "replicate": "Rep5",
+      "raw_row": 82,
+      "normalized_row": 83,
+      "wt_columns": [
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "clone_columns": [
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "source_quality_flag": null,
+      "primary_eligible": true,
+      "wt_raw_trajectory_sha256": "9e9184776cb04163d89a6cb1843cee625d9750dfcb37050149724afa6f8f7737",
+      "normalization_formulas_checked": 8,
+      "time_headers_checked": 8,
+      "time_header_row": 81
+    },
+    {
+      "cargo": "su9_DHFR",
+      "sheet": "Fig. 7d",
+      "background": "5_4",
+      "replicate": "Rep1.1",
+      "raw_row": 52,
+      "normalized_row": 53,
+      "wt_columns": [
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "clone_columns": [
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "source_quality_flag": null,
+      "primary_eligible": true,
+      "wt_raw_trajectory_sha256": "c35118afbbbb8312ef6815c52f98bed6a720e18160436f1c0b0681277f39a36c",
+      "normalization_formulas_checked": 8,
+      "time_headers_checked": 8,
+      "time_header_row": 51
+    },
+    {
+      "cargo": "su9_DHFR",
+      "sheet": "Fig. 7d",
+      "background": "5_4",
+      "replicate": "Rep3",
+      "raw_row": 60,
+      "normalized_row": 61,
+      "wt_columns": [
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "clone_columns": [
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "source_quality_flag": null,
+      "primary_eligible": true,
+      "wt_raw_trajectory_sha256": "18b24b7ded79cabc082f70f12ee0ec764bf24e4cb229308630f08db810c60f00",
+      "normalization_formulas_checked": 8,
+      "time_headers_checked": 8,
+      "time_header_row": 59
+    },
+    {
+      "cargo": "su9_DHFR",
+      "sheet": "Fig. 7d",
+      "background": "5_4",
+      "replicate": "Rep2",
+      "raw_row": 68,
+      "normalized_row": 69,
+      "wt_columns": [
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "clone_columns": [
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "source_quality_flag_cell": "A67",
+      "source_quality_flag": "Rep2(PK didn't work)",
+      "primary_eligible": false,
+      "wt_raw_trajectory_sha256": "6318cc47bbc9fc1c2e27f814db37a515ef3a9532d983067f5857d4191b96f19a",
+      "normalization_formulas_checked": 8,
+      "time_headers_checked": 8,
+      "time_header_row": 67
+    },
+    {
+      "cargo": "su9_DHFR",
+      "sheet": "Fig. 7d",
+      "background": "5_4",
+      "replicate": "Rep5",
+      "raw_row": 89,
+      "normalized_row": 90,
+      "wt_columns": [
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "clone_columns": [
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "source_quality_flag": null,
+      "primary_eligible": true,
+      "wt_raw_trajectory_sha256": "f0fd884353e968ca7327ef594005ad3b6bdf1aa815d3af029fa6be0f2492099f",
+      "normalization_formulas_checked": 8,
+      "time_headers_checked": 8,
+      "time_header_row": 88
+    },
+    {
+      "cargo": "SOD2",
+      "sheet": "Supplementary Fig. 10d",
+      "background": "13_3",
+      "replicate": "Rep1",
+      "raw_row": 6,
+      "normalized_row": 7,
+      "wt_columns": [
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "clone_columns": [
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "source_quality_flag": null,
+      "primary_eligible": true,
+      "wt_raw_trajectory_sha256": "6435e7690a64115b85e205af90c95f19e74a4a46cfbccbd6a23456abe93aa9f7",
+      "normalization_formulas_checked": 8,
+      "time_headers_checked": 8,
+      "time_header_row": 5
+    },
+    {
+      "cargo": "SOD2",
+      "sheet": "Supplementary Fig. 10d",
+      "background": "13_3",
+      "replicate": "Rep2",
+      "raw_row": 18,
+      "normalized_row": 19,
+      "wt_columns": [
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "clone_columns": [
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "source_quality_flag": null,
+      "primary_eligible": true,
+      "wt_raw_trajectory_sha256": "87ee71cbc87496420c5a84a6ae5e823f04a7d4b40b923693225769c5adcc9a51",
+      "normalization_formulas_checked": 8,
+      "time_headers_checked": 8,
+      "time_header_row": 17
+    },
+    {
+      "cargo": "SOD2",
+      "sheet": "Supplementary Fig. 10d",
+      "background": "13_3",
+      "replicate": "Rep3",
+      "raw_row": 32,
+      "normalized_row": 33,
+      "wt_columns": [
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "clone_columns": [
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "source_quality_flag": null,
+      "primary_eligible": true,
+      "wt_raw_trajectory_sha256": "12dea9eb33fdc99c0ea31cb1dfa4c8a729d175d50bd7eb0d5ce81f1be78e7ebc",
+      "normalization_formulas_checked": 8,
+      "time_headers_checked": 8,
+      "time_header_row": 31
+    },
+    {
+      "cargo": "SOD2",
+      "sheet": "Supplementary Fig. 10d",
+      "background": "3_3",
+      "replicate": "Rep1",
+      "raw_row": 12,
+      "normalized_row": 13,
+      "wt_columns": [
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "clone_columns": [
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "source_quality_flag": null,
+      "primary_eligible": true,
+      "wt_raw_trajectory_sha256": "2776350c6a41bf7c0a33592769c8101a35dd173a32e0bea45b54e5dffaaba823",
+      "normalization_formulas_checked": 8,
+      "time_headers_checked": 8,
+      "time_header_row": 11
+    },
+    {
+      "cargo": "SOD2",
+      "sheet": "Supplementary Fig. 10d",
+      "background": "3_3",
+      "replicate": "Rep2",
+      "raw_row": 24,
+      "normalized_row": 25,
+      "wt_columns": [
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "clone_columns": [
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "source_quality_flag": null,
+      "primary_eligible": true,
+      "wt_raw_trajectory_sha256": "e7e32d7945d7a275501e58af65b5b3105e6237ff6a9696a07322b21b2cc0b0a3",
+      "normalization_formulas_checked": 8,
+      "time_headers_checked": 8,
+      "time_header_row": 23
+    },
+    {
+      "cargo": "SOD2",
+      "sheet": "Supplementary Fig. 10d",
+      "background": "3_3",
+      "replicate": "Rep3",
+      "raw_row": 39,
+      "normalized_row": 40,
+      "wt_columns": [
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "clone_columns": [
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "source_quality_flag": null,
+      "primary_eligible": true,
+      "wt_raw_trajectory_sha256": "12dea9eb33fdc99c0ea31cb1dfa4c8a729d175d50bd7eb0d5ce81f1be78e7ebc",
+      "normalization_formulas_checked": 8,
+      "time_headers_checked": 8,
+      "time_header_row": 38
+    }
+  ],
+  "shared_raw_wt_trajectories": [
+    {
+      "cargo": "su9_DHFR",
+      "wt_raw_trajectory_sha256": "b4db37252125b283dbdddd9cad0fa572311f9fbdd5b571c2c8cef4c66ccda9b3",
+      "source_pairs": [
+        {
+          "background": "13_3",
+          "replicate": "Rep2",
+          "raw_row": 20
+        },
+        {
+          "background": "3_3",
+          "replicate": "Rep2",
+          "raw_row": 43
+        }
+      ]
+    },
+    {
+      "cargo": "su9_DHFR",
+      "wt_raw_trajectory_sha256": "f0fd884353e968ca7327ef594005ad3b6bdf1aa815d3af029fa6be0f2492099f",
+      "source_pairs": [
+        {
+          "background": "13_3",
+          "replicate": "Rep5",
+          "raw_row": 76
+        },
+        {
+          "background": "5_4",
+          "replicate": "Rep5",
+          "raw_row": 89
+        }
+      ]
+    },
+    {
+      "cargo": "su9_DHFR",
+      "wt_raw_trajectory_sha256": "18b24b7ded79cabc082f70f12ee0ec764bf24e4cb229308630f08db810c60f00",
+      "source_pairs": [
+        {
+          "background": "3_3",
+          "replicate": "Rep3",
+          "raw_row": 35
+        },
+        {
+          "background": "5_4",
+          "replicate": "Rep3",
+          "raw_row": 60
+        }
+      ]
+    },
+    {
+      "cargo": "SOD2",
+      "wt_raw_trajectory_sha256": "12dea9eb33fdc99c0ea31cb1dfa4c8a729d175d50bd7eb0d5ce81f1be78e7ebc",
+      "source_pairs": [
+        {
+          "background": "13_3",
+          "replicate": "Rep3",
+          "raw_row": 32
+        },
+        {
+          "background": "3_3",
+          "replicate": "Rep3",
+          "raw_row": 39
+        }
+      ]
+    }
+  ],
+  "source_pair_count": 18,
+  "primary_eligible_pair_count": 16,
+  "primary_quality_exclusion_count": 2,
+  "family_sizes": {
+    "endpoint_sensitivities": 15,
+    "primary_su9": 6,
+    "secondary_SOD2": 4,
+    "source_quality_sensitivity": 4
+  },
+  "primary_and_SOD2_contrasts": [
+    {
+      "cargo": "su9_DHFR",
+      "background": "13_3",
+      "endpoint": "terminal_10min",
+      "assay_filter": "valid_PK",
+      "family": "primary_su9",
+      "n_pairs": 3,
+      "mean_wt": 100.0,
+      "mean_clone": 96.4394086991,
+      "mean_paired_difference": -3.5605913009,
+      "difference_ci95_low": -230.8164566696,
+      "difference_ci95_high": 223.6952740678,
+      "paired_t_p_two_sided": 0.9523859121,
+      "exact_signflip_p_two_sided": 1.0,
+      "exact_two_sided_p_floor": 0.25,
+      "paired_difference_values": "[-74.0303246979038, 99.82568482225781, -36.47713402704942]",
+      "all_pairs_same_direction": false,
+      "paired_t_q_bh": 0.9523859121,
+      "signflip_q_bh": 1.0
+    },
+    {
+      "cargo": "su9_DHFR",
+      "background": "13_3",
+      "endpoint": "incremental_auc_after_1min",
+      "assay_filter": "valid_PK",
+      "family": "primary_su9",
+      "n_pairs": 3,
+      "mean_wt": 609.0424266335,
+      "mean_clone": 563.508283878,
+      "mean_paired_difference": -45.5341427555,
+      "difference_ci95_low": -1543.749847529,
+      "difference_ci95_high": 1452.681562018,
+      "paired_t_p_two_sided": 0.9079263434,
+      "exact_signflip_p_two_sided": 0.75,
+      "exact_two_sided_p_floor": 0.25,
+      "paired_difference_values": "[-656.578711177059, 549.3212910653056, -29.345008154739276]",
+      "all_pairs_same_direction": false,
+      "paired_t_q_bh": 0.9523859121,
+      "signflip_q_bh": 0.9
+    },
+    {
+      "cargo": "su9_DHFR",
+      "background": "3_3",
+      "endpoint": "terminal_10min",
+      "assay_filter": "valid_PK",
+      "family": "primary_su9",
+      "n_pairs": 4,
+      "mean_wt": 100.0,
+      "mean_clone": 77.7196964547,
+      "mean_paired_difference": -22.2803035453,
+      "difference_ci95_low": -64.6402088178,
+      "difference_ci95_high": 20.0796017272,
+      "paired_t_p_two_sided": 0.1927455182,
+      "exact_signflip_p_two_sided": 0.25,
+      "exact_two_sided_p_floor": 0.125,
+      "paired_difference_values": "[0.8310810936776676, -23.447356358768744, -7.27408116879775, -59.23085774733737]",
+      "all_pairs_same_direction": false,
+      "paired_t_q_bh": 0.3833612671,
+      "signflip_q_bh": 0.75
+    },
+    {
+      "cargo": "su9_DHFR",
+      "background": "3_3",
+      "endpoint": "incremental_auc_after_1min",
+      "assay_filter": "valid_PK",
+      "family": "primary_su9",
+      "n_pairs": 4,
+      "mean_wt": 475.4024869811,
+      "mean_clone": 295.7525893886,
+      "mean_paired_difference": -179.6498975926,
+      "difference_ci95_low": -418.6420958771,
+      "difference_ci95_high": 59.342300692,
+      "paired_t_p_two_sided": 0.0965465637,
+      "exact_signflip_p_two_sided": 0.25,
+      "exact_two_sided_p_floor": 0.125,
+      "paired_difference_values": "[-149.86685972315053, -317.9793254218798, 19.125043890866777, -269.8784491160374]",
+      "all_pairs_same_direction": false,
+      "paired_t_q_bh": 0.3833612671,
+      "signflip_q_bh": 0.75
+    },
+    {
+      "cargo": "su9_DHFR",
+      "background": "5_4",
+      "endpoint": "terminal_10min",
+      "assay_filter": "valid_PK",
+      "family": "primary_su9",
+      "n_pairs": 3,
+      "mean_wt": 100.0,
+      "mean_clone": 57.3245096759,
+      "mean_paired_difference": -42.6754903241,
+      "difference_ci95_low": -159.1318278479,
+      "difference_ci95_high": 73.7808471997,
+      "paired_t_p_two_sided": 0.255574178,
+      "exact_signflip_p_two_sided": 0.5,
+      "exact_two_sided_p_floor": 0.25,
+      "paired_difference_values": "[-60.271513358644114, -78.21164092389957, 10.456683310112595]",
+      "all_pairs_same_direction": false,
+      "paired_t_q_bh": 0.3833612671,
+      "signflip_q_bh": 0.75
+    },
+    {
+      "cargo": "su9_DHFR",
+      "background": "5_4",
+      "endpoint": "incremental_auc_after_1min",
+      "assay_filter": "valid_PK",
+      "family": "primary_su9",
+      "n_pairs": 3,
+      "mean_wt": 523.8539300222,
+      "mean_clone": 227.7769482026,
+      "mean_paired_difference": -296.0769818195,
+      "difference_ci95_low": -1022.0212176221,
+      "difference_ci95_high": 429.867253983,
+      "paired_t_p_two_sided": 0.2213744207,
+      "exact_signflip_p_two_sided": 0.5,
+      "exact_two_sided_p_floor": 0.25,
+      "paired_difference_values": "[-458.31248040213, -471.19975320892405, 41.281288152460604]",
+      "all_pairs_same_direction": false,
+      "paired_t_q_bh": 0.3833612671,
+      "signflip_q_bh": 0.75
+    },
+    {
+      "cargo": "SOD2",
+      "background": "13_3",
+      "endpoint": "terminal_10min",
+      "assay_filter": "valid_PK",
+      "family": "secondary_SOD2",
+      "n_pairs": 3,
+      "mean_wt": 100.0,
+      "mean_clone": 68.8018726191,
+      "mean_paired_difference": -31.1981273809,
+      "difference_ci95_low": -84.9167881714,
+      "difference_ci95_high": 22.5205334097,
+      "paired_t_p_two_sided": 0.129709096,
+      "exact_signflip_p_two_sided": 0.25,
+      "exact_two_sided_p_floor": 0.25,
+      "paired_difference_values": "[-19.449726574034273, -56.15393426000168, -17.9907213086331]",
+      "all_pairs_same_direction": true,
+      "paired_t_q_bh": 0.129709096,
+      "signflip_q_bh": 0.25
+    },
+    {
+      "cargo": "SOD2",
+      "background": "13_3",
+      "endpoint": "incremental_auc_after_1min",
+      "assay_filter": "valid_PK",
+      "family": "secondary_SOD2",
+      "n_pairs": 3,
+      "mean_wt": 320.2642100075,
+      "mean_clone": 241.463872632,
+      "mean_paired_difference": -78.8003373755,
+      "difference_ci95_low": -153.5615018723,
+      "difference_ci95_high": -4.0391728787,
+      "paired_t_p_two_sided": 0.0453398127,
+      "exact_signflip_p_two_sided": 0.25,
+      "exact_two_sided_p_floor": 0.25,
+      "paired_difference_values": "[-50.51889415951504, -75.45237113014048, -110.42974683689431]",
+      "all_pairs_same_direction": true,
+      "paired_t_q_bh": 0.096932696,
+      "signflip_q_bh": 0.25
+    },
+    {
+      "cargo": "SOD2",
+      "background": "3_3",
+      "endpoint": "terminal_10min",
+      "assay_filter": "valid_PK",
+      "family": "secondary_SOD2",
+      "n_pairs": 3,
+      "mean_wt": 100.0,
+      "mean_clone": 52.8507004526,
+      "mean_paired_difference": -47.1492995474,
+      "difference_ci95_low": -111.1335757516,
+      "difference_ci95_high": 16.8349766567,
+      "paired_t_p_two_sided": 0.086731084,
+      "exact_signflip_p_two_sided": 0.25,
+      "exact_two_sided_p_floor": 0.25,
+      "paired_difference_values": "[-37.43047645727317, -76.35185144232025, -27.665570742739376]",
+      "all_pairs_same_direction": true,
+      "paired_t_q_bh": 0.1156414454,
+      "signflip_q_bh": 0.25
+    },
+    {
+      "cargo": "SOD2",
+      "background": "3_3",
+      "endpoint": "incremental_auc_after_1min",
+      "assay_filter": "valid_PK",
+      "family": "secondary_SOD2",
+      "n_pairs": 3,
+      "mean_wt": 381.3791133543,
+      "mean_clone": 217.4041720029,
+      "mean_paired_difference": -163.9749413514,
+      "difference_ci95_low": -325.2186579971,
+      "difference_ci95_high": -2.7312247057,
+      "paired_t_p_two_sided": 0.048466348,
+      "exact_signflip_p_two_sided": 0.25,
+      "exact_two_sided_p_floor": 0.25,
+      "paired_difference_values": "[-104.22293387691394, -233.0363305722242, -154.66555960512466]",
+      "all_pairs_same_direction": true,
+      "paired_t_q_bh": 0.096932696,
+      "signflip_q_bh": 0.25
+    }
+  ],
+  "interpretation": "Relative imported signal and incremental accumulation, not absolute throughput. Source cargo/background comparisons are distinct; shared WT trajectories are not pooled independent controls. No drug arm.",
+  "inference_notes": "Paired t intervals assume approximately normal paired differences; exact sign flips use a paired sign-symmetry reference distribution. Repeated timepoints are never biological n.",
+  "burden_backgrounds": {
+    "13_3": 1,
+    "3_3": 1,
+    "5_4": 2
+  },
+  "burden_interpretation": "Only three different chromosome backgrounds; report heterogeneity without fitting a general dosage-burden response.",
+  "reproduction_scope": "Fixed endpoint reanalysis of previously published mitochondrial import impairment; not independent biological confirmation"
+}

@@ -1,0 +1,327 @@
+{
+  "schema_version": 1,
+  "status": "exploratory_public_sensitivity_complete",
+  "independent_new_biological_units": 0,
+  "engine_sha256": "2c34c49a983721139283c3287e779f7a4fd5379e195a1dca5c3b7bb8d942763e",
+  "design_sha256": "8d8cce2f4bf84d8a6f466aa4c0a0c2ecabeaa08780e777c0c6cd07f2849633ca",
+  "inputs": {
+    "neuronal_config": {
+      "path": "data/public/pba_bridge/neuronal_computation.json",
+      "sha256": "e36fe97e9c4eeccf65c634a00231d2e9c2d2896f8fb7c5911e571f44eef9c921"
+    },
+    "neuronal_workbook": {
+      "path": "data/public/pba_bridge/42003_2026_9902_MOESM3_ESM.xlsx",
+      "sha256": "7a60e4cf2622c760922fa7363bc568a0dcd78d54022049de293167d6eed7a696"
+    },
+    "neuronal_summary": {
+      "path": "results/pba_neuronal/summary.json",
+      "sha256": "4c0e73dc86889f5ec1f86f72a7df44961a427ceb1f1c815c877b8fa768052633"
+    },
+    "neuronal_observations": {
+      "path": "results/pba_neuronal/observations.tsv",
+      "sha256": "1e9ac51f602c03d11820ffb61e654f13359b5826f4093c9af304395dc77a22f6"
+    },
+    "exposure_config": {
+      "path": "data/public/pba_exposure/computation.json",
+      "sha256": "650019d6e509bc9cd77679ba2f4ad633ef7ab21bf3812db9ded9fc63d197bbc4"
+    },
+    "exposure_summary": {
+      "path": "results/pba_exposure/summary.json",
+      "sha256": "587117577dccf026ae045d1a9f33763e8e911980984042e98e0b2147fda57a56"
+    }
+  },
+  "neuronal": [
+    {
+      "outcome": "aggregate_intensity",
+      "full": {
+        "outcome": "aggregate_intensity",
+        "sensitivity": "full",
+        "deleted_treated_cell": "",
+        "deleted_vehicle_cell": "",
+        "n_treated": 3,
+        "n_vehicle": 3,
+        "mean_treated": 0.8758141817433253,
+        "mean_vehicle": 1.2409232451170398,
+        "treated_minus_vehicle": -0.3651090633737145,
+        "percent_lower": 29.422372802701314,
+        "exact_p_two_sided": 0.1,
+        "extreme_allocations": 2,
+        "allocations": 20
+      },
+      "deletion_envelopes": [
+        {
+          "sensitivity": "delete_one_single_arm",
+          "subset_count": 6,
+          "negative_difference_count": 6,
+          "difference_range": [
+            -0.4130400200780252,
+            -0.29883188955722073
+          ],
+          "percent_lower_range": [
+            25.440164221241524,
+            32.13363262036027
+          ],
+          "exact_p_range": [
+            0.1,
+            0.1
+          ]
+        },
+        {
+          "sensitivity": "delete_one_each_arm",
+          "subset_count": 9,
+          "negative_difference_count": 9,
+          "difference_range": [
+            -0.4466846733908729,
+            -0.2600863610589428
+          ],
+          "percent_lower_range": [
+            22.141678877875105,
+            34.65750220309158
+          ],
+          "exact_p_range": [
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        }
+      ],
+      "all_nine_cross_arm_pairs_negative": true,
+      "minimum_vehicle_minus_maximum_treated": 0.20195784333939715,
+      "exact_p_holm_two_outcomes": 0.2
+    },
+    {
+      "outcome": "active_caspase3_intensity",
+      "full": {
+        "outcome": "active_caspase3_intensity",
+        "sensitivity": "full",
+        "deleted_treated_cell": "",
+        "deleted_vehicle_cell": "",
+        "n_treated": 3,
+        "n_vehicle": 3,
+        "mean_treated": 0.9344771779564369,
+        "mean_vehicle": 1.279963736881225,
+        "treated_minus_vehicle": -0.34548655892478797,
+        "percent_lower": 26.991902111743006,
+        "exact_p_two_sided": 0.1,
+        "extreme_allocations": 2,
+        "allocations": 20
+      },
+      "deletion_envelopes": [
+        {
+          "sensitivity": "delete_one_single_arm",
+          "subset_count": 6,
+          "negative_difference_count": 6,
+          "difference_range": [
+            -0.4226674388503824,
+            -0.2884154579044176
+          ],
+          "percent_lower_range": [
+            22.533096024046284,
+            33.021829187150175
+          ],
+          "exact_p_range": [
+            0.1,
+            0.2
+          ]
+        },
+        {
+          "sensitivity": "delete_one_each_arm",
+          "subset_count": 9,
+          "negative_difference_count": 9,
+          "difference_range": [
+            -0.4549330462042973,
+            -0.2352705106196722
+          ],
+          "percent_lower_range": [
+            19.177282954482333,
+            34.66871459649185
+          ],
+          "exact_p_range": [
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        }
+      ],
+      "all_nine_cross_arm_pairs_negative": true,
+      "minimum_vehicle_minus_maximum_treated": 0.12659358436576906,
+      "exact_p_holm_two_outcomes": 0.2
+    }
+  ],
+  "exposure": {
+    "nominal_culture_mM": 0.1,
+    "assumptions_per_time": 64,
+    "post_peak_requirements": [
+      {
+        "post_peak_h": 0.0,
+        "modeled_free_mM_range": [
+          0.00800243605359318,
+          0.2009069183160733
+        ],
+        "maximum_culture_fu_requirement_range": [
+          0.0800243605359318,
+          1.0
+        ],
+        "selected_conditions": [
+          {
+            "culture_fu": 0.02,
+            "overlap_in_all_assumptions": true,
+            "overlap_in_any_assumption": true
+          },
+          {
+            "culture_fu": 0.2,
+            "overlap_in_all_assumptions": false,
+            "overlap_in_any_assumption": true
+          },
+          {
+            "culture_fu": 1.0,
+            "overlap_in_all_assumptions": false,
+            "overlap_in_any_assumption": true
+          }
+        ]
+      },
+      {
+        "post_peak_h": 0.5,
+        "modeled_free_mM_range": [
+          0.00400121802679659,
+          0.13027201923766163
+        ],
+        "maximum_culture_fu_requirement_range": [
+          0.0400121802679659,
+          1.0
+        ],
+        "selected_conditions": [
+          {
+            "culture_fu": 0.02,
+            "overlap_in_all_assumptions": true,
+            "overlap_in_any_assumption": true
+          },
+          {
+            "culture_fu": 0.2,
+            "overlap_in_all_assumptions": false,
+            "overlap_in_any_assumption": true
+          },
+          {
+            "culture_fu": 1.0,
+            "overlap_in_all_assumptions": false,
+            "overlap_in_any_assumption": true
+          }
+        ]
+      },
+      {
+        "post_peak_h": 1.0,
+        "modeled_free_mM_range": [
+          0.002000609013398295,
+          0.08447095370582844
+        ],
+        "maximum_culture_fu_requirement_range": [
+          0.02000609013398295,
+          0.8447095370582843
+        ],
+        "selected_conditions": [
+          {
+            "culture_fu": 0.02,
+            "overlap_in_all_assumptions": true,
+            "overlap_in_any_assumption": true
+          },
+          {
+            "culture_fu": 0.2,
+            "overlap_in_all_assumptions": false,
+            "overlap_in_any_assumption": true
+          },
+          {
+            "culture_fu": 1.0,
+            "overlap_in_all_assumptions": false,
+            "overlap_in_any_assumption": false
+          }
+        ]
+      },
+      {
+        "post_peak_h": 2.0,
+        "modeled_free_mM_range": [
+          0.0005001522533495738,
+          0.03551566108214681
+        ],
+        "maximum_culture_fu_requirement_range": [
+          0.005001522533495738,
+          0.35515661082146804
+        ],
+        "selected_conditions": [
+          {
+            "culture_fu": 0.02,
+            "overlap_in_all_assumptions": false,
+            "overlap_in_any_assumption": true
+          },
+          {
+            "culture_fu": 0.2,
+            "overlap_in_all_assumptions": false,
+            "overlap_in_any_assumption": true
+          },
+          {
+            "culture_fu": 1.0,
+            "overlap_in_all_assumptions": false,
+            "overlap_in_any_assumption": false
+          }
+        ]
+      },
+      {
+        "post_peak_h": 4.0,
+        "modeled_free_mM_range": [
+          3.125951583434836e-05,
+          0.0062783411973772905
+        ],
+        "maximum_culture_fu_requirement_range": [
+          0.0003125951583434836,
+          0.0627834119737729
+        ],
+        "selected_conditions": [
+          {
+            "culture_fu": 0.02,
+            "overlap_in_all_assumptions": false,
+            "overlap_in_any_assumption": true
+          },
+          {
+            "culture_fu": 0.2,
+            "overlap_in_all_assumptions": false,
+            "overlap_in_any_assumption": false
+          },
+          {
+            "culture_fu": 1.0,
+            "overlap_in_all_assumptions": false,
+            "overlap_in_any_assumption": false
+          }
+        ]
+      }
+    ],
+    "duration_envelopes": [
+      {
+        "culture_fu": 0.02,
+        "post_peak_overlap_h_range": [
+          1.0002196217159436,
+          5.320306747620051
+        ]
+      },
+      {
+        "culture_fu": 0.2,
+        "post_peak_overlap_h_range": [
+          0.0,
+          2.6627642717101607
+        ]
+      },
+      {
+        "culture_fu": 1.0,
+        "post_peak_overlap_h_range": [
+          0.0,
+          0.8052217958002708
+        ]
+      }
+    ],
+    "model_scope": "adult reported-mean scenarios; post-peak decay only, no absorption/repeated dosing/tissue distribution/pharmacodynamic persistence or case-specific PK"
+  },
+  "unresolved_endpoints": [
+    "mature cargo",
+    "productive neural function",
+    "new chromosome errors per division",
+    "drug-by-genotype interaction",
+    "case-relevant joint response",
+    "sustained free tissue exposure"
+  ]
+}

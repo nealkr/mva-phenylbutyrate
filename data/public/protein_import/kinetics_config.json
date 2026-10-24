@@ -1,0 +1,32 @@
+{
+  "source_sha256": "1deeb9ab66b001f1899a8cd7b525d72e8a99292c6e4b2f101479d9a7cc6b2227",
+  "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12174339.1/41467_2025_60857_MOESM8_ESM.xlsx?md5=0a2dbc2e33add75b68548992d7a52584",
+  "times_min": [1,2,5,10],
+  "normalization": "100*each raw band signal/paired WT raw band at10minutes",
+  "normalized_units": "percent of matched WT10minute imported signal",
+  "raw_units": "source band-intensity units (uncalibrated)",
+  "map_validation": "Independent read-only inspection confirmed all18 source blocks, original matched pairs, time headers at raw_row-1, normalization formulas and literal source-quality flags.",
+  "primary_quality_rule": "Exclude raw blocks explicitly marked PK did not work; preserve all source blocks in labelled sensitivity",
+  "no_measured_zero": true,
+  "background_extra_chromosome_copies": {"13_3":1,"3_3":1,"5_4":2},
+  "pairs": [
+    {"cargo":"su9_DHFR","sheet":"Fig. 7d","background":"13_3","replicate":"Rep1.1","raw_row":4,"normalized_row":5,"wt_columns":["C","D","E","F"],"clone_columns":["I","J","K","L"]},
+    {"cargo":"su9_DHFR","sheet":"Fig. 7d","background":"13_3","replicate":"Rep3","raw_row":13,"normalized_row":14,"wt_columns":["C","D","E","F"],"clone_columns":["H","I","J","K"]},
+    {"cargo":"su9_DHFR","sheet":"Fig. 7d","background":"13_3","replicate":"Rep2","raw_row":20,"normalized_row":21,"wt_columns":["C","D","E","F"],"clone_columns":["H","I","J","K"],"source_quality_flag_cell":"A19"},
+    {"cargo":"su9_DHFR","sheet":"Fig. 7d","background":"13_3","replicate":"Rep5","raw_row":76,"normalized_row":77,"wt_columns":["C","D","E","F"],"clone_columns":["H","I","J","K"]},
+    {"cargo":"su9_DHFR","sheet":"Fig. 7d","background":"3_3","replicate":"Rep1.1","raw_row":27,"normalized_row":28,"wt_columns":["C","D","E","F"],"clone_columns":["I","J","K","L"]},
+    {"cargo":"su9_DHFR","sheet":"Fig. 7d","background":"3_3","replicate":"Rep3","raw_row":35,"normalized_row":36,"wt_columns":["C","D","E","F"],"clone_columns":["H","I","J","K"]},
+    {"cargo":"su9_DHFR","sheet":"Fig. 7d","background":"3_3","replicate":"Rep2","raw_row":43,"normalized_row":44,"wt_columns":["C","D","E","F"],"clone_columns":["H","I","J","K"]},
+    {"cargo":"su9_DHFR","sheet":"Fig. 7d","background":"3_3","replicate":"Rep5","raw_row":82,"normalized_row":83,"wt_columns":["C","D","E","F"],"clone_columns":["H","I","J","K"]},
+    {"cargo":"su9_DHFR","sheet":"Fig. 7d","background":"5_4","replicate":"Rep1.1","raw_row":52,"normalized_row":53,"wt_columns":["C","D","E","F"],"clone_columns":["H","I","J","K"]},
+    {"cargo":"su9_DHFR","sheet":"Fig. 7d","background":"5_4","replicate":"Rep3","raw_row":60,"normalized_row":61,"wt_columns":["C","D","E","F"],"clone_columns":["H","I","J","K"]},
+    {"cargo":"su9_DHFR","sheet":"Fig. 7d","background":"5_4","replicate":"Rep2","raw_row":68,"normalized_row":69,"wt_columns":["C","D","E","F"],"clone_columns":["H","I","J","K"],"source_quality_flag_cell":"A67"},
+    {"cargo":"su9_DHFR","sheet":"Fig. 7d","background":"5_4","replicate":"Rep5","raw_row":89,"normalized_row":90,"wt_columns":["C","D","E","F"],"clone_columns":["H","I","J","K"]},
+    {"cargo":"SOD2","sheet":"Supplementary Fig. 10d","background":"13_3","replicate":"Rep1","raw_row":6,"normalized_row":7,"wt_columns":["C","D","E","F"],"clone_columns":["H","I","J","K"]},
+    {"cargo":"SOD2","sheet":"Supplementary Fig. 10d","background":"13_3","replicate":"Rep2","raw_row":18,"normalized_row":19,"wt_columns":["C","D","E","F"],"clone_columns":["H","I","J","K"]},
+    {"cargo":"SOD2","sheet":"Supplementary Fig. 10d","background":"13_3","replicate":"Rep3","raw_row":32,"normalized_row":33,"wt_columns":["C","D","E","F"],"clone_columns":["H","I","J","K"]},
+    {"cargo":"SOD2","sheet":"Supplementary Fig. 10d","background":"3_3","replicate":"Rep1","raw_row":12,"normalized_row":13,"wt_columns":["C","D","E","F"],"clone_columns":["H","I","J","K"]},
+    {"cargo":"SOD2","sheet":"Supplementary Fig. 10d","background":"3_3","replicate":"Rep2","raw_row":24,"normalized_row":25,"wt_columns":["C","D","E","F"],"clone_columns":["H","I","J","K"]},
+    {"cargo":"SOD2","sheet":"Supplementary Fig. 10d","background":"3_3","replicate":"Rep3","raw_row":39,"normalized_row":40,"wt_columns":["C","D","E","F"],"clone_columns":["H","I","J","K"]}
+  ]
+}
